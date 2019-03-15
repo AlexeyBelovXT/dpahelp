@@ -1614,6 +1614,7 @@ DR_EXPLAIN.tabController = (function(){
         DREX_SHOW_MENU: 1,
         DREX_SHOW_SEARCH: 1,
         DREX_SHOW_INDEX: 0,
+        DREXPLAIN_MAKE_TAB_COUNT: 2,
 
         tabArr: [],
         urlEncoder: null,
@@ -1854,6 +1855,10 @@ DR_EXPLAIN.tabController = (function(){
 
         doSetScrollTopByUrlEncoder: function() {
             _class.doSetScrollTopByUrlEncoder();
+        },
+
+        tabsCount: function() {
+            return _class.DREXPLAIN_MAKE_TAB_COUNT;
         },
 
         isMenuTabShown: function() {
@@ -3717,7 +3722,11 @@ DR_EXPLAIN.navTree_Search = (function(){
 
 /*js/app.js*/
 function initTabs() {
-    var app = DR_EXPLAIN;
+	var app = DR_EXPLAIN;
+
+    if (app.tabController.tabsCount() == 0)
+        return;
+
     app.navTree_Menu.init();
     app.navTree_Index.init();
     app.navTree_Search.init();

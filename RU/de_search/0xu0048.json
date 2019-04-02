@@ -1,0 +1,14 @@
+[
+	{ "s": "HADSHAKES", "p": [29] },
+	{ "s": "HEIDENHAIN", "p": [29] },
+	{ "s": "HID", "p": [28, 46] },
+	{ "s": "HOME", "p": [11] },
+	{ "s": "HOST", "p": [15, 26, 14, 12, 48, 32, 22, 19, 18, 7, 6, 4] },
+	{ "s": "HOST\\LOGGING", "p": [48] },
+	{ "s": "HTTP", "p": [61, 24, 18, 14] },
+	{ "s": "HTTP://LOCALHOST", "p": [24] },
+	{ "s": "HTTP://LOCALHOST:81", "p": [18] },
+	{ "s": "HTTPS", "p": [31, 11] },
+	{ "s": "HTTPS://DPA.X-TENSIVE.RU", "p": [31] },
+	{ "s": "HTTPS://WWW.MICROSOFT.COM/RU-RU/DOWNLOAD/DETAILS.ASPX?ID", "p": [11] }
+]

@@ -96,6 +96,12 @@ span.de_22F5DC77E8
 	font-family: "Calibri";
 	font-size: 14pt;
 }
+span.de_418808DB1B
+{
+	font-family: "Calibri";
+	font-size: 13pt;
+	color:#3d6d96;
+}
 span.de_41FACAAE6A
 {
 	font-family: "Calibri";
@@ -582,6 +588,24 @@ span.de_FFB638AC42
 	counter-increment: list-counter-20;
 }
 .list-counter-20 > div > div[class='list-marker-chm'] {
+	display: inline-block;
+	text-align: left;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	*display: inline;
+}
+.list-counter-21 > div > * {
+	text-indent: 0px;}
+.list-counter-21 > div > div[class='list-marker']:before {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	content: '' counter(list-counter-21, disc) '\00a0';
+	counter-increment: list-counter-21;
+}
+.list-counter-21 > div > div[class='list-marker-chm'] {
 	display: inline-block;
 	text-align: left;
 	zoom: 1;

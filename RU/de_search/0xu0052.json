@@ -4,7 +4,7 @@
 	{ "s": "RATE", "p": [61] },
 	{ "s": "REAL", "p": [7, 6, 4] },
 	{ "s": "REAL-TIME", "p": [7, 6, 4] },
-	{ "s": "RENISHAW", "p": [61] },
+	{ "s": "RENISHAW", "p": [61, 71] },
 	{ "s": "REQUEST", "p": [53] },
 	{ "s": "REQUESTS", "p": [53] },
 	{ "s": "RTU", "p": [7] },

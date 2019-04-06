@@ -1,9 +1,9 @@
 [
-	{ "s": "FAILED", "p": [53, 48] },
-	{ "s": "FATAL", "p": [55, 49] },
+	{ "s": "FAILED", "p": [48, 43] },
+	{ "s": "FATAL", "p": [50, 44] },
 	{ "s": "FRAMEWORK", "p": [11] },
-	{ "s": "FRID", "p": [41] },
-	{ "s": "FTP", "p": [56, 50] },
-	{ "s": "FTP://FTP.X-TENSIVE.COM/PUBLIC/DOWNLOADS/DPA.ALLSTD", "p": [50] },
-	{ "s": "FTP://FTP.X-TENSIVE.COM/PUBLIC/DPA%20AGENTS", "p": [56] }
+	{ "s": "FRID", "p": [36] },
+	{ "s": "FTP", "p": [51, 45] },
+	{ "s": "FTP://FTP.X-TENSIVE.COM/PUBLIC/DOWNLOADS/DPA.ALLSTD", "p": [45] },
+	{ "s": "FTP://FTP.X-TENSIVE.COM/PUBLIC/DPA%20AGENTS", "p": [51] }
 ]

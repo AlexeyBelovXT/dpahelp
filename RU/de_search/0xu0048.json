@@ -1,13 +1,13 @@
 [
-	{ "s": "HADSHAKES", "p": [28] },
-	{ "s": "HEIDENHAIN", "p": [28] },
-	{ "s": "HID", "p": [27, 45] },
+	{ "s": "HADSHAKES", "p": [23] },
+	{ "s": "HEIDENHAIN", "p": [23] },
+	{ "s": "HID", "p": [22, 40] },
 	{ "s": "HOME", "p": [11] },
-	{ "s": "HOST", "p": [14, 46, 45, 25, 12, 49, 31, 21, 18, 17, 7, 6, 4] },
-	{ "s": "HTTP", "p": [63, 46, 23, 17] },
-	{ "s": "HTTP://LOCALHOST", "p": [23] },
-	{ "s": "HTTP://LOCALHOST:81", "p": [17] },
-	{ "s": "HTTPS", "p": [30, 11] },
-	{ "s": "HTTPS://DPA.X-TENSIVE.RU", "p": [30] },
+	{ "s": "HOST", "p": [16, 14, 41, 40, 20, 12, 44, 26, 7, 6, 4] },
+	{ "s": "HTTP", "p": [58, 41, 18, 16] },
+	{ "s": "HTTP://LOCALHOST", "p": [18] },
+	{ "s": "HTTP://LOCALHOST:81", "p": [16] },
+	{ "s": "HTTPS", "p": [25, 11] },
+	{ "s": "HTTPS://DPA.X-TENSIVE.RU", "p": [25] },
 	{ "s": "HTTPS://WWW.MICROSOFT.COM/RU-RU/DOWNLOAD/DETAILS.ASPX?ID", "p": [11] }
 ]

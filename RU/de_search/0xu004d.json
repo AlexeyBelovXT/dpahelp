@@ -1,12 +1,14 @@
 [
 	{ "s": "MAIL", "p": [36] },
-	{ "s": "MANAGEMENT", "p": [41, 11] },
-	{ "s": "MICROSOFT", "p": [11, 7, 6, 5] },
+	{ "s": "MANAGEMENT", "p": [41, 11, 8] },
+	{ "s": "MICROSOFT", "p": [11, 8, 7, 6, 5] },
 	{ "s": "MODBUS", "p": [7] },
 	{ "s": "MODEM", "p": [58] },
 	{ "s": "MORE", "p": [21] },
 	{ "s": "MS", "p": [48, 43, 16, 3, 11] },
 	{ "s": "MSI", "p": [26] },
 	{ "s": "MSMQ", "p": [58] },
-	{ "s": "MSSQLSERVER", "p": [41] }
+	{ "s": "MSSQL", "p": [8] },
+	{ "s": "MSSQLSERVER", "p": [41] },
+	{ "s": "MYSQL", "p": [8] }
 ]

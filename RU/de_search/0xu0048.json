@@ -1,14 +1,13 @@
 [
-	{ "s": "HADSHAKES", "p": [23] },
-	{ "s": "HEIDENHAIN", "p": [23] },
-	{ "s": "HID", "p": [22, 40] },
-	{ "s": "HOME", "p": [11] },
-	{ "s": "HOST", "p": [16, 14, 41, 40, 20, 12, 44, 26, 7, 6, 3] },
-	{ "s": "HTML5", "p": [8] },
-	{ "s": "HTTP", "p": [58, 41, 18, 16] },
-	{ "s": "HTTP://LOCALHOST", "p": [18] },
-	{ "s": "HTTP://LOCALHOST:81", "p": [16] },
-	{ "s": "HTTPS", "p": [25, 11] },
-	{ "s": "HTTPS://DPA.X-TENSIVE.RU", "p": [25] },
-	{ "s": "HTTPS://WWW.MICROSOFT.COM/RU-RU/DOWNLOAD/DETAILS.ASPX?ID", "p": [11] }
+	{ "s": "HADSHAKES", "p": [24] },
+	{ "s": "HEIDENHAIN", "p": [24] },
+	{ "s": "HID", "p": [23, 41] },
+	{ "s": "HOME", "p": [12] },
+	{ "s": "HOST", "p": [3, 17, 15, 5, 42, 41, 21, 13, 45, 27, 9, 8] },
+	{ "s": "HTTP", "p": [59, 42, 19, 17] },
+	{ "s": "HTTP://LOCALHOST", "p": [19] },
+	{ "s": "HTTP://LOCALHOST:81", "p": [17] },
+	{ "s": "HTTPS", "p": [26, 12] },
+	{ "s": "HTTPS://DPA.X-TENSIVE.RU", "p": [26] },
+	{ "s": "HTTPS://WWW.MICROSOFT.COM/RU-RU/DOWNLOAD/DETAILS.ASPX?ID", "p": [12] }
 ]

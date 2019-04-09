@@ -1,6 +1,6 @@
 [
-	{ "s": "LOCALHOST", "p": [18, 16] },
-	{ "s": "LOCALSYSTEM", "p": [11] },
-	{ "s": "LOGGING", "p": [50, 44] },
-	{ "s": "LOGS", "p": [44] }
+	{ "s": "LOCALHOST", "p": [19, 17] },
+	{ "s": "LOCALSYSTEM", "p": [12] },
+	{ "s": "LOGGING", "p": [51, 45] },
+	{ "s": "LOGS", "p": [45] }
 ]

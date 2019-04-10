@@ -1,0 +1,10 @@
+[
+	{ "s": "FAILED", "p": [49, 44] },
+	{ "s": "FATAL", "p": [51, 45] },
+	{ "s": "FIREBIRD", "p": [3] },
+	{ "s": "FRAMEWORK", "p": [12] },
+	{ "s": "FRID", "p": [37] },
+	{ "s": "FTP", "p": [52, 46] },
+	{ "s": "FTP://FTP.X-TENSIVE.COM/PUBLIC/DOWNLOADS/DPA.ALLSTD", "p": [46] },
+	{ "s": "FTP://FTP.X-TENSIVE.COM/PUBLIC/DPA%20AGENTS", "p": [52] }
+]

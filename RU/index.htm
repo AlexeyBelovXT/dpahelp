@@ -55,7 +55,7 @@
 //<![CDATA[
     if ($.drex_avoid_load)
         $("#pageLayout").addClass("hidden");
-    else if (0 == 1 && !is_touch_device())
+    else if (1 == 1 && !is_touch_device())
         $("#pageLayout").addClass("keep-visible");
 //]]>
 </script>
@@ -93,7 +93,7 @@
                     <td class="b-pageContent__side m-pageContent__side__middle" id="pageContentMiddle">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (0 == 1 && !is_touch_device())
+                            if (1 == 1 && !is_touch_device())
                                 $("#pageContentMiddle").addClass("hidden");
                         //]]>
                         </script>
@@ -139,9 +139,6 @@
                             <div class="b-tabs__wrapperItem m-tabs__wrapperItem__selected" id="tabWrapper_menu">
                                 <div class="b-tabs__wrapperItemInner">
                                     <div class="b-tree">
-                                        <noscript>
-                                        <div>To properly display this page you need a browser with JavaScript support.</div>
-                                        </noscript>
                                     </div>                              
                                 </div>
                                 
@@ -244,8 +241,7 @@
             <tr>
                 <td id="headerSide__nav" class="b-article__headerSide m-article__headerSide__nav">
                     <div id="headerSide__nav__breadCrumbs" class="b-breadCrumbs">
-                        <ul class="b-breadCrumbs__items"><li class="b-breadCrumbs__item">DPA</li>
-</ul>                    </div>
+                                            </div>
                 </td>
                 <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
                     <div class="b-controlButtons">
@@ -259,18 +255,11 @@
         <div class="b-article__wrapper">
             <div class="b-article__innerWrapper" id="description_on_page_placeholder">
             <a id="top" class="anchor"></a>
-                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-</div>                                    			
-                			
             </div><!-- /innerWrapper -->
         </div>
         <script type="text/javascript">
         //<![CDATA[
-            if (0 == 0 || is_touch_device())
+            if (1 == 0 || is_touch_device())
             {
                 $(".b-article__wrapper").append(
                     $("<table></table>")
@@ -315,7 +304,7 @@
                     <td class="b-pageContent__side m-pageContent__side__footer">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (0 == 1 && !is_touch_device())
+                            if (1 == 1 && !is_touch_device())
                                 $( "#pageContentFooter" ).addClass("hidden");
                         //]]>
                         </script>
@@ -331,5 +320,16 @@
         </div><!-- /pageContent -->
 
 </div><!-- /pageLayout -->
+<div id="hiddenContent" class="hiddenContent">
+    <noscript>
+    <div>To properly display this page you need a browser with JavaScript support.</div>
+    </noscript>
+                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+</div>                                    			
+                			</div>
 </body>
 </html>

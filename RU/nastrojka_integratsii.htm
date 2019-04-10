@@ -55,7 +55,7 @@
 //<![CDATA[
     if ($.drex_avoid_load)
         $("#pageLayout").addClass("hidden");
-    else if (0 == 1 && !is_touch_device())
+    else if (1 == 1 && !is_touch_device())
         $("#pageLayout").addClass("keep-visible");
 //]]>
 </script>
@@ -93,7 +93,7 @@
                     <td class="b-pageContent__side m-pageContent__side__middle" id="pageContentMiddle">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (0 == 1 && !is_touch_device())
+                            if (1 == 1 && !is_touch_device())
                                 $("#pageContentMiddle").addClass("hidden");
                         //]]>
                         </script>
@@ -139,9 +139,6 @@
                             <div class="b-tabs__wrapperItem m-tabs__wrapperItem__selected" id="tabWrapper_menu">
                                 <div class="b-tabs__wrapperItemInner">
                                     <div class="b-tree">
-                                        <noscript>
-                                        <div>To properly display this page you need a browser with JavaScript support.</div>
-                                        </noscript>
                                     </div>                              
                                 </div>
                                 
@@ -244,12 +241,7 @@
             <tr>
                 <td id="headerSide__nav" class="b-article__headerSide m-article__headerSide__nav">
                     <div id="headerSide__nav__breadCrumbs" class="b-breadCrumbs">
-                        <ul class="b-breadCrumbs__items"><li class="b-breadCrumbs__item"><a href="4_4.htm" class="b-breadCrumbs__link">4.4</a></li>
-
-<li class="b-breadCrumbs__item"><a href="integratsiya.htm" class="b-breadCrumbs__link">&#x0418;&#x043D;&#x0442;&#x0435;&#x0433;&#x0440;&#x0430;&#x0446;&#x0438;&#x044F;</a></li>
-
-<li class="b-breadCrumbs__item">&#x041D;&#x0430;&#x0441;&#x0442;&#x0440;&#x043E;&#x0439;&#x043A;&#x0430; &#x0438;&#x043D;&#x0442;&#x0435;&#x0433;&#x0440;&#x0430;&#x0446;&#x0438;&#x0438;</li>
-</ul>                    </div>
+                                            </div>
                 </td>
                 <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
                     <div class="b-controlButtons">
@@ -263,49 +255,11 @@
         <div class="b-article__wrapper">
             <div class="b-article__innerWrapper" id="description_on_page_placeholder">
             <a id="top" class="anchor"></a>
-                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Настройка интеграции</strong></h1></div></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Система предоставляет возможность интеграции со смежными системами посредством web-api и xml-файлов.&#160; </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Посредством web-api могут быть импортированы и экспортированы любые данные доступны в графическом интерфейсе пользователя.&#160; </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1"><strong>Примечание: </strong>Для применения в рамках проекта web-api потребуется помощь специалистов внедрения. </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Самым простоим способом для освоения интеграции является обмен xml-файлами.&#160; </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 36px;"><span class="de_D8BCB2AC4C">На панели навигации нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="47" height="28" class=" de_780D01ADE8" src="drex_nastrojka_integratsii_custom.png"/>, и из выпадающего списка выберите пункт «Настройки системы».</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1221" height="746" class=" de_8CB40C7215" src="drex_nastrojka_integratsii_custom_2.png"/></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 482px; text-indent: 0px;"><span class="de_4CD179DA38">Главное меню. Стартовая страница</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Посредством xml-обмена можно наполнить справочники системы:</span></div>
-<ul class="de_list"><li class="list-element list-counter-27" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-27;">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_461F34A8F1">&#160;Загрузить эталонные тексты управляющих программ;</span></div>
-</li><li class="list-element list-counter-27" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_461F34A8F1">&#160;Указать перечень производимой продукции; </span></div>
-</li><li class="list-element list-counter-27" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_461F34A8F1">&#160;Дать описание технологии их изготовления. </span></div>
-</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1221" height="746" class=" de_8CB40C7215" src="drex_nastrojka_integratsii_custom_3.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 451px; text-indent: 0px;"><span class="de_461F34A8F1">Мониторинг. Настройки системы. Интеграция</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Помимо справочных данных существует возможность загрузить периоды планового обслуживания и сменно-суточные задания. Для этого необходимо включить опцию «Импорт» и указать путь к выбранной директории размещения xml-файлов. Нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="86" height="25" class=" de_780D01ADE8" src="drex_nastrojka_integratsii_custom_4.png"/>, для того, чтобы сохранить внесенные изменения.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1221" height="746" class=" de_8CB40C7215" src="drex_nastrojka_integratsii_custom_5.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 450px; text-indent: 0px;"><span class="de_461F34A8F1">Мониторинг. Настройки системы. Интеграция. Импорт</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Вместе с системой поставляются xsd-схемы, позволяющие службам, сопровождающим уже внедренные на предприятии системы быстро освоить формат выгрузки данных.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1222" height="675" class=" de_8CB40C7215" src="drex_nastrojka_integratsii_custom_6.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 480px; text-indent: 0px;"><span class="de_461F34A8F1">Пример отображение xsd-схемы</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Также существует возможность передать данные в формате xml (фактическую длительность выполнения операций, производство по задачам, длительность, причины простоев оборудования, результаты процедур обслуживания станков) в смежные системы. Для этого укажите путь директории куда будут помещены файлы, проставите флаги в необходимых полях и нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="86" height="25" class=" de_780D01ADE8" src="drex_nastrojka_integratsii_custom_4.png"/>.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1221" height="746" class=" de_8CB40C7215" src="drex_nastrojka_integratsii_custom_7.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 492px; text-indent: 0px;"><span class="de_461F34A8F1">Пример отображение выгрузки данных</span></div>
-</div>                                    			
-                			
-                <h6 class="b-article__generatorCopyright">
-                    <a class="b-link b-article__generatorCopyrightLink" href="http://www.drexplain.ru" rel="nofollow">&#x0421;&#x043F;&#x0440;&#x0430;&#x0432;&#x043E;&#x0447;&#x043D;&#x0430;&#x044F; &#x0441;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x0430; &#x0441;&#x043E;&#x0437;&#x0434;&#x0430;&#x043D;&#x0430; &#x0432; Dr.Explain</a>
-                </h6>
-                            </div><!-- /innerWrapper -->
+            </div><!-- /innerWrapper -->
         </div>
         <script type="text/javascript">
         //<![CDATA[
-            if (0 == 0 || is_touch_device())
+            if (1 == 0 || is_touch_device())
             {
                 $(".b-article__wrapper").append(
                     $("<table></table>")
@@ -350,7 +304,7 @@
                     <td class="b-pageContent__side m-pageContent__side__footer">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (0 == 1 && !is_touch_device())
+                            if (1 == 1 && !is_touch_device())
                                 $( "#pageContentFooter" ).addClass("hidden");
                         //]]>
                         </script>
@@ -366,5 +320,44 @@
         </div><!-- /pageContent -->
 
 </div><!-- /pageLayout -->
+<div id="hiddenContent" class="hiddenContent">
+    <noscript>
+    <div>To properly display this page you need a browser with JavaScript support.</div>
+    </noscript>
+                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Настройка интеграции</strong></h1></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Система предоставляет возможность интеграции со смежными системами посредством web-api и xml-файлов.&#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Посредством web-api могут быть импортированы и экспортированы любые данные доступны в графическом интерфейсе пользователя.&#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1"><strong>Примечание: </strong>Для применения в рамках проекта web-api потребуется помощь специалистов внедрения. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Самым простоим способом для освоения интеграции является обмен xml-файлами.&#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 36px;"><span class="de_D8BCB2AC4C">На панели навигации нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="47" height="28" class=" de_780D01ADE8" src="drex_nastrojka_integratsii_custom.png"/>, и из выпадающего списка выберите пункт «Настройки системы».</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1221" height="746" class=" de_8CB40C7215" src="drex_nastrojka_integratsii_custom_2.png"/></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 482px; text-indent: 0px;"><span class="de_4CD179DA38">Главное меню. Стартовая страница</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Посредством xml-обмена можно наполнить справочники системы:</span></div>
+<ul class="de_list"><li class="list-element list-counter-27" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-27;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_461F34A8F1">&#160;Загрузить эталонные тексты управляющих программ;</span></div>
+</li><li class="list-element list-counter-27" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_461F34A8F1">&#160;Указать перечень производимой продукции; </span></div>
+</li><li class="list-element list-counter-27" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_461F34A8F1">&#160;Дать описание технологии их изготовления. </span></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1221" height="746" class=" de_8CB40C7215" src="drex_nastrojka_integratsii_custom_3.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 451px; text-indent: 0px;"><span class="de_461F34A8F1">Мониторинг. Настройки системы. Интеграция</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Помимо справочных данных существует возможность загрузить периоды планового обслуживания и сменно-суточные задания. Для этого необходимо включить опцию «Импорт» и указать путь к выбранной директории размещения xml-файлов. Нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="86" height="25" class=" de_780D01ADE8" src="drex_nastrojka_integratsii_custom_4.png"/>, для того, чтобы сохранить внесенные изменения.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1221" height="746" class=" de_8CB40C7215" src="drex_nastrojka_integratsii_custom_5.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 450px; text-indent: 0px;"><span class="de_461F34A8F1">Мониторинг. Настройки системы. Интеграция. Импорт</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Вместе с системой поставляются xsd-схемы, позволяющие службам, сопровождающим уже внедренные на предприятии системы быстро освоить формат выгрузки данных.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1222" height="675" class=" de_8CB40C7215" src="drex_nastrojka_integratsii_custom_6.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 480px; text-indent: 0px;"><span class="de_461F34A8F1">Пример отображение xsd-схемы</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Также существует возможность передать данные в формате xml (фактическую длительность выполнения операций, производство по задачам, длительность, причины простоев оборудования, результаты процедур обслуживания станков) в смежные системы. Для этого укажите путь директории куда будут помещены файлы, проставите флаги в необходимых полях и нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="86" height="25" class=" de_780D01ADE8" src="drex_nastrojka_integratsii_custom_4.png"/>.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1221" height="746" class=" de_8CB40C7215" src="drex_nastrojka_integratsii_custom_7.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 492px; text-indent: 0px;"><span class="de_461F34A8F1">Пример отображение выгрузки данных</span></div>
+</div>                                    			
+                			</div>
 </body>
 </html>

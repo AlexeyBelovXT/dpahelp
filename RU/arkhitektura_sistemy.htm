@@ -55,7 +55,7 @@
 //<![CDATA[
     if ($.drex_avoid_load)
         $("#pageLayout").addClass("hidden");
-    else if (0 == 1 && !is_touch_device())
+    else if (1 == 1 && !is_touch_device())
         $("#pageLayout").addClass("keep-visible");
 //]]>
 </script>
@@ -93,7 +93,7 @@
                     <td class="b-pageContent__side m-pageContent__side__middle" id="pageContentMiddle">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (0 == 1 && !is_touch_device())
+                            if (1 == 1 && !is_touch_device())
                                 $("#pageContentMiddle").addClass("hidden");
                         //]]>
                         </script>
@@ -139,9 +139,6 @@
                             <div class="b-tabs__wrapperItem m-tabs__wrapperItem__selected" id="tabWrapper_menu">
                                 <div class="b-tabs__wrapperItemInner">
                                     <div class="b-tree">
-                                        <noscript>
-                                        <div>To properly display this page you need a browser with JavaScript support.</div>
-                                        </noscript>
                                     </div>                              
                                 </div>
                                 
@@ -244,10 +241,7 @@
             <tr>
                 <td id="headerSide__nav" class="b-article__headerSide m-article__headerSide__nav">
                     <div id="headerSide__nav__breadCrumbs" class="b-breadCrumbs">
-                        <ul class="b-breadCrumbs__items"><li class="b-breadCrumbs__item"><a href="o_sisteme.htm" class="b-breadCrumbs__link">&#x041E; &#x0441;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x0435;</a></li>
-
-<li class="b-breadCrumbs__item">&#x0410;&#x0440;&#x0445;&#x0438;&#x0442;&#x0435;&#x043A;&#x0442;&#x0443;&#x0440;&#x0430; &#x0441;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x044B;</li>
-</ul>                    </div>
+                                            </div>
                 </td>
                 <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
                     <div class="b-controlButtons">
@@ -261,38 +255,11 @@
         <div class="b-article__wrapper">
             <div class="b-article__innerWrapper" id="description_on_page_placeholder">
             <a id="top" class="anchor"></a>
-                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Архитектура системы</strong></h1></div></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 35px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 35px;"><span class="de_D8BCB2AC4C">DPA – это программный комплекс, включающий следующие компоненты:</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<ul class="de_list"><li class="list-element list-counter-0" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-0;">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 75px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_D8BCB2AC4C">DPA Server – отвечает за непосредственное взаимодействие со оборудованием мониторинга, он производит сбор данных, осуществляет их первичную обработку и передает в Host;</span></div>
-</li><li class="list-element list-counter-0" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 75px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_D8BCB2AC4C">DPA Host – агрегирует и обрабатывает данные с DPA-серверов, обрабатывает их, записывает их в БД DPA и файлы индикаторов DPA, а так же отвечает за работу пользовательского интерфейса;</span></div>
-</li><li class="list-element list-counter-0" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 75px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_D8BCB2AC4C">БД DPA – реляционная база данных, предназначенная для хранения системных таблиц, справочной информации, значимых машинных данных и пользовательских данных; </span></div>
-</li><li class="list-element list-counter-0" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 75px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_D8BCB2AC4C">Индикаторы DPA - база данных реального времени, предназначенная для оптимизации процессов записи и чтения часто изменяемых машинных данных, а так же оптимизации использования ресурсов сервера. </span></div>
-</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 45px; text-indent: -11px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 45px; text-indent: -11px;"><span class="de_D8BCB2AC4C">Все компоненты системы могут быть размещены на отдельном сервере (физическом или виртуальном). Требования к серверному оборудования обусловлены:</span></div>
-<ul class="de_list"><li class="list-element list-counter-1" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-1;">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 78px; text-indent: -22px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 22px;"></div><span class="de_D8BCB2AC4C">Компонентами которые развернуты на конкретной машине; </span></div>
-</li><li class="list-element list-counter-1" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 78px; text-indent: -22px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 22px;"></div><span class="de_D8BCB2AC4C">Уровнем распределённости;</span></div>
-</li><li class="list-element list-counter-1" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 78px; text-indent: -22px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 22px;"></div><span class="de_D8BCB2AC4C">Количеством оборудования мониторинга.</span></div>
-</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 7px; text-indent: 31px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: 0px;"><span class="de_D8BCB2AC4C">DPA Server работает с файлом конфигурации мониторинга, который содержит информацию об ip-адресах серверных компонентов (DPA Server и DPA Host),&#160; ip-адресах оборудования мониторинга, а так же параметры чтения машинных данных. Файл конфигурации хранится на сервере DPA, изменения в файл конфигурации могут быть внесены напрямую (авторизованными специалистами DPA) или через графический интерфейс DPA Host (администраторами экземпляра системы), к которому подключен DPA Server. Прочие настройки системы, в том числе настойки использования&#160; Индикаторов DPA хранятся в БД DPA.&#160; DPA Host - единственных компонент системы, который имеет графический интерфейс пользователя.&#160; </span></div>
-</div>                                    			
-                			
-                <h6 class="b-article__generatorCopyright">
-                    <a class="b-link b-article__generatorCopyrightLink" href="http://www.drexplain.ru" rel="nofollow">&#x0421;&#x043F;&#x0440;&#x0430;&#x0432;&#x043E;&#x0447;&#x043D;&#x0430;&#x044F; &#x0441;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x0430; &#x0441;&#x043E;&#x0437;&#x0434;&#x0430;&#x043D;&#x0430; &#x0432; Dr.Explain</a>
-                </h6>
-                            </div><!-- /innerWrapper -->
+            </div><!-- /innerWrapper -->
         </div>
         <script type="text/javascript">
         //<![CDATA[
-            if (0 == 0 || is_touch_device())
+            if (1 == 0 || is_touch_device())
             {
                 $(".b-article__wrapper").append(
                     $("<table></table>")
@@ -337,7 +304,7 @@
                     <td class="b-pageContent__side m-pageContent__side__footer">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (0 == 1 && !is_touch_device())
+                            if (1 == 1 && !is_touch_device())
                                 $( "#pageContentFooter" ).addClass("hidden");
                         //]]>
                         </script>
@@ -353,5 +320,33 @@
         </div><!-- /pageContent -->
 
 </div><!-- /pageLayout -->
+<div id="hiddenContent" class="hiddenContent">
+    <noscript>
+    <div>To properly display this page you need a browser with JavaScript support.</div>
+    </noscript>
+                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Архитектура системы</strong></h1></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 35px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 35px;"><span class="de_D8BCB2AC4C">DPA – это программный комплекс, включающий следующие компоненты:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<ul class="de_list"><li class="list-element list-counter-0" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-0;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 75px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_D8BCB2AC4C">DPA Server – отвечает за непосредственное взаимодействие со оборудованием мониторинга, он производит сбор данных, осуществляет их первичную обработку и передает в Host;</span></div>
+</li><li class="list-element list-counter-0" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 75px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_D8BCB2AC4C">DPA Host – агрегирует и обрабатывает данные с DPA-серверов, обрабатывает их, записывает их в БД DPA и файлы индикаторов DPA, а так же отвечает за работу пользовательского интерфейса;</span></div>
+</li><li class="list-element list-counter-0" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 75px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_D8BCB2AC4C">БД DPA – реляционная база данных, предназначенная для хранения системных таблиц, справочной информации, значимых машинных данных и пользовательских данных; </span></div>
+</li><li class="list-element list-counter-0" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 75px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_D8BCB2AC4C">Индикаторы DPA - база данных реального времени, предназначенная для оптимизации процессов записи и чтения часто изменяемых машинных данных, а так же оптимизации использования ресурсов сервера. </span></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 45px; text-indent: -11px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 45px; text-indent: -11px;"><span class="de_D8BCB2AC4C">Все компоненты системы могут быть размещены на отдельном сервере (физическом или виртуальном). Требования к серверному оборудования обусловлены:</span></div>
+<ul class="de_list"><li class="list-element list-counter-1" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-1;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 78px; text-indent: -22px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 22px;"></div><span class="de_D8BCB2AC4C">Компонентами которые развернуты на конкретной машине; </span></div>
+</li><li class="list-element list-counter-1" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 78px; text-indent: -22px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 22px;"></div><span class="de_D8BCB2AC4C">Уровнем распределённости;</span></div>
+</li><li class="list-element list-counter-1" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 78px; text-indent: -22px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 22px;"></div><span class="de_D8BCB2AC4C">Количеством оборудования мониторинга.</span></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 7px; text-indent: 31px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: 0px;"><span class="de_D8BCB2AC4C">DPA Server работает с файлом конфигурации мониторинга, который содержит информацию об ip-адресах серверных компонентов (DPA Server и DPA Host),&#160; ip-адресах оборудования мониторинга, а так же параметры чтения машинных данных. Файл конфигурации хранится на сервере DPA, изменения в файл конфигурации могут быть внесены напрямую (авторизованными специалистами DPA) или через графический интерфейс DPA Host (администраторами экземпляра системы), к которому подключен DPA Server. Прочие настройки системы, в том числе настойки использования&#160; Индикаторов DPA хранятся в БД DPA.&#160; DPA Host - единственных компонент системы, который имеет графический интерфейс пользователя.&#160; </span></div>
+</div>                                    			
+                			</div>
 </body>
 </html>

@@ -55,7 +55,7 @@
 //<![CDATA[
     if ($.drex_avoid_load)
         $("#pageLayout").addClass("hidden");
-    else if (0 == 1 && !is_touch_device())
+    else if (1 == 1 && !is_touch_device())
         $("#pageLayout").addClass("keep-visible");
 //]]>
 </script>
@@ -93,7 +93,7 @@
                     <td class="b-pageContent__side m-pageContent__side__middle" id="pageContentMiddle">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (0 == 1 && !is_touch_device())
+                            if (1 == 1 && !is_touch_device())
                                 $("#pageContentMiddle").addClass("hidden");
                         //]]>
                         </script>
@@ -139,9 +139,6 @@
                             <div class="b-tabs__wrapperItem m-tabs__wrapperItem__selected" id="tabWrapper_menu">
                                 <div class="b-tabs__wrapperItemInner">
                                     <div class="b-tree">
-                                        <noscript>
-                                        <div>To properly display this page you need a browser with JavaScript support.</div>
-                                        </noscript>
                                     </div>                              
                                 </div>
                                 
@@ -244,12 +241,7 @@
             <tr>
                 <td id="headerSide__nav" class="b-article__headerSide m-article__headerSide__nav">
                     <div id="headerSide__nav__breadCrumbs" class="b-breadCrumbs">
-                        <ul class="b-breadCrumbs__items"><li class="b-breadCrumbs__item"><a href="o_sisteme.htm" class="b-breadCrumbs__link">&#x041E; &#x0441;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x0435;</a></li>
-
-<li class="b-breadCrumbs__item"><a href="varianty_razvertyvaniya.htm" class="b-breadCrumbs__link">&#x0412;&#x0430;&#x0440;&#x0438;&#x0430;&#x043D;&#x0442;&#x044B; &#x0440;&#x0430;&#x0437;&#x0432;&#x0435;&#x0440;&#x0442;&#x044B;&#x0432;&#x0430;&#x043D;&#x0438;&#x044F;</a></li>
-
-<li class="b-breadCrumbs__item">&#x041A;&#x0440;&#x0443;&#x043F;&#x043D;&#x044B;&#x0435; &#x043F;&#x0440;&#x043E;&#x0435;&#x043A;&#x0442;&#x044B; &#x0438; &#x043C;&#x0430;&#x0441;&#x0448;&#x0442;&#x0430;&#x0431;&#x0438;&#x0440;&#x043E;&#x0432;&#x0430;&#x043D;&#x0438;&#x0435;</li>
-</ul>                    </div>
+                                            </div>
                 </td>
                 <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
                     <div class="b-controlButtons">
@@ -263,43 +255,11 @@
         <div class="b-article__wrapper">
             <div class="b-article__innerWrapper" id="description_on_page_placeholder">
             <a id="top" class="anchor"></a>
-                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 37px; text-indent: -1px;"><div class="ic"><h1><span class="de_22F5DC77E8"><strong>Крупные проекты и масштабирование</strong></span></h1></div></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -1px;"><span class="de_461F34A8F1">Для проектов, предназначенных для мониторинга большого количества единиц оборудования, необходимо устанавливать компоненты системы на отдельные сервера с разделением по ролям:</span></div>
-<ul class="de_list"><li class="list-element list-counter-7" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-7;">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 76px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_461F34A8F1">WEB-сервер (DPA Host);</span></div>
-</li><li class="list-element list-counter-7" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 76px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_461F34A8F1">Сервер баз данных: реляционная и Real-Time (БД DPA и индикаторы DPA);</span></div>
-</li><li class="list-element list-counter-7" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 76px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_461F34A8F1">DPA-сервер.</span></div>
-</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -1px;"><span class="de_461F34A8F1">Подключение DPA-серверов осуществляется посредством коммутатора/маршрутизатора.<strong> </strong>Количество DPA-серверов зависит от количества станков, их расположения и объема трафика.<strong> </strong>К одному DPA-серверу могут быть подключены до 70 станков. Снимаемые сигналы со станков конвертируются и передаются посредством интерфейсов Ethernet, в протоколах TCP/IP и Modbus RTU на сервер DPA<strong>.</strong> </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -1px;"><span class="de_461F34A8F1">При установке компонентов системы на отдельные сервера (подключение до 1000 единиц оборудования), необходим следующий набор компонентов:</span></div>
-<ul class="de_list"><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-8;">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">Операционная система: Windows Server 2016 Standard x64;</span></div>
-</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">СУБД: Microsoft SQL Server 2017 Standard x64;</span></div>
-</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">Процессор:&#160; Xeon, частота, 3.7/4.1 ГГц, 16 ядер/32 потока;</span></div>
-</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">Оперативная память: 16 Гб;</span></div>
-</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">Жесткий диск: SATA RAID 0, 7200RPM, 2 Тб – 2 шт.;</span></div>
-</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">SSD-накопитель: SATA, 1 Тб, максимальная скорость записи 2 Гб/с, максимальная скорость чтения 2 Гб/с – 2 шт.;</span></div>
-</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">Ethernet – 10Гбит<strong>.</strong></span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -1px;">&#160;</div>
-</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -1px;"><span class="de_461F34A8F1">Вариант установки – разделение серверов по ролям:</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -1px;"><img  alt="" style="border: solid 0px;  " width="637" height="759" class=" de_780D01ADE8" src="drex_krupnye_proekty_i_masshtabirovanie_custom.png"/></div>
-</div>                                    			
-                			
-                <h6 class="b-article__generatorCopyright">
-                    <a class="b-link b-article__generatorCopyrightLink" href="http://www.drexplain.ru" rel="nofollow">&#x0421;&#x043F;&#x0440;&#x0430;&#x0432;&#x043E;&#x0447;&#x043D;&#x0430;&#x044F; &#x0441;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x0430; &#x0441;&#x043E;&#x0437;&#x0434;&#x0430;&#x043D;&#x0430; &#x0432; Dr.Explain</a>
-                </h6>
-                            </div><!-- /innerWrapper -->
+            </div><!-- /innerWrapper -->
         </div>
         <script type="text/javascript">
         //<![CDATA[
-            if (0 == 0 || is_touch_device())
+            if (1 == 0 || is_touch_device())
             {
                 $(".b-article__wrapper").append(
                     $("<table></table>")
@@ -344,7 +304,7 @@
                     <td class="b-pageContent__side m-pageContent__side__footer">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (0 == 1 && !is_touch_device())
+                            if (1 == 1 && !is_touch_device())
                                 $( "#pageContentFooter" ).addClass("hidden");
                         //]]>
                         </script>
@@ -360,5 +320,38 @@
         </div><!-- /pageContent -->
 
 </div><!-- /pageLayout -->
+<div id="hiddenContent" class="hiddenContent">
+    <noscript>
+    <div>To properly display this page you need a browser with JavaScript support.</div>
+    </noscript>
+                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 37px; text-indent: -1px;"><div class="ic"><h1><span class="de_22F5DC77E8"><strong>Крупные проекты и масштабирование</strong></span></h1></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -1px;"><span class="de_461F34A8F1">Для проектов, предназначенных для мониторинга большого количества единиц оборудования, необходимо устанавливать компоненты системы на отдельные сервера с разделением по ролям:</span></div>
+<ul class="de_list"><li class="list-element list-counter-7" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-7;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 76px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_461F34A8F1">WEB-сервер (DPA Host);</span></div>
+</li><li class="list-element list-counter-7" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 76px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_461F34A8F1">Сервер баз данных: реляционная и Real-Time (БД DPA и индикаторы DPA);</span></div>
+</li><li class="list-element list-counter-7" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 76px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_461F34A8F1">DPA-сервер.</span></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -1px;"><span class="de_461F34A8F1">Подключение DPA-серверов осуществляется посредством коммутатора/маршрутизатора.<strong> </strong>Количество DPA-серверов зависит от количества станков, их расположения и объема трафика.<strong> </strong>К одному DPA-серверу могут быть подключены до 70 станков. Снимаемые сигналы со станков конвертируются и передаются посредством интерфейсов Ethernet, в протоколах TCP/IP и Modbus RTU на сервер DPA<strong>.</strong> </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -1px;"><span class="de_461F34A8F1">При установке компонентов системы на отдельные сервера (подключение до 1000 единиц оборудования), необходим следующий набор компонентов:</span></div>
+<ul class="de_list"><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-8;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">Операционная система: Windows Server 2016 Standard x64;</span></div>
+</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">СУБД: Microsoft SQL Server 2017 Standard x64;</span></div>
+</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">Процессор:&#160; Xeon, частота, 3.7/4.1 ГГц, 16 ядер/32 потока;</span></div>
+</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">Оперативная память: 16 Гб;</span></div>
+</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">Жесткий диск: SATA RAID 0, 7200RPM, 2 Тб – 2 шт.;</span></div>
+</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">SSD-накопитель: SATA, 1 Тб, максимальная скорость записи 2 Гб/с, максимальная скорость чтения 2 Гб/с – 2 шт.;</span></div>
+</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 73px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_461F34A8F1">Ethernet – 10Гбит<strong>.</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -1px;">&#160;</div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -1px;"><span class="de_461F34A8F1">Вариант установки – разделение серверов по ролям:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -1px;"><img  alt="" style="border: solid 0px;  " width="637" height="759" class=" de_780D01ADE8" src="drex_krupnye_proekty_i_masshtabirovanie_custom.png"/></div>
+</div>                                    			
+                			</div>
 </body>
 </html>

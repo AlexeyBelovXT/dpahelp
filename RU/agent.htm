@@ -55,7 +55,7 @@
 //<![CDATA[
     if ($.drex_avoid_load)
         $("#pageLayout").addClass("hidden");
-    else if (1 == 1 && !is_touch_device())
+    else if (0 == 1 && !is_touch_device())
         $("#pageLayout").addClass("keep-visible");
 //]]>
 </script>
@@ -93,7 +93,7 @@
                     <td class="b-pageContent__side m-pageContent__side__middle" id="pageContentMiddle">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (1 == 1 && !is_touch_device())
+                            if (0 == 1 && !is_touch_device())
                                 $("#pageContentMiddle").addClass("hidden");
                         //]]>
                         </script>
@@ -139,6 +139,9 @@
                             <div class="b-tabs__wrapperItem m-tabs__wrapperItem__selected" id="tabWrapper_menu">
                                 <div class="b-tabs__wrapperItemInner">
                                     <div class="b-tree">
+                                        <noscript>
+                                        <div>To properly display this page you need a browser with JavaScript support.</div>
+                                        </noscript>
                                     </div>                              
                                 </div>
                                 
@@ -255,9 +258,8 @@
                 <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
                     <div class="b-controlButtons">
                         <ul class="b-controlButtons__items">
-                            <li class="b-controlButtons__item m-controlButtons__item__prev"><a href="zhurnaly_2.htm" class="b-controlButtons__link" title="&#x041F;&#x0440;&#x0435;&#x0434;&#x044B;&#x0434;&#x0443;&#x0449;&#x0430;&#x044F;"><span class="b-controlButtons__link_icon"></span><span class="b-controlButtons__link_text">&#xa0;&#x041F;&#x0440;&#x0435;&#x0434;&#x044B;&#x0434;&#x0443;&#x0449;&#x0430;&#x044F;</span></a></li>
-                            <li class="b-controlButtons__item m-controlButtons__item__next"><a href="bazovaya_nastrojka.htm" class="b-controlButtons__link" title="&#x0421;&#x043B;&#x0435;&#x0434;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F;"><span class="b-controlButtons__link_text">&#x0421;&#x043B;&#x0435;&#x0434;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F;&#xa0;</span><span class="b-controlButtons__link_icon"></span></a></li>
-                                                </ul>
+                                                                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="agent_print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>
+                        </ul>
                     </div>
                 </td>
             </tr>
@@ -265,11 +267,41 @@
         <div class="b-article__wrapper">
             <div class="b-article__innerWrapper" id="description_on_page_placeholder">
             <a id="top" class="anchor"></a>
-            </div><!-- /innerWrapper -->
+                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Агент</strong></h1></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">Для подключения части драйверов требуется установка агентских приложений, данный процесс описан в инструкции по обследованию и настройке конкретного типа ЧПУ. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">При необходимости обновление агента может быть выполнено с сервера, без остановки станка.&#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1"><strong>Примечание: </strong>обновление агента может быть произведено только на включенном станке!</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Н</span><span class="de_D8BCB2AC4C">а панели управления нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="47" height="28" class=" de_780D01ADE8" src="drex_agent_custom.png"/>, и в выпадающем списке выберите пункт меню «Мониторинг». </span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: -1px;"><img  alt="" style="border: solid 1px;  " width="1223" height="745" class=" de_8CB40C7215" src="drex_agent_custom_2.png"/></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 474px; text-indent: 0px;"><span class="de_4CD179DA38">Главное меню. Стартовая страница</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">Выберите требуемый драйвер и проверьте состояние драйвера.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1220" height="858" class=" de_8CB40C7215" src="drex_agent_custom_3.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 510px; text-indent: 0px;"><span class="de_461F34A8F1">Мониторинг. Включенный драйвер </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">Перейдите на вкладку «Агент». </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">В строке версия отражается установленная на станок версия агента. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">На панели управления в области «Доступные инсталляторы на станке» нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="26" height="26" class=" de_780D01ADE8" src="drex_agent_custom_4.png"/> , где отображаются ранее загруженные на станок установочные файлы агентов.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1220" height="858" class=" de_8CB40C7215" src="drex_agent_custom_5.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 455px; text-indent: 0px;"><span class="de_05BF617C42">Настройка мониторинга. Инициация добавления инсталлятора</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">В открывшемся модальном окне &quot;Выбор инсталлятора&quot; выберите необходимую версию агента и нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="100" height="26" class=" de_780D01ADE8" src="drex_agent_custom_6.png"/>. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1218" height="855" class=" de_8CB40C7215" src="drex_agent_custom_7.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 473px; text-indent: 0px;"><span class="de_461F34A8F1">Мониторинг. Агент. Выбор инсталлятора </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">Система проинформирует вас об успешном завершении операции, агент появиться в списке. Далее выберите необходимую версию агента и нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="26" height="26" class=" de_780D01ADE8" src="drex_agent_custom_8.png"/>.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">После появления сообщения «Установка завершена» в модальном окне &quot;Установка агента&quot; нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="67" height="26" class=" de_780D01ADE8" src="drex_agent_custom_9.png"/>.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">Версия агента будет обновлена после того, как служба агента перезапустится. Процесс перезапуска может занять до 10 минут. В процессе перезапуска станок будет недоступен для системы мониторинга. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1"><strong>Примечание:</strong> Загрузка установочных файлов агентов на сервер производится при штатной установке системы, в дальнейшем для обновления агента скачайте установочный файл на ftp://ftp.x-tensive.com/Public/DPA%20Agents/ и скопируйте его в директорию&#160; «%\ProgramData\X-tensive\DPA\Installers» сервера DPA.&#160; </span></div>
+</div>                                    			
+                			
+                <h6 class="b-article__generatorCopyright">
+                    <a class="b-link b-article__generatorCopyrightLink" href="http://www.drexplain.ru" rel="nofollow">&#x0421;&#x043F;&#x0440;&#x0430;&#x0432;&#x043E;&#x0447;&#x043D;&#x0430;&#x044F; &#x0441;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x0430; &#x0441;&#x043E;&#x0437;&#x0434;&#x0430;&#x043D;&#x0430; &#x0432; Dr.Explain</a>
+                </h6>
+                            </div><!-- /innerWrapper -->
         </div>
         <script type="text/javascript">
         //<![CDATA[
-            if (1 == 0 || is_touch_device())
+            if (0 == 0 || is_touch_device())
             {
                 $(".b-article__wrapper").append(
                     $("<table></table>")
@@ -285,7 +317,7 @@
                             .addClass("b-article__headerSide m-article__headerSide__buttons")
                             .append(
                                 $("<div></div>").addClass("b-controlButtons")
-                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("    <li class=\"b-controlButtons__item m-controlButtons__item__prev\"><a href=\"zhurnaly_2.htm\" class=\"b-controlButtons__link\" title=\"&#x041F;&#x0440;&#x0435;&#x0434;&#x044B;&#x0434;&#x0443;&#x0449;&#x0430;&#x044F;\"><span class=\"b-controlButtons__link_icon\"></span><span class=\"b-controlButtons__link_text\">&#xa0;&#x041F;&#x0440;&#x0435;&#x0434;&#x044B;&#x0434;&#x0443;&#x0449;&#x0430;&#x044F;</span></a></li>\n    <li class=\"b-controlButtons__item m-controlButtons__item__next\"><a href=\"bazovaya_nastrojka.htm\" class=\"b-controlButtons__link\" title=\"&#x0421;&#x043B;&#x0435;&#x0434;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F;\"><span class=\"b-controlButtons__link_text\">&#x0421;&#x043B;&#x0435;&#x0434;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F;&#xa0;</span><span class=\"b-controlButtons__link_icon\"></span></a></li>\n"))
+                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"agent_print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>\n"))
                             )
                         )
                     )
@@ -314,7 +346,7 @@
                     <td class="b-pageContent__side m-pageContent__side__footer">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (1 == 1 && !is_touch_device())
+                            if (0 == 1 && !is_touch_device())
                                 $( "#pageContentFooter" ).addClass("hidden");
                         //]]>
                         </script>
@@ -330,36 +362,5 @@
         </div><!-- /pageContent -->
 
 </div><!-- /pageLayout -->
-<div id="hiddenContent" class="hiddenContent">
-    <noscript>
-    <div>To properly display this page you need a browser with JavaScript support.</div>
-    </noscript>
-                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Агент</strong></h1></div></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">Для подключения части драйверов требуется установка агентских приложений, данный процесс описан в инструкции по обследованию и настройке конкретного типа ЧПУ. </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">При необходимости обновление агента может быть выполнено с сервера, без остановки станка.&#160; </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1"><strong>Примечание: </strong>обновление агента может быть произведено только на включенном станке!</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_461F34A8F1">Н</span><span class="de_D8BCB2AC4C">а панели управления нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="47" height="28" class=" de_780D01ADE8" src="drex_agent_custom.png"/>, и в выпадающем списке выберите пункт меню «Мониторинг». </span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: -1px;"><img  alt="" style="border: solid 1px;  " width="1223" height="745" class=" de_8CB40C7215" src="drex_agent_custom_2.png"/></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 474px; text-indent: 0px;"><span class="de_4CD179DA38">Главное меню. Стартовая страница</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">Выберите требуемый драйвер и проверьте состояние драйвера.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1220" height="858" class=" de_8CB40C7215" src="drex_agent_custom_3.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 510px; text-indent: 0px;"><span class="de_461F34A8F1">Мониторинг. Включенный драйвер </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">Перейдите на вкладку «Агент». </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">В строке версия отражается установленная на станок версия агента. </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">На панели управления в области «Доступные инсталляторы на станке» нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="26" height="26" class=" de_780D01ADE8" src="drex_agent_custom_4.png"/> , где отображаются ранее загруженные на станок установочные файлы агентов.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1220" height="858" class=" de_8CB40C7215" src="drex_agent_custom_5.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 455px; text-indent: 0px;"><span class="de_05BF617C42">Настройка мониторинга. Инициация добавления инсталлятора</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">В открывшемся модальном окне &quot;Выбор инсталлятора&quot; выберите необходимую версию агента и нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="100" height="26" class=" de_780D01ADE8" src="drex_agent_custom_6.png"/>. </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1218" height="855" class=" de_8CB40C7215" src="drex_agent_custom_7.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 473px; text-indent: 0px;"><span class="de_461F34A8F1">Мониторинг. Агент. Выбор инсталлятора </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">Система проинформирует вас об успешном завершении операции, агент появиться в списке. Далее выберите необходимую версию агента и нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="26" height="26" class=" de_780D01ADE8" src="drex_agent_custom_8.png"/>.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">После появления сообщения «Установка завершена» в модальном окне &quot;Установка агента&quot; нажмите на кнопку <img  alt="" style="border: solid 0px;  " width="67" height="26" class=" de_780D01ADE8" src="drex_agent_custom_9.png"/>.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1">Версия агента будет обновлена после того, как служба агента перезапустится. Процесс перезапуска может занять до 10 минут. В процессе перезапуска станок будет недоступен для системы мониторинга. </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_461F34A8F1"><strong>Примечание:</strong> Загрузка установочных файлов агентов на сервер производится при штатной установке системы, в дальнейшем для обновления агента скачайте установочный файл на ftp://ftp.x-tensive.com/Public/DPA%20Agents/ и скопируйте его в директорию&#160; «%\ProgramData\X-tensive\DPA\Installers» сервера DPA.&#160; </span></div>
-</div>                                    			
-                			</div>
 </body>
 </html>

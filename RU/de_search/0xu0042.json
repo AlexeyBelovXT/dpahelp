@@ -1,6 +1,6 @@
 [
-	{ "s": "BACKUP", "p": [17] },
-	{ "s": "BAUD", "p": [59] },
-	{ "s": "BAUDRATE", "p": [24] },
-	{ "s": "BUSINESS", "p": [3] }
+	{ "s": "BACKUP", "p": [18] },
+	{ "s": "BAUD", "p": [60] },
+	{ "s": "BAUDRATE", "p": [25] },
+	{ "s": "BUSINESS", "p": [4] }
 ]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="css/printed.css" media="all" rel="StyleSheet" type="text/css" />
+		<link href="de_style.css" media="all" rel="StyleSheet" type="text/css" />
+		<meta name="generator" content="www.DrExplain.com" />
+				<title>&#x041F;&#x0435;&#x0440;&#x0435;&#x043D;&#x043E;&#x0441; &#x043A;&#x043E;&#x043C;&#x043F;&#x043E;&#x043D;&#x0435;&#x043D;&#x0442;&#x043E;&#x0432; &#x0441;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x044B; &#x043D;&#x0430; &#x0434;&#x0440;&#x0443;&#x0433;&#x043E;&#x0439; &#x0441;&#x0435;&#x0440;&#x0432;&#x0435;&#x0440; </title>
+	</head>
+	<body>
+		<table class="pagetable">
+			<tr class="page" style="border-color: #ffffff;">
+				<td class="page_area" style="border-color: #ffffff; width: 100%;"><div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Перенос компонентов системы на другой сервер </strong></h1></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 36px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 36px;"><span class="de_418808DB1B"><strong>Перенос базы данных</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Если переносу подлежит только база данных (переустановка компонентов не производится), выполните следующие действия: </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Создайте резервную копию (backup) баз данных системы (например, X-tensive.Project109.Config и X-tensive.Project109.Host);</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Создайте в новом экземпляре MS SQL базы данных с именами идентичными ранее существующим;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Выполните задачу восстановления баз из резервной копии (Правый клик по имени базы – Задачи/Восстановить/База данных…);</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Отредактируйте строку подключения:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 85px; text-indent: 0px;"><span class="de_D68646C8A7">o </span><span class="de_D8BCB2AC4C">Запустите config (http://localhost:81/);</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 85px; text-indent: 0px;"><span class="de_D68646C8A7">o </span><span class="de_D8BCB2AC4C">Деактивируйте и разблокируйте актуальный пакет;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 85px; text-indent: 0px;"><span class="de_D68646C8A7">o </span><span class="de_D8BCB2AC4C">Откройте модальное окно и отредактируйте строку подключения: укажите имя нового сервера БД;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 85px; text-indent: 0px;"><span class="de_D68646C8A7">o </span><span class="de_D8BCB2AC4C">Примените изменения;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 85px; text-indent: 0px;"><span class="de_D68646C8A7">o </span><span class="de_D8BCB2AC4C">Выберите пункт «сгенерировать Snk-ключ»;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 85px; text-indent: 0px;"><span class="de_D68646C8A7">o </span><span class="de_D8BCB2AC4C">Сохраните изменения;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 85px; text-indent: 0px;"><span class="de_D68646C8A7">o </span><span class="de_D8BCB2AC4C">Последовательно выполните команды: «скомпилировать», «заблокировать», «upgrade».</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 85px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 36px;"><span class="de_418808DB1B"><strong>Перенос базы данных и Project109</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Если переносу подлежит только база данных и Project109, выполните следующие действия:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Создайте резервную копию (backup) баз данных системы (например, X-tensive.Project109.Config и X-tensive.Project109.Host);</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Создайте в новом экземпляре MS SQL базы данных с именами идентичными ранее существующим;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Выполните задачу восстановления баз из резервной копии (Правый клик по имени базы – Задачи/Восстановить/База данных…);</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">На сервере DPA откройте файл %\ProgramData\X-tensive\DPA\Config\DpaServer.config&#160; в строке вида &lt;wcfTransport ipAddress=&quot;192.168.0.X&quot; port=&quot;45618&quot; /&gt;» укажите ip-адрес сервера, на который будет перенесен Project109;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Установите Project109 но новый сервер, на шаге «Настройка базы данных» выберите существующие базы.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 36px;"><span class="de_418808DB1B"><strong>Перенос Project109</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Если переносу подлежит только Project109, выполните следующие действия:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Установите Project109 но новый сервер, на шаге «Настройка базы данных» выберите существующие базы;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">На сервере DPA откройте файл %\ProgramData\X-tensive\DPA\Config\DpaServer.config&#160; в строке вида &lt;wcfTransport ipAddress=&quot;192.168.0.X&quot; port=&quot;45618&quot; /&gt;» укажите ip-адрес сервера, на который был перенесен Project109;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Подключите сервер к новому хосту.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 36px;"><span class="de_418808DB1B"><strong>Перенос сервера DPA</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_4CD179DA38">Если переносу подлежит DPA и Project109, выполните следующие действия:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_4CD179DA38">Скопируйте файл </span><span class="de_D8BCB2AC4C">%\ProgramData\X-tensive\DPA\Config\DpaServer.config;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><span class="de_669D8AB381">·</span><span class="de_4CD179DA38"> &#160; &#160; &#160; Произведите установку DPA сервера; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><span class="de_669D8AB381">·</span><span class="de_4CD179DA38"> &#160; &#160; &#160; Ранее скопированном файле DpaServer.config разместите в директории %\ProgramData\X-tensive\DPA\Config\DpaServer.config, заменив файл, автоматически созданный при установке;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><span class="de_669D8AB381">·</span><span class="de_D8BCB2AC4C"> &#160; &#160; Подключите новый сервер к хосту;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 57px; text-indent: 0px;"><span class="de_669D8AB381">·</span><span class="de_4CD179DA38"> &#160; &#160; &#160; Запросите и установите новую лицензию.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 36px;"><span class="de_418808DB1B"><strong>Перенос базы данных, сервера DPA и Project109</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Если переносу подлежит база данных, DPA и Project109, выполните следующие действия:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Создайте резервную копию (backup) баз данных системы (например, X-tensive.Project109.Config и X-tensive.Project109.Host);</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Скопируйте файл %\ProgramData\X-tensive\DPA\Config\DpaServer.config;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Создайте в новом экземпляре MS SQL базы данных с именами идентичными ранее существующим;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Выполните задачу восстановления баз из резервной копии (Правый клик по имени базы – Задачи/Восстановить/База данных…);</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Произведите установку DPA сервера;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">В ранее скопированном файле DpaServer.config в строке вида &lt;wcfTransport ipAddress=&quot;192.168.0.X&quot; port=&quot;45618&quot; /&gt;» укажите ip нового сервера, затем разместите файл в директории %\ProgramData\X-tensive\DPA\Config\DpaServer.config, заменив файл, автоматически созданный при установке;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Установите Project109, на шаге «Настройка базы данных» выбрать существующие базы;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Запросите и установите новую лицензию.</span></div>
+</div>					<p style="text-align: right;">
+						<span style="font-size: 1;">
+							<a style="color: #aaaaaa;" rel="nofollow" href="http://www.drexplain.ru">&#x0421;&#x043F;&#x0440;&#x0430;&#x0432;&#x043E;&#x0447;&#x043D;&#x0430;&#x044F; &#x0441;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x0430; &#x0441;&#x043E;&#x0437;&#x0434;&#x0430;&#x043D;&#x0430; &#x0432; Dr.Explain</a>
+													</span>
+					</p>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

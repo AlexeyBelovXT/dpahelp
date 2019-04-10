@@ -2404,19 +2404,6 @@ a.anchor {
     border: 0px;
 }
 
-.keep-visible {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-}
-
-.hiddenContent {
-    background-color: #ffffff;
-    width: 100%;
-    overflow: auto;
-}
 
 /*de_ctrl borderless styles*/
 div.de_ctrl {
@@ -2670,7 +2657,6 @@ html[dir="rtl"] .b-pageLayout.b-pageLayout__sm .b-workZone.m-workZone__withoutSp
 
 .no-horizontal-scroll {
     overflow-x: hidden;
-    height: auto;
 }
 
 .b-workZone__overlay {
@@ -2710,9 +2696,6 @@ html[dir="rtl"] #workZone_nav.topmost .b-workZone__side__nav__dismiss {
     left: 0;
 }
 
-.b-pageLayout.b-pageLayout__xs.keep-visible {
-    height: auto;
-}
 
 .b-pageLayout.b-pageLayout__xs .m-article__headerSide__buttons {
     padding-left: 1px;

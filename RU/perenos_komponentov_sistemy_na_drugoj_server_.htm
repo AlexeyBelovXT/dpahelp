@@ -55,7 +55,7 @@
 //<![CDATA[
     if ($.drex_avoid_load)
         $("#pageLayout").addClass("hidden");
-    else if (1 == 1 && !is_touch_device())
+    else if (0 == 1 && !is_touch_device())
         $("#pageLayout").addClass("keep-visible");
 //]]>
 </script>
@@ -93,7 +93,7 @@
                     <td class="b-pageContent__side m-pageContent__side__middle" id="pageContentMiddle">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (1 == 1 && !is_touch_device())
+                            if (0 == 1 && !is_touch_device())
                                 $("#pageContentMiddle").addClass("hidden");
                         //]]>
                         </script>
@@ -139,6 +139,9 @@
                             <div class="b-tabs__wrapperItem m-tabs__wrapperItem__selected" id="tabWrapper_menu">
                                 <div class="b-tabs__wrapperItemInner">
                                     <div class="b-tree">
+                                        <noscript>
+                                        <div>To properly display this page you need a browser with JavaScript support.</div>
+                                        </noscript>
                                     </div>                              
                                 </div>
                                 
@@ -249,9 +252,8 @@
                 <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
                     <div class="b-controlButtons">
                         <ul class="b-controlButtons__items">
-                            <li class="b-controlButtons__item m-controlButtons__item__prev"><a href="obnovlenie_konfiguratsii_i_nastroek_logirovaniya_drajvera_1.htm" class="b-controlButtons__link" title="&#x041F;&#x0440;&#x0435;&#x0434;&#x044B;&#x0434;&#x0443;&#x0449;&#x0430;&#x044F;"><span class="b-controlButtons__link_icon"></span><span class="b-controlButtons__link_text">&#xa0;&#x041F;&#x0440;&#x0435;&#x0434;&#x044B;&#x0434;&#x0443;&#x0449;&#x0430;&#x044F;</span></a></li>
-                            <li class="b-controlButtons__item m-controlButtons__item__next"><a href="administrirovanie.htm" class="b-controlButtons__link" title="&#x0421;&#x043B;&#x0435;&#x0434;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F;"><span class="b-controlButtons__link_text">&#x0421;&#x043B;&#x0435;&#x0434;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F;&#xa0;</span><span class="b-controlButtons__link_icon"></span></a></li>
-                                                </ul>
+                                                                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="perenos_komponentov_sistemy_na_drugoj_server__print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>
+                        </ul>
                     </div>
                 </td>
             </tr>
@@ -259,75 +261,6 @@
         <div class="b-article__wrapper">
             <div class="b-article__innerWrapper" id="description_on_page_placeholder">
             <a id="top" class="anchor"></a>
-            </div><!-- /innerWrapper -->
-        </div>
-        <script type="text/javascript">
-        //<![CDATA[
-            if (1 == 0 || is_touch_device())
-            {
-                $(".b-article__wrapper").append(
-                    $("<table></table>")
-                    .addClass("b-article__footerLayout")
-                    .prop("id", "article__footer")
-                    .append(
-                        $("<tr></tr>").append(
-                            $("<td></td>")
-                            .addClass("b-article__headerSide m-article__headerSide__nav")
-                        )
-                        .append(
-                            $("<td></td>")
-                            .addClass("b-article__headerSide m-article__headerSide__buttons")
-                            .append(
-                                $("<div></div>").addClass("b-controlButtons")
-                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("    <li class=\"b-controlButtons__item m-controlButtons__item__prev\"><a href=\"obnovlenie_konfiguratsii_i_nastroek_logirovaniya_drajvera_1.htm\" class=\"b-controlButtons__link\" title=\"&#x041F;&#x0440;&#x0435;&#x0434;&#x044B;&#x0434;&#x0443;&#x0449;&#x0430;&#x044F;\"><span class=\"b-controlButtons__link_icon\"></span><span class=\"b-controlButtons__link_text\">&#xa0;&#x041F;&#x0440;&#x0435;&#x0434;&#x044B;&#x0434;&#x0443;&#x0449;&#x0430;&#x044F;</span></a></li>\n    <li class=\"b-controlButtons__item m-controlButtons__item__next\"><a href=\"administrirovanie.htm\" class=\"b-controlButtons__link\" title=\"&#x0421;&#x043B;&#x0435;&#x0434;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F;\"><span class=\"b-controlButtons__link_text\">&#x0421;&#x043B;&#x0435;&#x0434;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F;&#xa0;</span><span class=\"b-controlButtons__link_icon\"></span></a></li>\n"))
-                            )
-                        )
-                    )
-                );
-            }
-        //]]>
-        </script>
-    </div>
-</div>
-
-
-
-                                        </div>
-                                    </td><!-- /workZone__article -->
-                                </tr>
-                            </table>
-                        </div><!-- /workZone -->
-
-                    </td><!-- /pageContentMiddle -->
-                    <td class="b-pageContent__side m-pageContent__side__right" id="pageContentRight"></td>
-                        </tr>
-                    </table> <!-- /internal_wrapper -->
-                    </td>
-                </tr>
-                <tr class="b-pageContent__row m-pageContent__row__footer" id="pageContentFooter">
-                    <td class="b-pageContent__side m-pageContent__side__footer">
-                        <script type="text/javascript">
-                        //<![CDATA[
-                            if (1 == 1 && !is_touch_device())
-                                $( "#pageContentFooter" ).addClass("hidden");
-                        //]]>
-                        </script>
-                        <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><table class="de_tbl_576 detbl" style="width: 100%; margin-left: 0; margin-right: auto;">
-<col style="width: 100%;" class="de_col_1_576" />
-<tr style="height: 29px;">
-<td class="de_td_576" style = "padding: 2px; padding-bottom: 1px; border-left-style: none; border-left-width: 0px; border-left-color: #000000; border-right-style: none; border-right-width: 0px; border-right-color: #000000; border-top-style: none; border-top-width: 0px; border-top-color: #000000; border-bottom-style: none; border-bottom-width: 0px; border-bottom-color: #000000;  width: 100%; vertical-align: top;" colspan = "1" rowspan = "1" >
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="76" height="14" class=" de_780D01ADE8" src="drex_footer_custom.png"/></div>
-</td></tr></table></div>
-                    </td>
-                </tr>
-            </table>
-        </div><!-- /pageContent -->
-
-</div><!-- /pageLayout -->
-<div id="hiddenContent" class="hiddenContent">
-    <noscript>
-    <div>To properly display this page you need a browser with JavaScript support.</div>
-    </noscript>
                 <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Перенос компонентов системы на другой сервер </strong></h1></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 36px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 36px;"><span class="de_418808DB1B"><strong>Перенос базы данных</strong></span></div>
@@ -378,6 +311,74 @@
 <div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Установите Project109, на шаге «Настройка базы данных» выбрать существующие базы;</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 55px; text-indent: 0px;"><span class="de_669D8AB381">· &#160; &#160; </span><span class="de_D8BCB2AC4C">Запросите и установите новую лицензию.</span></div>
 </div>                                    			
-                			</div>
+                			
+                <h6 class="b-article__generatorCopyright">
+                    <a class="b-link b-article__generatorCopyrightLink" href="http://www.drexplain.ru" rel="nofollow">&#x0421;&#x043F;&#x0440;&#x0430;&#x0432;&#x043E;&#x0447;&#x043D;&#x0430;&#x044F; &#x0441;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x0430; &#x0441;&#x043E;&#x0437;&#x0434;&#x0430;&#x043D;&#x0430; &#x0432; Dr.Explain</a>
+                </h6>
+                            </div><!-- /innerWrapper -->
+        </div>
+        <script type="text/javascript">
+        //<![CDATA[
+            if (0 == 0 || is_touch_device())
+            {
+                $(".b-article__wrapper").append(
+                    $("<table></table>")
+                    .addClass("b-article__footerLayout")
+                    .prop("id", "article__footer")
+                    .append(
+                        $("<tr></tr>").append(
+                            $("<td></td>")
+                            .addClass("b-article__headerSide m-article__headerSide__nav")
+                        )
+                        .append(
+                            $("<td></td>")
+                            .addClass("b-article__headerSide m-article__headerSide__buttons")
+                            .append(
+                                $("<div></div>").addClass("b-controlButtons")
+                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"perenos_komponentov_sistemy_na_drugoj_server__print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>\n"))
+                            )
+                        )
+                    )
+                );
+            }
+        //]]>
+        </script>
+    </div>
+</div>
+
+
+
+                                        </div>
+                                    </td><!-- /workZone__article -->
+                                </tr>
+                            </table>
+                        </div><!-- /workZone -->
+
+                    </td><!-- /pageContentMiddle -->
+                    <td class="b-pageContent__side m-pageContent__side__right" id="pageContentRight"></td>
+                        </tr>
+                    </table> <!-- /internal_wrapper -->
+                    </td>
+                </tr>
+                <tr class="b-pageContent__row m-pageContent__row__footer" id="pageContentFooter">
+                    <td class="b-pageContent__side m-pageContent__side__footer">
+                        <script type="text/javascript">
+                        //<![CDATA[
+                            if (0 == 1 && !is_touch_device())
+                                $( "#pageContentFooter" ).addClass("hidden");
+                        //]]>
+                        </script>
+                        <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><table class="de_tbl_576 detbl" style="width: 100%; margin-left: 0; margin-right: auto;">
+<col style="width: 100%;" class="de_col_1_576" />
+<tr style="height: 29px;">
+<td class="de_td_576" style = "padding: 2px; padding-bottom: 1px; border-left-style: none; border-left-width: 0px; border-left-color: #000000; border-right-style: none; border-right-width: 0px; border-right-color: #000000; border-top-style: none; border-top-width: 0px; border-top-color: #000000; border-bottom-style: none; border-bottom-width: 0px; border-bottom-color: #000000;  width: 100%; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="76" height="14" class=" de_780D01ADE8" src="drex_footer_custom.png"/></div>
+</td></tr></table></div>
+                    </td>
+                </tr>
+            </table>
+        </div><!-- /pageContent -->
+
+</div><!-- /pageLayout -->
 </body>
 </html>

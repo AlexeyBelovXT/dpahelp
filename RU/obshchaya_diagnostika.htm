@@ -55,7 +55,7 @@
 //<![CDATA[
     if ($.drex_avoid_load)
         $("#pageLayout").addClass("hidden");
-    else if (1 == 1 && !is_touch_device())
+    else if (0 == 1 && !is_touch_device())
         $("#pageLayout").addClass("keep-visible");
 //]]>
 </script>
@@ -93,7 +93,7 @@
                     <td class="b-pageContent__side m-pageContent__side__middle" id="pageContentMiddle">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (1 == 1 && !is_touch_device())
+                            if (0 == 1 && !is_touch_device())
                                 $("#pageContentMiddle").addClass("hidden");
                         //]]>
                         </script>
@@ -139,6 +139,9 @@
                             <div class="b-tabs__wrapperItem m-tabs__wrapperItem__selected" id="tabWrapper_menu">
                                 <div class="b-tabs__wrapperItemInner">
                                     <div class="b-tree">
+                                        <noscript>
+                                        <div>To properly display this page you need a browser with JavaScript support.</div>
+                                        </noscript>
                                     </div>                              
                                 </div>
                                 
@@ -253,9 +256,8 @@
                 <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
                     <div class="b-controlButtons">
                         <ul class="b-controlButtons__items">
-                            <li class="b-controlButtons__item m-controlButtons__item__prev"><a href="vozmozhnye_problemy.htm" class="b-controlButtons__link" title="&#x041F;&#x0440;&#x0435;&#x0434;&#x044B;&#x0434;&#x0443;&#x0449;&#x0430;&#x044F;"><span class="b-controlButtons__link_icon"></span><span class="b-controlButtons__link_text">&#xa0;&#x041F;&#x0440;&#x0435;&#x0434;&#x044B;&#x0434;&#x0443;&#x0449;&#x0430;&#x044F;</span></a></li>
-                            <li class="b-controlButtons__item m-controlButtons__item__next"><a href="server.htm" class="b-controlButtons__link" title="&#x0421;&#x043B;&#x0435;&#x0434;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F;"><span class="b-controlButtons__link_text">&#x0421;&#x043B;&#x0435;&#x0434;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F;&#xa0;</span><span class="b-controlButtons__link_icon"></span></a></li>
-                                                </ul>
+                                                                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="obshchaya_diagnostika_print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>
+                        </ul>
                     </div>
                 </td>
             </tr>
@@ -263,11 +265,58 @@
         <div class="b-article__wrapper">
             <div class="b-article__innerWrapper" id="description_on_page_placeholder">
             <a id="top" class="anchor"></a>
-            </div><!-- /innerWrapper -->
+                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Общая диагностика</strong></h1></div></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">1. Если требования к подготовке сервера не были соблюдены, процесс установки не может быть завершен корректно.</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">В случае, если в процессе установки возникли ошибки, например, связанные с недостаточностью полномочий, финальный экран будет содержать ссылки на лог-файлы установки – направьте файлы в службу поддержки X-tensive. </span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="786" height="633" class=" de_780D01ADE8" src="drex_obshchaya_diagnostika_custom.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Мастер установки. Отмена установки</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">В случае, если ошибки настроек/сбой работы SQL позволили компонентам системы стартовать, но не позволили подключиться к базе данных при запуске системы вместо окна авторизации будет приведено описание проблемы, которое необходимо направить в службу поддержки X-tensive.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1222" height="743" class=" de_8CB40C7215" src="drex_obshchaya_diagnostika_custom_2.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Ошибка подключения к базе данных (пример) </span></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">2. Перед обращением в X-tensive необходимо удостоверится, что все требования соблюдены, необходимо запустить SQL Server Management Studio выполнить ряд проверок.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Для новых баз данных:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 76px; text-indent: -21px;"><span class="de_669D8AB381">·</span><span class="de_D8BCB2AC4C"> &#160; Удалось ли создать базы данных с именами, выборными вами на шаге «Настройка базы данных»?</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 76px; text-indent: -21px;"><span class="de_669D8AB381">·</span><span class="de_D8BCB2AC4C"> &#160; Удалось ли создать таблицы?</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Для существующих баз данных:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 76px; text-indent: -21px;"><span class="de_669D8AB381">· </span><span class="de_D8BCB2AC4C">&#160; В настройках безопасности баз данных присутствуют учетные записи выбранных пользователей? </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">3. В случае, если возникли проблемы с запуском отдельных компонентов системы, запустите приложение «Службы» и проверьте статус следующих служб: </span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">– DPA Server;</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">– DPA Host;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">В случае, если один или несколько компонентов находятся в состоянии отличном от «Выполняется», запустите их в указанном порядке.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Перед обращением в X-tensive необходимо выполнить ряд проверок:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
+<ul class="de_list"><li class="list-element list-counter-23" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-23;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_D8BCB2AC4C">Удостоверьтесь, что пользователь, выбранный для запуска служб добавлен в соответствующую группу доступа (Локальные политики безопасности\Локальные политики\Назначение прав пользователя\Вход в качестве службы).</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="1227" height="822" class=" de_780D01ADE8" src="drex_obshchaya_diagnostika_custom_3.png"/></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_4CD179DA38">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Локальные политики безопасности (пример)</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
+<ul class="de_list"><li class="list-element list-counter-24" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-24;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_D8BCB2AC4C">Запустите командную строку от имени администратора и удостоверьтесь, что порт выбранный для запуска Хост на этапе «Конфигурация DPA Host» зарезервирован для запуска от имени пользователя (netsh http show urlacl):</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="979" height="512" class=" de_780D01ADE8" src="drex_obshchaya_diagnostika_custom_4.png"/></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_4CD179DA38">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Конфигурация сетевых параметров (пример)</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">В ходе обращения сообщите в X-tensive о результатах проверок.&#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">4. В случае если экземпляр базы данных, используемый системой DPAHost развернуты на одном сервере, рекомендуется установить зависимость между службами. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Запустите приложение «Службы» и скопируйте название службы SQL Sever’a, затем вызовите консоль в режиме администратора и выполните команду вида «sc config &quot;DpaHost&quot; depend= &quot;MSSQLSERVER&quot;.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="406" height="468" class=" de_780D01ADE8" src="drex_obshchaya_diagnostika_custom_5.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </span><span class="de_4CD179DA38">Службы. SQL Server. Свойства (пример)</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="979" height="512" class=" de_780D01ADE8" src="drex_obshchaya_diagnostika_custom_6.png"/></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Командная строка. Настройка зависимости (пример) </span></div>
+</div>                                    			
+                			
+                <h6 class="b-article__generatorCopyright">
+                    <a class="b-link b-article__generatorCopyrightLink" href="http://www.drexplain.ru" rel="nofollow">&#x0421;&#x043F;&#x0440;&#x0430;&#x0432;&#x043E;&#x0447;&#x043D;&#x0430;&#x044F; &#x0441;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x0430; &#x0441;&#x043E;&#x0437;&#x0434;&#x0430;&#x043D;&#x0430; &#x0432; Dr.Explain</a>
+                </h6>
+                            </div><!-- /innerWrapper -->
         </div>
         <script type="text/javascript">
         //<![CDATA[
-            if (1 == 0 || is_touch_device())
+            if (0 == 0 || is_touch_device())
             {
                 $(".b-article__wrapper").append(
                     $("<table></table>")
@@ -283,7 +332,7 @@
                             .addClass("b-article__headerSide m-article__headerSide__buttons")
                             .append(
                                 $("<div></div>").addClass("b-controlButtons")
-                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("    <li class=\"b-controlButtons__item m-controlButtons__item__prev\"><a href=\"vozmozhnye_problemy.htm\" class=\"b-controlButtons__link\" title=\"&#x041F;&#x0440;&#x0435;&#x0434;&#x044B;&#x0434;&#x0443;&#x0449;&#x0430;&#x044F;\"><span class=\"b-controlButtons__link_icon\"></span><span class=\"b-controlButtons__link_text\">&#xa0;&#x041F;&#x0440;&#x0435;&#x0434;&#x044B;&#x0434;&#x0443;&#x0449;&#x0430;&#x044F;</span></a></li>\n    <li class=\"b-controlButtons__item m-controlButtons__item__next\"><a href=\"server.htm\" class=\"b-controlButtons__link\" title=\"&#x0421;&#x043B;&#x0435;&#x0434;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F;\"><span class=\"b-controlButtons__link_text\">&#x0421;&#x043B;&#x0435;&#x0434;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F;&#xa0;</span><span class=\"b-controlButtons__link_icon\"></span></a></li>\n"))
+                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"obshchaya_diagnostika_print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>\n"))
                             )
                         )
                     )
@@ -312,7 +361,7 @@
                     <td class="b-pageContent__side m-pageContent__side__footer">
                         <script type="text/javascript">
                         //<![CDATA[
-                            if (1 == 1 && !is_touch_device())
+                            if (0 == 1 && !is_touch_device())
                                 $( "#pageContentFooter" ).addClass("hidden");
                         //]]>
                         </script>
@@ -328,53 +377,5 @@
         </div><!-- /pageContent -->
 
 </div><!-- /pageLayout -->
-<div id="hiddenContent" class="hiddenContent">
-    <noscript>
-    <div>To properly display this page you need a browser with JavaScript support.</div>
-    </noscript>
-                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Общая диагностика</strong></h1></div></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 37px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">1. Если требования к подготовке сервера не были соблюдены, процесс установки не может быть завершен корректно.</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">В случае, если в процессе установки возникли ошибки, например, связанные с недостаточностью полномочий, финальный экран будет содержать ссылки на лог-файлы установки – направьте файлы в службу поддержки X-tensive. </span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="786" height="633" class=" de_780D01ADE8" src="drex_obshchaya_diagnostika_custom.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Мастер установки. Отмена установки</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">В случае, если ошибки настроек/сбой работы SQL позволили компонентам системы стартовать, но не позволили подключиться к базе данных при запуске системы вместо окна авторизации будет приведено описание проблемы, которое необходимо направить в службу поддержки X-tensive.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1222" height="743" class=" de_8CB40C7215" src="drex_obshchaya_diagnostika_custom_2.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Ошибка подключения к базе данных (пример) </span></div>
-<div class="p" style="text-align: center; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">2. Перед обращением в X-tensive необходимо удостоверится, что все требования соблюдены, необходимо запустить SQL Server Management Studio выполнить ряд проверок.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Для новых баз данных:</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 76px; text-indent: -21px;"><span class="de_669D8AB381">·</span><span class="de_D8BCB2AC4C"> &#160; Удалось ли создать базы данных с именами, выборными вами на шаге «Настройка базы данных»?</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 76px; text-indent: -21px;"><span class="de_669D8AB381">·</span><span class="de_D8BCB2AC4C"> &#160; Удалось ли создать таблицы?</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Для существующих баз данных:</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 76px; text-indent: -21px;"><span class="de_669D8AB381">· </span><span class="de_D8BCB2AC4C">&#160; В настройках безопасности баз данных присутствуют учетные записи выбранных пользователей? </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">3. В случае, если возникли проблемы с запуском отдельных компонентов системы, запустите приложение «Службы» и проверьте статус следующих служб: </span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">– DPA Server;</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">– DPA Host;</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">В случае, если один или несколько компонентов находятся в состоянии отличном от «Выполняется», запустите их в указанном порядке.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Перед обращением в X-tensive необходимо выполнить ряд проверок:</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
-<ul class="de_list"><li class="list-element list-counter-21" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-21;">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_D8BCB2AC4C">Удостоверьтесь, что пользователь, выбранный для запуска служб добавлен в соответствующую группу доступа (Локальные политики безопасности\Локальные политики\Назначение прав пользователя\Вход в качестве службы).</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="1227" height="822" class=" de_780D01ADE8" src="drex_obshchaya_diagnostika_custom_3.png"/></div>
-</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_4CD179DA38">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Локальные политики безопасности (пример)</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
-<ul class="de_list"><li class="list-element list-counter-22" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-22;">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_D8BCB2AC4C">Запустите командную строку от имени администратора и удостоверьтесь, что порт выбранный для запуска Хост на этапе «Конфигурация DPA Host» зарезервирован для запуска от имени пользователя (netsh http show urlacl):</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="979" height="512" class=" de_780D01ADE8" src="drex_obshchaya_diagnostika_custom_4.png"/></div>
-</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_4CD179DA38">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Конфигурация сетевых параметров (пример)</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">В ходе обращения сообщите в X-tensive о результатах проверок.&#160; </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">4. В случае если экземпляр базы данных, используемый системой DPAHost развернуты на одном сервере, рекомендуется установить зависимость между службами. </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Запустите приложение «Службы» и скопируйте название службы SQL Sever’a, затем вызовите консоль в режиме администратора и выполните команду вида «sc config &quot;DpaHost&quot; depend= &quot;MSSQLSERVER&quot;.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="406" height="468" class=" de_780D01ADE8" src="drex_obshchaya_diagnostika_custom_5.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </span><span class="de_4CD179DA38">Службы. SQL Server. Свойства (пример)</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="979" height="512" class=" de_780D01ADE8" src="drex_obshchaya_diagnostika_custom_6.png"/></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Командная строка. Настройка зависимости (пример) </span></div>
-</div>                                    			
-                			</div>
 </body>
 </html>

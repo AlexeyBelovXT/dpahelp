@@ -115,6 +115,12 @@ span.de_4240AE2C05
 	color:#000000;
 	text-decoration:underline;
 }
+span.de_4357B31545
+{
+	font-family: "Calibri";
+	font-size: 12pt;
+	color:#bd2428;
+}
 span.de_461F34A8F1
 {
 	font-family: "Calibri";
@@ -468,7 +474,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-13, decimal) '.\00a0';
+	content: '' counter(list-counter-13, disc) '\00a0';
 	counter-increment: list-counter-13;
 }
 .list-counter-13 > div > div[class='list-marker-chm'] {
@@ -684,7 +690,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-25, decimal) '.\00a0';
+	content: '' counter(list-counter-25, disc) '\00a0';
 	counter-increment: list-counter-25;
 }
 .list-counter-25 > div > div[class='list-marker-chm'] {
@@ -720,7 +726,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-27, disc) '\00a0';
+	content: '' counter(list-counter-27, decimal) '.\00a0';
 	counter-increment: list-counter-27;
 }
 .list-counter-27 > div > div[class='list-marker-chm'] {
@@ -760,6 +766,24 @@ span.de_FFB638AC42
 	counter-increment: list-counter-29;
 }
 .list-counter-29 > div > div[class='list-marker-chm'] {
+	display: inline-block;
+	text-align: left;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	*display: inline;
+}
+.list-counter-30 > div > * {
+	text-indent: 0px;}
+.list-counter-30 > div > div[class='list-marker']:before {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	content: '' counter(list-counter-30, disc) '\00a0';
+	counter-increment: list-counter-30;
+}
+.list-counter-30 > div > div[class='list-marker-chm'] {
 	display: inline-block;
 	text-align: left;
 	zoom: 1;

@@ -1,6 +1,8 @@
 [
 	{ "s": "FAILED", "p": [57, 52] },
 	{ "s": "FATAL", "p": [59, 53] },
+	{ "s": "FILES", "p": [17] },
+	{ "s": "FILES\\X-TENSIVE\\DPA", "p": [17] },
 	{ "s": "FIREBIRD", "p": [4] },
 	{ "s": "FRAMEWORK", "p": [13] },
 	{ "s": "FRID", "p": [44] },

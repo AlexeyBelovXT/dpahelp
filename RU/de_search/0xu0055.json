@@ -6,7 +6,6 @@
 	{ "s": "UPDATERECORD", "p": [45] },
 	{ "s": "UPDATES", "p": [57, 52] },
 	{ "s": "UPDATESTAGE", "p": [45] },
-	{ "s": "UPGRADE", "p": [17] },
 	{ "s": "URL", "p": [29] },
 	{ "s": "URLACL", "p": [50] }
 ]

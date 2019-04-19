@@ -7,6 +7,9 @@
 	{ "s": "ALLSTD", "p": [54] },
 	{ "s": "AON", "p": [22] },
 	{ "s": "API", "p": [62] },
+	{ "s": "APPSETTINGS", "p": [17] },
+	{ "s": "APS", "p": [2] },
 	{ "s": "ASPX", "p": [13] },
+	{ "s": "AUTOMATION", "p": [2] },
 	{ "s": "AZURE", "p": [4] }
 ]

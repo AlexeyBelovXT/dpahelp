@@ -3,10 +3,10 @@
 	{ "s": "HEIDENHAIN", "p": [25] },
 	{ "s": "HID", "p": [23, 49] },
 	{ "s": "HOME", "p": [5] },
-	{ "s": "HOST", "p": [3, 14, 17, 16, 6, 50, 21, 53, 49, 13, 12, 10, 9] },
-	{ "s": "HTTP", "p": [50, 29, 19, 17] },
+	{ "s": "HOST", "p": [17, 3, 14, 16, 6, 50, 21, 53, 49, 13, 12, 10, 9] },
+	{ "s": "HOST\\APPSETTINGS.PRODUCTION.CONFIG", "p": [17] },
+	{ "s": "HTTP", "p": [50, 29, 19] },
 	{ "s": "HTTP://LOCALHOST", "p": [19] },
-	{ "s": "HTTP://LOCALHOST:81", "p": [17] },
 	{ "s": "HTTPS", "p": [27, 13] },
 	{ "s": "HTTPS://DPA.X-TENSIVE.RU", "p": [27] },
 	{ "s": "HTTPS://WWW.MICROSOFT.COM/RU-RU/DOWNLOAD/DETAILS.ASPX?ID", "p": [13] }

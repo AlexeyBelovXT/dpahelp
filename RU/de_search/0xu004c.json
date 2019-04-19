@@ -1,5 +1,5 @@
 [
-	{ "s": "LOCALHOST", "p": [19, 17] },
+	{ "s": "LOCALHOST", "p": [19] },
 	{ "s": "LOCALSYSTEM", "p": [13] },
 	{ "s": "LOGGING", "p": [59, 53] },
 	{ "s": "LOGIN", "p": [45] },

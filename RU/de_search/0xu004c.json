@@ -1,8 +1,8 @@
 [
-	{ "s": "LOCALHOST", "p": [19] },
-	{ "s": "LOCALSYSTEM", "p": [13] },
-	{ "s": "LOGGING", "p": [59, 53] },
-	{ "s": "LOGIN", "p": [45] },
-	{ "s": "LOGOUT", "p": [45] },
-	{ "s": "LOGS", "p": [53] }
+	{ "s": "LOCALHOST", "p": [20] },
+	{ "s": "LOCALSYSTEM", "p": [14] },
+	{ "s": "LOGGING", "p": [60, 54] },
+	{ "s": "LOGIN", "p": [46] },
+	{ "s": "LOGOUT", "p": [46] },
+	{ "s": "LOGS", "p": [54] }
 ]

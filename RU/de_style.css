@@ -246,7 +246,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-0, decimal) '.\00a0';
+	content: '' counter(list-counter-0, disc) '\00a0';
 	counter-increment: list-counter-0;
 }
 .list-counter-0 > div > div[class='list-marker-chm'] {
@@ -264,7 +264,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-1, disc) '\00a0';
+	content: '' counter(list-counter-1, decimal) '.\00a0';
 	counter-increment: list-counter-1;
 }
 .list-counter-1 > div > div[class='list-marker-chm'] {

@@ -1,13 +1,15 @@
 [
+	{ "s": "HAAS", "p": [7] },
 	{ "s": "HADSHAKES", "p": [26] },
-	{ "s": "HEIDENHAIN", "p": [26] },
+	{ "s": "HEIDENHAIN", "p": [26, 7] },
 	{ "s": "HID", "p": [24, 50] },
 	{ "s": "HOME", "p": [6] },
-	{ "s": "HOST", "p": [18, 15, 17, 51, 22, 3, 54, 50, 14, 13, 11, 10] },
+	{ "s": "HOST", "p": [18, 15, 17, 51, 22, 7, 3, 54, 50, 14, 13, 11, 10] },
 	{ "s": "HOST\\APPSETTINGS.PRODUCTION.CONFIG", "p": [18] },
 	{ "s": "HTTP", "p": [51, 30, 20] },
 	{ "s": "HTTP://LOCALHOST", "p": [20] },
 	{ "s": "HTTPS", "p": [28, 14] },
 	{ "s": "HTTPS://DPA.X-TENSIVE.RU", "p": [28] },
-	{ "s": "HTTPS://WWW.MICROSOFT.COM/RU-RU/DOWNLOAD/DETAILS.ASPX?ID", "p": [14] }
+	{ "s": "HTTPS://WWW.MICROSOFT.COM/RU-RU/DOWNLOAD/DETAILS.ASPX?ID", "p": [14] },
+	{ "s": "HURCO", "p": [7] }
 ]

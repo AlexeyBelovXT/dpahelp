@@ -1,4 +1,5 @@
 [
+	{ "s": "LINUX", "p": [7] },
 	{ "s": "LOCALHOST", "p": [20] },
 	{ "s": "LOCALSYSTEM", "p": [14] },
 	{ "s": "LOGGING", "p": [60, 54] },

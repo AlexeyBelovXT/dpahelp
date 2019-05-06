@@ -1,5 +1,5 @@
 [
-	{ "s": "TCP", "p": [11] },
+	{ "s": "TCP", "p": [7, 11] },
 	{ "s": "TCP/IP", "p": [11] },
 	{ "s": "TECHNOLOGY", "p": [46] },
 	{ "s": "TECHNOLOGY/UPDATEOPERATION", "p": [46] },

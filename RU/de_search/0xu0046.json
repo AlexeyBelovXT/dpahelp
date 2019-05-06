@@ -1,5 +1,6 @@
 [
 	{ "s": "FAILED", "p": [58, 53] },
+	{ "s": "FANUC", "p": [7] },
 	{ "s": "FATAL", "p": [60, 54] },
 	{ "s": "FILES", "p": [18] },
 	{ "s": "FILES\\X-TENSIVE\\DPA", "p": [18] },

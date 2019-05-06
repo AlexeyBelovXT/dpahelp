@@ -63,6 +63,7 @@ de_search\0xu0033.json
 de_search\0xu0032.json
 de_search\0xu0031.json
 de_search\0xu0030.json
+de_search
 js\drexplain.data.index.js
 de_style.css
 css\printed.css
@@ -82,6 +83,13 @@ i\blocks\search\loading.gif
 i\blocks\interface-icons\interface-icons-sprite.png
 i\blocks\interface-icons\interface-icons-sprite-8.png
 i\null.gif
+i\blocks\work-zone
+i\blocks\tree
+i\blocks\splitter
+i\blocks\search
+i\blocks\interface-icons
+i\blocks
+i
 drex_signaly_custom_44.png
 drex_signaly_custom_43.png
 drex_signaly_custom_42.png
@@ -1043,4 +1051,6 @@ drex_footer_custom.png
 drex_header_custom.png
 index_print.htm
 index.htm
+css
+js
 drex_file_list

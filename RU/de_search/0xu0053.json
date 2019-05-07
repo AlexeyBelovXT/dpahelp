@@ -31,9 +31,12 @@
 	{ "s": "STANDARD", "p": [5, 6, 11, 10, 9] },
 	{ "s": "STATE", "p": [58, 53] },
 	{ "s": "STATES", "p": [58, 53] },
+	{ "s": "STENTER", "p": [7] },
 	{ "s": "STOPBITS", "p": [26] },
 	{ "s": "STUDIO", "p": [51] },
 	{ "s": "STUDIO1", "p": [14] },
 	{ "s": "SUBSCRIPTIONS", "p": [58, 53] },
-	{ "s": "SUCCEED", "p": [58, 53] }
+	{ "s": "SUCCEED", "p": [58, 53] },
+	{ "s": "SYNTEC", "p": [7] },
+	{ "s": "SYSTEM", "p": [7] }
 ]

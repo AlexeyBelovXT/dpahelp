@@ -12,6 +12,7 @@
 	{ "s": "DISCRETE", "p": [2] },
 	{ "s": "DISPATCHER", "p": [46] },
 	{ "s": "DISPATCHER/UPDATERECORD", "p": [46] },
+	{ "s": "DORNIER", "p": [7] },
 	{ "s": "DOS", "p": [7] },
 	{ "s": "DOWNLOAD", "p": [58, 53, 14] },
 	{ "s": "DOWNLOADS", "p": [55] },

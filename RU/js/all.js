@@ -1168,7 +1168,7 @@ DR_EXPLAIN.namespace( 'DR_EXPLAIN.data_resize' );
 DR_EXPLAIN.data_resize = {
 
     DREXPLAIN_FIT_HEIGHT_TO_WINDOW: 1,
-    DREX_INITIAL_MENU_WIDTH: "300px"
+    DREX_INITIAL_MENU_WIDTH: "100px"
 
 };
 

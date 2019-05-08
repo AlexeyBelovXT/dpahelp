@@ -1,0 +1,12 @@
+[
+	{ "s": "TCP", "p": [7, 11] },
+	{ "s": "TCP/IP", "p": [11] },
+	{ "s": "TECHNOLOGY", "p": [46] },
+	{ "s": "TECHNOLOGY/UPDATEOPERATION", "p": [46] },
+	{ "s": "TECHNOLOGY/UPDATESTAGE", "p": [46] },
+	{ "s": "TENSIVE", "p": [51, 18, 61, 55, 26, 24, 19, 60, 58, 54, 53, 50, 28, 25, 5, 3] },
+	{ "s": "TIME", "p": [67, 11, 10] },
+	{ "s": "TOTAL", "p": [58, 53] },
+	{ "s": "TPM", "p": [67] },
+	{ "s": "TRIAL", "p": [24] }
+]

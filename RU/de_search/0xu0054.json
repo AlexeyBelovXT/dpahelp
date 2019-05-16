@@ -1,14 +1,14 @@
 [
 	{ "s": "TCP", "p": [7, 11] },
 	{ "s": "TCP/IP", "p": [11] },
-	{ "s": "TECHNOLOGY", "p": [46] },
-	{ "s": "TECHNOLOGY/UPDATEOPERATION", "p": [46] },
-	{ "s": "TECHNOLOGY/UPDATESTAGE", "p": [46] },
+	{ "s": "TECHNOLOGY", "p": [67] },
+	{ "s": "TECHNOLOGY/UPDATEOPERATION", "p": [67] },
+	{ "s": "TECHNOLOGY/UPDATESTAGE", "p": [67] },
 	{ "s": "TELNET", "p": [7] },
 	{ "s": "TELNET-КЛИЕНТ", "p": [7] },
-	{ "s": "TENSIVE", "p": [51, 18, 61, 55, 26, 24, 19, 60, 58, 54, 53, 50, 28, 25, 5, 3] },
-	{ "s": "TIME", "p": [67, 11, 10] },
-	{ "s": "TOTAL", "p": [58, 53] },
-	{ "s": "TPM", "p": [67] },
-	{ "s": "TRIAL", "p": [24] }
+	{ "s": "TENSIVE", "p": [72, 39, 82, 76, 47, 45, 40, 81, 79, 75, 74, 71, 49, 46, 5, 3] },
+	{ "s": "TIME", "p": [16, 11, 10] },
+	{ "s": "TOTAL", "p": [79, 74] },
+	{ "s": "TPM", "p": [16] },
+	{ "s": "TRIAL", "p": [45] }
 ]

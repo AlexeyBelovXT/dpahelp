@@ -1,8 +1,8 @@
 [
-	{ "s": "BACKUP", "p": [18] },
+	{ "s": "BACKUP", "p": [39] },
 	{ "s": "BALT", "p": [7] },
-	{ "s": "BAUD", "p": [30] },
-	{ "s": "BAUDRATE", "p": [26] },
+	{ "s": "BAUD", "p": [51] },
+	{ "s": "BAUDRATE", "p": [47] },
 	{ "s": "BI", "p": [2] },
 	{ "s": "BUSINESS", "p": [5] },
 	{ "s": "BYSTRONIC", "p": [7] }

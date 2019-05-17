@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="css/printed.css" media="all" rel="StyleSheet" type="text/css" />
+		<link href="de_style.css" media="all" rel="StyleSheet" type="text/css" />
+		<meta name="generator" content="www.DrExplain.com" />
+				<title>&#x0417;&#x0430;&#x0449;&#x0438;&#x0449;&#x0435;&#x043D;&#x043D;&#x043E;&#x0435; &#x0441;&#x043E;&#x0435;&#x0434;&#x0438;&#x043D;&#x0435;&#x043D;&#x0438;&#x0435; "https://"</title>
+	</head>
+	<body>
+		<table class="pagetable">
+			<tr class="page" style="border-color: #ffffff;">
+				<td class="page_area" style="border-color: #ffffff; width: 100%;"><div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Защищенное соединение &quot;https://&quot;</strong></h1></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Есть множество вариантов сертификатов и способов их получения. Во всех случаях соединение будет зашифровано, но в некоторых случаях браузер будет предупреждать, что соединение не безопасно. Вот несколько из них:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<ul class="de_list"><li class="list-element list-counter-35" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-35;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_D8BCB2AC4C">Самозаверенный сертификат. Это самый простой и быстрый способ создать/установить сертификат. Но в этом случае все браузеры точно будут сообщать о том, что соединение не безопасно. Создать его можно с помощью команды <strong>PowerSehll</strong>:</span></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: -21px;"><span class="de_D8BCB2AC4C">&#160;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: -21px;"><span class="de_D8BCB2AC4C"><strong>New-SelfSignedCertificate -DnsName dnsName -CertStoreLocation cert:\LocalMachine\My</strong> </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: -21px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: -21px;"><span class="de_D8BCB2AC4C">где, </span><span class="de_C40D65A6EB">dnsName </span><span class="de_D8BCB2AC4C">- имя компьютера на котором будет развернут сайт DPA (имя, по которому на него будут заходить в браузере)</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: -21px;">&#160;</div>
+<ul class="de_list"><li class="list-element list-counter-36" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-36;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_D8BCB2AC4C">Можно создать сертификат, подписанный с помощью корневого сертификата контроллера домена. В этом случае IE не будет ругаться на этот сертификат, c остальными браузерами уверенности нет. И это только на компьютерах, включенных в домен, на всех остальных браузер всегда будет предупреждать о небезопасности подключения. </span><a href="https://technet.microsoft.com/ru-ru/library/dd362553.aspx?f=255&amp;MSPPError=-2147217396"><span class="de_87C8AF169F">Инструкция от Microsoft</span></a><span class="de_D8BCB2AC4C">.</span></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: -21px;">&#160;</div>
+<ul class="de_list"><li class="list-element list-counter-37" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-37;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 38px; text-indent: -21px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 21px;"></div><span class="de_D8BCB2AC4C">Обратиться в один из центров сертификации. Будет все корректно во всех браузерах. </span></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Перед созданием сертификата необходимо решить: будет ли доступен сайт извне или только внутри локальной сети и под какими dns именами, т.к. сертификат жестко привязан к dns имени.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">После того, как сертификат установлен необходимо:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">1. &#160; &#160; Найти сертификат в консоли управления (MMC) и запомнить его отпечаток:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">a. &#160; &#160; Win+R</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">b. &#160; &#160; Mmc</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">c. &#160; &#160; Файл -&gt; Добавить или удалить оснастку.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">d. &#160; &#160; Выбрать сертификаты и нажать кнопку добавить.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">e. &#160; &#160; Выбрать учетную запись компьютера и нажать далее.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">f. &#160; &#160; Выбрать локальный компьютер и нажать далее.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">g. &#160; &#160; Найти нужный сертификат и дважды щелкнуть по нему.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">h. &#160; &#160; Перейти на вкладку Состав.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">i. &#160; &#160; Найти в списке поле Отпечатки щелкнуть его.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">j. &#160; &#160; Скопировать шестнадцатеричные значения из текстового поля (без пробелов).</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">2. &#160; &#160; Выполнить привязку SSL-сертификата к номеру порта:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">a. &#160; &#160; Запустить консоль с привилегией администратора.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">b. &#160; &#160; netsh http add sslcert ipport=0.0.0.0:443&#160; certhash=отпечаток appid={9b370ac4-e875-4a1f-bc11-5c0a39cc4768} где, </span><span class="de_C40D65A6EB">отпечаток</span><span class="de_D8BCB2AC4C">- шестнадцатеричные значения из предыдущего пункта</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">c. &#160; &#160; netsh http add urlacl url=https://*:443/ user=”NT AUTHORITY\СИСТЕМА”</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">3. &#160; &#160; Настроить службу DPA Host</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">a. &#160; &#160; sc stop DPAHost</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">b. &#160; &#160; sc delete DPAHost</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">c. &#160; &#160; sc create DPAHost binPath= &quot;C:\Program Files\X-tensive\DPA Host\Xtensive.DPA.Web.exe https://*:443&quot; start= auto</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 35px; text-indent: 0px;"><span class="de_D8BCB2AC4C">d. &#160; &#160; sc start DPAHost</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+</div>				</td>
+			</tr>
+		</table>
+	</body>
+</html>

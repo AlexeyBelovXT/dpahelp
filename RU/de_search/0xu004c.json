@@ -2,9 +2,10 @@
 	{ "s": "LASER", "p": [7] },
 	{ "s": "LINUX", "p": [7] },
 	{ "s": "LOCALHOST", "p": [41] },
+	{ "s": "LOCALMACHINE", "p": [68] },
 	{ "s": "LOCALSYSTEM", "p": [35] },
-	{ "s": "LOGGING", "p": [81, 75] },
+	{ "s": "LOGGING", "p": [82, 76] },
 	{ "s": "LOGIN", "p": [67] },
 	{ "s": "LOGOUT", "p": [67] },
-	{ "s": "LOGS", "p": [75] }
+	{ "s": "LOGS", "p": [76] }
 ]

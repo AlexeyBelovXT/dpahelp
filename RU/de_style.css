@@ -180,6 +180,12 @@ span.de_7E4D78CFF8
 	font-size: 13pt;
 	color:#000000;
 }
+span.de_80BEB310C8
+{
+	font-family: "Symbol";
+	font-size: 10pt;
+	color:#000000;
+}
 span.de_87C8AF169F
 {
 	font-family: "Calibri";
@@ -991,7 +997,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-41, decimal) '.\00a0';
+	content: '' counter(list-counter-41, disc) '\00a0';
 	counter-increment: list-counter-41;
 }
 .list-counter-41 > div > div[class='list-marker-chm'] {
@@ -1027,10 +1033,28 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-43, disc) '\00a0';
+	content: '' counter(list-counter-43, decimal) '.\00a0';
 	counter-increment: list-counter-43;
 }
 .list-counter-43 > div > div[class='list-marker-chm'] {
+	display: inline-block;
+	text-align: left;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	*display: inline;
+}
+.list-counter-44 > div > * {
+	text-indent: 0px;}
+.list-counter-44 > div > div[class='list-marker']:before {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	content: '' counter(list-counter-44, disc) '\00a0';
+	counter-increment: list-counter-44;
+}
+.list-counter-44 > div > div[class='list-marker-chm'] {
 	display: inline-block;
 	text-align: left;
 	zoom: 1;

@@ -1,13 +1,13 @@
 [
 	{ "s": "UDP", "p": [7] },
 	{ "s": "ULTIMATE", "p": [6] },
-	{ "s": "UPDATE", "p": [71] },
-	{ "s": "UPDATEDOWNTIMEINFO", "p": [71] },
-	{ "s": "UPDATEOPERATION", "p": [71] },
-	{ "s": "UPDATERECORD", "p": [71] },
-	{ "s": "UPDATES", "p": [84, 79] },
-	{ "s": "UPDATESTAGE", "p": [71] },
-	{ "s": "URL", "p": [55, 72] },
-	{ "s": "URLACL", "p": [77, 72] },
-	{ "s": "USER", "p": [72] }
+	{ "s": "UPDATE", "p": [72] },
+	{ "s": "UPDATEDOWNTIMEINFO", "p": [72] },
+	{ "s": "UPDATEOPERATION", "p": [72] },
+	{ "s": "UPDATERECORD", "p": [72] },
+	{ "s": "UPDATES", "p": [85, 80] },
+	{ "s": "UPDATESTAGE", "p": [72] },
+	{ "s": "URL", "p": [56, 73] },
+	{ "s": "URLACL", "p": [78, 73] },
+	{ "s": "USER", "p": [73] }
 ]

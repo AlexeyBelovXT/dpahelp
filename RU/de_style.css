@@ -1063,7 +1063,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-45, decimal) '.\00a0';
+	content: '' counter(list-counter-45, disc) '\00a0';
 	counter-increment: list-counter-45;
 }
 .list-counter-45 > div > div[class='list-marker-chm'] {
@@ -1081,7 +1081,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-46, decimal) '.\00a0';
+	content: '' counter(list-counter-46, disc) '\00a0';
 	counter-increment: list-counter-46;
 }
 .list-counter-46 > div > div[class='list-marker-chm'] {
@@ -1099,10 +1099,46 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-47, disc) '\00a0';
+	content: '' counter(list-counter-47, decimal) '.\00a0';
 	counter-increment: list-counter-47;
 }
 .list-counter-47 > div > div[class='list-marker-chm'] {
+	display: inline-block;
+	text-align: left;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	*display: inline;
+}
+.list-counter-48 > div > * {
+	text-indent: 0px;}
+.list-counter-48 > div > div[class='list-marker']:before {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	content: '' counter(list-counter-48, decimal) '.\00a0';
+	counter-increment: list-counter-48;
+}
+.list-counter-48 > div > div[class='list-marker-chm'] {
+	display: inline-block;
+	text-align: left;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	*display: inline;
+}
+.list-counter-49 > div > * {
+	text-indent: 0px;}
+.list-counter-49 > div > div[class='list-marker']:before {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	content: '' counter(list-counter-49, disc) '\00a0';
+	counter-increment: list-counter-49;
+}
+.list-counter-49 > div > div[class='list-marker-chm'] {
 	display: inline-block;
 	text-align: left;
 	zoom: 1;

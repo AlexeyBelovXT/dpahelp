@@ -19,5 +19,5 @@
 	{ "s": "PROGRAMDATA\\X-TENSIVE\\DPA\\LOGGING", "p": [87, 81] },
 	{ "s": "PROGRAMDATA\\XTENSIVE\\PROJECT109\\LOGS", "p": [81] },
 	{ "s": "PROJECT109", "p": [81] },
-	{ "s": "PUBLIC", "p": [88, 82] }
+	{ "s": "PUBLIC", "p": [88, 82, 31] }
 ]

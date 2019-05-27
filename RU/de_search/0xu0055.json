@@ -1,7 +1,9 @@
 [
 	{ "s": "UDP", "p": [7] },
 	{ "s": "ULTIMATE", "p": [6] },
-	{ "s": "UPDATE", "p": [72] },
+	{ "s": "UPDATE", "p": [72, 31] },
+	{ "s": "UPDATECONTROLPROGRAM", "p": [31] },
+	{ "s": "UPDATECONTROLPROGRAMVERSION", "p": [31] },
 	{ "s": "UPDATEDOWNTIMEINFO", "p": [72] },
 	{ "s": "UPDATEOPERATION", "p": [72] },
 	{ "s": "UPDATERECORD", "p": [72] },
@@ -9,5 +11,7 @@
 	{ "s": "UPDATESTAGE", "p": [72] },
 	{ "s": "URL", "p": [56, 73] },
 	{ "s": "URLACL", "p": [78, 73] },
-	{ "s": "USER", "p": [73] }
+	{ "s": "USER", "p": [73] },
+	{ "s": "UTF", "p": [31] },
+	{ "s": "UTF-8", "p": [31] }
 ]

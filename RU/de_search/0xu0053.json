@@ -1,6 +1,7 @@
 [
 	{ "s": "SATA", "p": [11, 10] },
 	{ "s": "SC", "p": [73, 78] },
+	{ "s": "SCHEMAS", "p": [31] },
 	{ "s": "SCREEN", "p": [85, 80] },
 	{ "s": "SECOND", "p": [85, 80] },
 	{ "s": "SELFSIGNEDCERTIFICATE", "p": [73] },

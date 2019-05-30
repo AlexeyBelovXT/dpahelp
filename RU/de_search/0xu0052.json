@@ -1,17 +1,17 @@
 [
-	{ "s": "R", "p": [73] },
+	{ "s": "R", "p": [74] },
 	{ "s": "R2", "p": [6, 5] },
 	{ "s": "RAID", "p": [11, 10] },
 	{ "s": "RATE", "p": [56] },
 	{ "s": "REAL", "p": [29, 19, 11, 10] },
 	{ "s": "REAL-TIME", "p": [29, 19, 11, 10] },
 	{ "s": "REALTIME", "p": [3] },
-	{ "s": "REMOVE", "p": [72, 31] },
+	{ "s": "REMOVE", "p": [73, 31] },
 	{ "s": "REMOVECONTROLPROGRAM", "p": [31] },
 	{ "s": "REMOVECONTROLPROGRAMVERSION", "p": [31] },
 	{ "s": "RENISHAW", "p": [56, 33] },
-	{ "s": "REQUEST", "p": [85, 80] },
-	{ "s": "REQUESTS", "p": [85, 80] },
+	{ "s": "REQUEST", "p": [86, 81] },
+	{ "s": "REQUESTS", "p": [86, 81] },
 	{ "s": "RTU", "p": [11] },
 	{ "s": "RU", "p": [40, 54, 50] }
 ]

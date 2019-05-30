@@ -193,6 +193,12 @@ span.de_87C8AF169F
 	color:#0000ff;
 	text-decoration:underline;
 }
+span.de_8CBA6B29D4
+{
+	font-family: "Calibri";
+	font-size: 12pt;
+	color:#ec1346;
+}
 span.de_95EECAF4CA
 {
 	font-family: "Calibri";
@@ -1220,7 +1226,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-53, decimal) '.\00a0';
+	content: '' counter(list-counter-53, disc) '\00a0';
 	counter-increment: list-counter-53;
 }
 .list-counter-53 > div > div[class='list-marker-chm'] {
@@ -1238,7 +1244,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-54, decimal) '.\00a0';
+	content: '' counter(list-counter-54, disc) '\00a0';
 	counter-increment: list-counter-54;
 }
 .list-counter-54 > div > div[class='list-marker-chm'] {
@@ -1256,10 +1262,46 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-55, disc) '\00a0';
+	content: '' counter(list-counter-55, decimal) '.\00a0';
 	counter-increment: list-counter-55;
 }
 .list-counter-55 > div > div[class='list-marker-chm'] {
+	display: inline-block;
+	text-align: left;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	*display: inline;
+}
+.list-counter-56 > div > * {
+	text-indent: 0px;}
+.list-counter-56 > div > div[class='list-marker']:before {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	content: '' counter(list-counter-56, decimal) '.\00a0';
+	counter-increment: list-counter-56;
+}
+.list-counter-56 > div > div[class='list-marker-chm'] {
+	display: inline-block;
+	text-align: left;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	*display: inline;
+}
+.list-counter-57 > div > * {
+	text-indent: 0px;}
+.list-counter-57 > div > div[class='list-marker']:before {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	content: '' counter(list-counter-57, disc) '\00a0';
+	counter-increment: list-counter-57;
+}
+.list-counter-57 > div > div[class='list-marker-chm'] {
 	display: inline-block;
 	text-align: left;
 	zoom: 1;

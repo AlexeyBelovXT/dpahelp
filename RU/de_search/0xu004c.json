@@ -2,10 +2,10 @@
 	{ "s": "LASER", "p": [7] },
 	{ "s": "LINUX", "p": [7] },
 	{ "s": "LOCALHOST", "p": [46] },
-	{ "s": "LOCALMACHINE", "p": [73] },
+	{ "s": "LOCALMACHINE", "p": [74] },
 	{ "s": "LOCALSYSTEM", "p": [40] },
-	{ "s": "LOGGING", "p": [87, 81] },
-	{ "s": "LOGIN", "p": [72] },
-	{ "s": "LOGOUT", "p": [72] },
-	{ "s": "LOGS", "p": [81] }
+	{ "s": "LOGGING", "p": [88, 82] },
+	{ "s": "LOGIN", "p": [73] },
+	{ "s": "LOGOUT", "p": [73] },
+	{ "s": "LOGS", "p": [82] }
 ]

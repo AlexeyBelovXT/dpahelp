@@ -3,7 +3,7 @@
 	{ "s": "LINUX", "p": [7] },
 	{ "s": "LOCALHOST", "p": [46] },
 	{ "s": "LOCALMACHINE", "p": [74] },
-	{ "s": "LOCALSYSTEM", "p": [40] },
+	{ "s": "LOCALSYSTEM", "p": [14] },
 	{ "s": "LOGGING", "p": [88, 82] },
 	{ "s": "LOGIN", "p": [73] },
 	{ "s": "LOGOUT", "p": [73] },

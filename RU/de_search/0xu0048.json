@@ -5,14 +5,14 @@
 	{ "s": "HEIDENHAIN", "p": [52, 7] },
 	{ "s": "HID", "p": [50, 78] },
 	{ "s": "HOME", "p": [6] },
-	{ "s": "HOST", "p": [44, 41, 43, 11, 79, 74, 48, 7, 3, 82, 78, 40, 39, 10] },
-	{ "s": "HOST\\APPSETTINGS.PRODUCTION.CONFIG", "p": [44] },
+	{ "s": "HOST", "p": [18, 15, 17, 11, 79, 74, 48, 7, 3, 82, 78, 14, 13, 10] },
+	{ "s": "HOST\\APPSETTINGS.PRODUCTION.CONFIG", "p": [18] },
 	{ "s": "HOST\\XTENSIVE.DPA.WEB.EXE", "p": [74] },
 	{ "s": "HTTP", "p": [74, 79, 56, 46] },
 	{ "s": "HTTP://LOCALHOST", "p": [46] },
-	{ "s": "HTTPS", "p": [74, 54, 40] },
+	{ "s": "HTTPS", "p": [74, 54, 14] },
 	{ "s": "HTTPS://*:443", "p": [74] },
 	{ "s": "HTTPS://DPA.X-TENSIVE.RU", "p": [54] },
-	{ "s": "HTTPS://WWW.MICROSOFT.COM/RU-RU/DOWNLOAD/DETAILS.ASPX?ID", "p": [40] },
+	{ "s": "HTTPS://WWW.MICROSOFT.COM/RU-RU/DOWNLOAD/DETAILS.ASPX?ID", "p": [14] },
 	{ "s": "HURCO", "p": [7] }
 ]

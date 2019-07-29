@@ -1268,7 +1268,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-56, decimal) '.\00a0';
+	content: '' counter(list-counter-56, disc) '\00a0';
 	counter-increment: list-counter-56;
 }
 .list-counter-56 > div > div[class='list-marker-chm'] {
@@ -1304,10 +1304,28 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-58, disc) '\00a0';
+	content: '' counter(list-counter-58, decimal) '.\00a0';
 	counter-increment: list-counter-58;
 }
 .list-counter-58 > div > div[class='list-marker-chm'] {
+	display: inline-block;
+	text-align: left;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	*display: inline;
+}
+.list-counter-59 > div > * {
+	text-indent: 0px;}
+.list-counter-59 > div > div[class='list-marker']:before {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	content: '' counter(list-counter-59, disc) '\00a0';
+	counter-increment: list-counter-59;
+}
+.list-counter-59 > div > div[class='list-marker-chm'] {
 	display: inline-block;
 	text-align: left;
 	zoom: 1;

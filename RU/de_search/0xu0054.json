@@ -1,12 +1,12 @@
 [
-	{ "s": "TASKS", "p": [36] },
-	{ "s": "TCP", "p": [7] },
-	{ "s": "TECHNOLOGY", "p": [72] },
-	{ "s": "TECHNOLOGY/UPDATEOPERATION", "p": [72] },
-	{ "s": "TECHNOLOGY/UPDATESTAGE", "p": [72] },
-	{ "s": "TENSIVE", "p": [17, 78, 88, 82, 51, 49, 44, 87, 85, 81, 80, 77, 73, 53, 50, 36, 10, 5, 3] },
-	{ "s": "TIME", "p": [34, 24] },
-	{ "s": "TOTAL", "p": [85, 80] },
-	{ "s": "TPM", "p": [24] },
-	{ "s": "TRIAL", "p": [49] }
+	{ "s": "TASKS", "p": [93, 37] },
+	{ "s": "TCP", "p": [8] },
+	{ "s": "TECHNOLOGY", "p": [73] },
+	{ "s": "TECHNOLOGY/UPDATEOPERATION", "p": [73] },
+	{ "s": "TECHNOLOGY/UPDATESTAGE", "p": [73] },
+	{ "s": "TENSIVE", "p": [18, 79, 89, 83, 52, 50, 45, 92, 88, 86, 82, 81, 78, 74, 54, 51, 37, 15, 11, 6, 4] },
+	{ "s": "TIME", "p": [35, 25] },
+	{ "s": "TOTAL", "p": [86, 81] },
+	{ "s": "TPM", "p": [25] },
+	{ "s": "TRIAL", "p": [50] }
 ]

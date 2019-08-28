@@ -82,15 +82,20 @@ i\blocks\search\loading.gif
 i\blocks\interface-icons\interface-icons-sprite.png
 i\blocks\interface-icons\interface-icons-sprite-8.png
 i\null.gif
-drex_nastrojka_integratsii_custom_7.png
-drex_nastrojka_integratsii_custom_6.png
-drex_nastrojka_integratsii_custom_5.png
+drex_rest_api_custom_2.png
+drex_rest_api_custom.png
+rest_api_print.htm
+rest_api.htm
 drex_nastrojka_integratsii_custom_4.png
 drex_nastrojka_integratsii_custom_3.png
 drex_nastrojka_integratsii_custom_2.png
 drex_nastrojka_integratsii_custom.png
 nastrojka_integratsii_print.htm
 nastrojka_integratsii.htm
+sostav_i_tip_dannykh_print.htm
+sostav_i_tip_dannykh.htm
+osnovnye_printsipy_print.htm
+osnovnye_printsipy.htm
 integratsiya_2_print.htm
 integratsiya_2.htm
 drex_agent_custom_9.png
@@ -1074,8 +1079,6 @@ drex_ustanovka_dpa_server__custom_2.png
 drex_ustanovka_dpa_server__custom.png
 ustanovka_dpa_server__print.htm
 ustanovka_dpa_server_.htm
-drex_ustanovka_dpa_custom_19.png
-drex_ustanovka_dpa_custom_18.png
 drex_ustanovka_dpa_custom_17.png
 drex_ustanovka_dpa_custom_16.png
 drex_ustanovka_dpa_custom_15.png
@@ -1086,6 +1089,7 @@ drex_ustanovka_dpa_custom_11.png
 drex_ustanovka_dpa_custom_10.png
 drex_ustanovka_dpa_custom_9.png
 drex_ustanovka_dpa_custom_8.png
+drex_ustanovka_dpa_screen.png
 drex_ustanovka_dpa_custom_7.png
 drex_ustanovka_dpa_custom_6.png
 drex_ustanovka_dpa_custom_5.png
@@ -1095,7 +1099,6 @@ drex_ustanovka_dpa_custom_2.png
 drex_ustanovka_dpa_custom.png
 ustanovka_dpa_print.htm
 ustanovka_dpa.htm
-drex_podgotovka_servera_k_ustanovke_custom.png
 podgotovka_servera_k_ustanovke_print.htm
 podgotovka_servera_k_ustanovke.htm
 ustanovka_print.htm
@@ -1123,6 +1126,8 @@ arkhitektura_sistemy_print.htm
 arkhitektura_sistemy.htm
 o_sisteme_print.htm
 o_sisteme.htm
+kontakty_print.htm
+kontakty.htm
 drex_header_custom.png
 index_print.htm
 index.htm

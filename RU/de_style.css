@@ -855,7 +855,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-30, disc) '\00a0';
+	content: '' counter(list-counter-30, decimal) '.\00a0';
 	counter-increment: list-counter-30;
 }
 .list-counter-30 > div > div[class='list-marker-chm'] {
@@ -873,7 +873,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-31, disc) '\00a0';
+	content: '' counter(list-counter-31, decimal) '.\00a0';
 	counter-increment: list-counter-31;
 }
 .list-counter-31 > div > div[class='list-marker-chm'] {
@@ -945,7 +945,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-35, disc) '\00a0';
+	content: '' counter(list-counter-35, decimal) '.\00a0';
 	counter-increment: list-counter-35;
 }
 .list-counter-35 > div > div[class='list-marker-chm'] {
@@ -963,7 +963,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-36, disc) '\00a0';
+	content: '' counter(list-counter-36, lower-alpha) '.\00a0';
 	counter-increment: list-counter-36;
 }
 .list-counter-36 > div > div[class='list-marker-chm'] {
@@ -1233,7 +1233,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-51, decimal) '.\00a0';
+	content: '' counter(list-counter-51, disc) '\00a0';
 	counter-increment: list-counter-51;
 }
 .list-counter-51 > div > div[class='list-marker-chm'] {
@@ -1251,7 +1251,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-52, decimal) '.\00a0';
+	content: '' counter(list-counter-52, disc) '\00a0';
 	counter-increment: list-counter-52;
 }
 .list-counter-52 > div > div[class='list-marker-chm'] {
@@ -1305,7 +1305,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-55, decimal) '.\00a0';
+	content: '' counter(list-counter-55, disc) '\00a0';
 	counter-increment: list-counter-55;
 }
 .list-counter-55 > div > div[class='list-marker-chm'] {
@@ -1323,7 +1323,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-56, lower-alpha) '.\00a0';
+	content: '' counter(list-counter-56, disc) '\00a0';
 	counter-increment: list-counter-56;
 }
 .list-counter-56 > div > div[class='list-marker-chm'] {

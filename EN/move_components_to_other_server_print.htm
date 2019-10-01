@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="css/printed.css" media="all" rel="StyleSheet" type="text/css" />
+		<link href="de_style.css" media="all" rel="StyleSheet" type="text/css" />
+		<meta name="generator" content="www.DrExplain.com" />
+				<title>Move components to other server</title>
+	</head>
+	<body>
+		<table class="pagetable">
+			<tr class="page" style="border-color: #ffffff;">
+				<td class="page_area" style="border-color: #ffffff; width: 100%;"><div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Move components to other server</strong></h1></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C"><strong>Transfer database to other server</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_95EECAF4CA">Если переносу подлежит база данных</span><span class="de_D8BCB2AC4C">:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<ul class="de_list"><li class="list-element list-counter-7" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-7;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_D8BCB2AC4C">Create the backup copy of the database by management console (in case of MS SQL it is SQL Management Studio);</span></div>
+</li><li class="list-element list-counter-7" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_D8BCB2AC4C">Create on a new instance of MS SQL database with an identical name;</span></div>
+</li><li class="list-element list-counter-7" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_D8BCB2AC4C">Carry out a task of base recovery from the backup;</span></div>
+</li><li class="list-element list-counter-7" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -19px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 19px;"></div><span class="de_D8BCB2AC4C">Edit a line of connection: &quot;C:\Program Files\X-tensive\DPA Host\appsettings.Production.config&quot;;</span></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="757" height="411" class=" de_780D01ADE8" src="drex_move_components_to_other_server_custom.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C"><strong>Note: </strong>Pay attention to a way of authorization. if it changed - it needs to be specified. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">At emergence of questions - address specialists X-tensive. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C"><strong>Transfer of DPA Host</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<ul class="de_list"><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-8;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -20px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 20px;"></div><span class="de_D8BCB2AC4C">Install Host on the new server, on a step &quot;Setup of the database&quot; select the existing base;</span></div>
+</li><li class="list-element list-counter-8" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 37px; text-indent: -20px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 20px;"></div><span class="de_D8BCB2AC4C">On the <strong>DPA Server</strong> open the file&#160; %\ProgramData\x-tensive\DPA\Config\DpaServer.config&quot;. In the line with &lt;wcfTransport ipAddress= &quot;192.168.0.X&quot; of port= &quot;45618&quot;/&gt; specify the IP address of the new server.</span></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C"><strong>Transfer of DPA Server</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<ul class="de_list"><li class="list-element list-counter-9" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-9;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Copy file %\ProgramData\X-tensive\DPA\Config\DpaServer.config;</span></div>
+</li><li class="list-element list-counter-9" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Install DPA server; </span></div>
+</li><li class="list-element list-counter-9" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">The copied DpaServer.config file place in a %\ProgramData\X-tensive\DPA\Config\DpaServer.config, having replaced the file which is automatically created at installation;</span></div>
+</li><li class="list-element list-counter-9" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Add the new server to DPA Host;</span></div>
+</li><li class="list-element list-counter-9" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Request and set the new license.</span></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C"><strong>Transfer of DPA Server и DPA Host (all-in-one)</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<ul class="de_list"><li class="list-element list-counter-10" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-10;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Check correct time on the server where you make installation;</span></div>
+</li><li class="list-element list-counter-10" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">On the new server install the DPA Server and DPA Host; </span></div>
+</li><li class="list-element list-counter-10" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Through DPA Host request the new license;</span></div>
+</li><li class="list-element list-counter-10" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Stop services DPA Host and DPA Server;</span></div>
+</li><li class="list-element list-counter-10" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Copy file %\ProgramData\x-tensive\DPA\Config\DpaServer.config to the new server;</span></div>
+</li><li class="list-element list-counter-10" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Stop service of services DPA Host and DPA Server on that server from where you make transfer of a system;</span></div>
+</li><li class="list-element list-counter-10" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Start service of service DPA Server on the new server;</span></div>
+</li><li class="list-element list-counter-10" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Transfer a database backup to the new server;</span></div>
+</li><li class="list-element list-counter-10" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Start DPA Host on the new server;</span></div>
+</li><li class="list-element list-counter-10" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -18px;"><div class="list-marker" style="color:#000000;font-size:12pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;min-width: 18px;"></div><span class="de_D8BCB2AC4C">Set the license for DPA Host requested earlier on the new server;</span></div>
+</li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+</div>				</td>
+			</tr>
+		</table>
+	</body>
+</html>

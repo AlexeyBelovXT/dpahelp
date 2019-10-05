@@ -1,8 +1,9 @@
 [
 	{ "s": "J", "p": [32] },
-	{ "s": "JOBS", "p": [60] },
-	{ "s": "JOBS/UPDATE", "p": [60] },
-	{ "s": "JOURNAL", "p": [27] },
+	{ "s": "JOBS", "p": [58] },
+	{ "s": "JOBS/UPDATE", "p": [58] },
+	{ "s": "JOURNAL", "p": [31, 27] },
 	{ "s": "JOURNALING", "p": [28] },
+	{ "s": "JOURNALS", "p": [31] },
 	{ "s": "JSON", "p": [69] }
 ]

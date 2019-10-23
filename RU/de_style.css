@@ -855,7 +855,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-30, decimal) '.\00a0';
+	content: '' counter(list-counter-30, disc) '\00a0';
 	counter-increment: list-counter-30;
 }
 .list-counter-30 > div > div[class='list-marker-chm'] {
@@ -891,7 +891,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-32, disc) '\00a0';
+	content: '' counter(list-counter-32, decimal) '.\00a0';
 	counter-increment: list-counter-32;
 }
 .list-counter-32 > div > div[class='list-marker-chm'] {
@@ -945,7 +945,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-35, decimal) '.\00a0';
+	content: '' counter(list-counter-35, disc) '\00a0';
 	counter-increment: list-counter-35;
 }
 .list-counter-35 > div > div[class='list-marker-chm'] {
@@ -963,7 +963,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-36, lower-alpha) '.\00a0';
+	content: '' counter(list-counter-36, decimal) '.\00a0';
 	counter-increment: list-counter-36;
 }
 .list-counter-36 > div > div[class='list-marker-chm'] {
@@ -981,7 +981,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-37, disc) '\00a0';
+	content: '' counter(list-counter-37, lower-alpha) '.\00a0';
 	counter-increment: list-counter-37;
 }
 .list-counter-37 > div > div[class='list-marker-chm'] {
@@ -1345,6 +1345,24 @@ span.de_FFB638AC42
 	counter-increment: list-counter-57;
 }
 .list-counter-57 > div > div[class='list-marker-chm'] {
+	display: inline-block;
+	text-align: left;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	*display: inline;
+}
+.list-counter-58 > div > * {
+	text-indent: 0px;}
+.list-counter-58 > div > div[class='list-marker']:before {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	content: '' counter(list-counter-58, disc) '\00a0';
+	counter-increment: list-counter-58;
+}
+.list-counter-58 > div > div[class='list-marker-chm'] {
 	display: inline-block;
 	text-align: left;
 	zoom: 1;

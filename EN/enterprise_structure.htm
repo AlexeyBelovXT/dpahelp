@@ -123,17 +123,13 @@
 
                             <div class="b-tabs__selectorItem m-tabs__selectorItem__selected m-tabs__selectorItem__first" id="tabSelector_menu">
                                 <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__menu"></span>
-                                <span class="b-tabs__selectorContent">&#x041C;&#x0435;&#x043D;&#x044E;</span>
+                                <span class="b-tabs__selectorContent"></span>
                             </div>
     
-                            <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_index">
-                                <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__index"></span>
-                                <span class="b-tabs__selectorContent">&#x0418;&#x043D;&#x0434;&#x0435;&#x043A;&#x0441;</span>
-                             </div>
     
                             <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_search">
                                 <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__search"></span>
-                                <span class="b-tabs__selectorContent">&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;</span>
+                                <span class="b-tabs__selectorContent"></span>
                             </div>
 
                         </div><!-- /b-tabs__selectorItems -->
@@ -164,7 +160,7 @@
             <tr>
                 <td class="b-search__side m-search__side__input">
                     <div class="b-search__gap">
-                        <label id="tabs_searchInput_label" for="tabs_searchInput" class="b-search__labelPlaceholder">&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;</label>
+                        <label id="tabs_searchInput_label" for="tabs_searchInput" class="b-search__labelPlaceholder"></label>
                         <input id="tabs_searchInput" type="text" value="" class="b-search__inputText" />
                     </div>
                 </td>
@@ -173,7 +169,7 @@
                         <span class="b-button__wrapper">
                             <span class="b-button__text"></span>
                         </span>
-                        <input type="submit" class="b-button__submit" value="&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;" id="tabs_searchSubmit" />
+                        <input type="submit" class="b-button__submit" value="" id="tabs_searchSubmit" />
                     </span>
                 </td>
             </tr>
@@ -221,7 +217,7 @@
                 <td class="b-search__side m-search__side__input">
                     <div class="b-search__gap">
                         <span class="b-interfaceIcon m-interfaceIcon__search m-interfaceIcon__search__input b-search__inputTextIcon"></span>
-                        <label id="workZone_searchInput_label" for="workZone_searchInput" class="b-search__labelPlaceholder">&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;</label>
+                        <label id="workZone_searchInput_label" for="workZone_searchInput" class="b-search__labelPlaceholder"></label>
                         <input id="workZone_searchInput" type="text" value="" class="b-search__inputText" />
                     </div>
                 </td>
@@ -230,7 +226,7 @@
                         <span class="b-button__wrapper">
                             <span class="b-button__text"></span>
                         </span>
-                        <input type="submit" class="b-button__submit" value="&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;" id="workZone_searchSubmit" />
+                        <input type="submit" class="b-button__submit" value="" id="workZone_searchSubmit" />
                     </span>
                 </td>
             </tr>
@@ -247,13 +243,15 @@
                     <div id="headerSide__nav__breadCrumbs" class="b-breadCrumbs">
                         <ul class="b-breadCrumbs__items"><li class="b-breadCrumbs__item"><a href="administration.htm" class="b-breadCrumbs__link">Administration</a></li>
 
+<li class="b-breadCrumbs__item"><a href="basic_settings.htm" class="b-breadCrumbs__link">Basic settings</a></li>
+
 <li class="b-breadCrumbs__item">Enterprise structure</li>
 </ul>                    </div>
                 </td>
                 <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
                     <div class="b-controlButtons">
                         <ul class="b-controlButtons__items">
-                                                                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="enterprise_structure_print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>
+                                                                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="enterprise_structure_print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span></a></li>
                         </ul>
                     </div>
                 </td>
@@ -282,7 +280,7 @@
                             .addClass("b-article__headerSide m-article__headerSide__buttons")
                             .append(
                                 $("<div></div>").addClass("b-controlButtons")
-                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"enterprise_structure_print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>\n"))
+                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"enterprise_structure_print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span></a></li>\n"))
                             )
                         )
                     )
@@ -327,36 +325,39 @@
     </noscript>
                 <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Enterprise structure</strong></h1></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Now it is necessary to create a logical structure of the enterprise:</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Create workshops and departments. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Create sites and departments. </span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Distribute the added equipment. </span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Create working hours.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Configure accesses for employees to Structure.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Click <img  alt="" style="border: solid 0px;  " width="47" height="28" class=" de_780D01ADE8" src="drex_enterprise_structure_custom.png"/>, select «Enterprise structure».</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">In the left part of a screen hierarchical structure of the enterprise is displayed.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1223" height="744" class=" de_8CB40C7215" src="drex_enterprise_structure_custom_2.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="822" height="407" class=" de_780D01ADE8" src="drex_enterprise_structure_custom_2.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Example</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">The system supports preset structure. You can describe in detail structure of an automation object using the following elements:</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">· Primary production</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">· Production site (workshop)</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">· Site (workshop)</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">· Department (section/line)</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">· Equipment (working device)</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Get up on any existing element of hierarchy and execute one of the following actions: </span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">· Create new structural element </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">· Tie the connected equipment to structural element like Department.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1222" height="743" class=" de_8CB40C7215" src="drex_enterprise_structure_custom_3.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">· Tie the connected equipment to structural element like Site.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="812" height="377" class=" de_780D01ADE8" src="drex_enterprise_structure_custom_3.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Create structure item </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Set Name and description, click &quot;Create&quot;.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="1223" height="744" class=" de_8CB40C7215" src="drex_enterprise_structure_custom_4.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Create structure Item. </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Select the connected driver and click &quot;Create&quot;.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="1223" height="744" class=" de_780D01ADE8" src="drex_enterprise_structure_custom_5.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Add equipment object</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Note: if during creation of the driver the step of creation of a structure member was not passed, repeated creation of the working center is not required, however it is possible to make a driver rebinding to again safe element (without data loss). You can describe structure of an automation object in detail.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">You can't add equipment to production Site. You need Department. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="817" height="409" class=" de_780D01ADE8" src="drex_enterprise_structure_custom_4.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Create structure Item. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Now you can add equipment (CNC machine)</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="813" height="635" class=" de_780D01ADE8" src="drex_enterprise_structure_custom_5.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Add equipment object</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="818" height="383" class=" de_780D01ADE8" src="drex_enterprise_structure_custom_6.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Example of Enterprise Structure</span></div>
 </div>                                    			
                 			</div>
 </body>

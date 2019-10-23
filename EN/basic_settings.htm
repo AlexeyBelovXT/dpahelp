@@ -123,17 +123,13 @@
 
                             <div class="b-tabs__selectorItem m-tabs__selectorItem__selected m-tabs__selectorItem__first" id="tabSelector_menu">
                                 <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__menu"></span>
-                                <span class="b-tabs__selectorContent">&#x041C;&#x0435;&#x043D;&#x044E;</span>
+                                <span class="b-tabs__selectorContent"></span>
                             </div>
     
-                            <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_index">
-                                <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__index"></span>
-                                <span class="b-tabs__selectorContent">&#x0418;&#x043D;&#x0434;&#x0435;&#x043A;&#x0441;</span>
-                             </div>
     
                             <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_search">
                                 <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__search"></span>
-                                <span class="b-tabs__selectorContent">&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;</span>
+                                <span class="b-tabs__selectorContent"></span>
                             </div>
 
                         </div><!-- /b-tabs__selectorItems -->
@@ -164,7 +160,7 @@
             <tr>
                 <td class="b-search__side m-search__side__input">
                     <div class="b-search__gap">
-                        <label id="tabs_searchInput_label" for="tabs_searchInput" class="b-search__labelPlaceholder">&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;</label>
+                        <label id="tabs_searchInput_label" for="tabs_searchInput" class="b-search__labelPlaceholder"></label>
                         <input id="tabs_searchInput" type="text" value="" class="b-search__inputText" />
                     </div>
                 </td>
@@ -173,7 +169,7 @@
                         <span class="b-button__wrapper">
                             <span class="b-button__text"></span>
                         </span>
-                        <input type="submit" class="b-button__submit" value="&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;" id="tabs_searchSubmit" />
+                        <input type="submit" class="b-button__submit" value="" id="tabs_searchSubmit" />
                     </span>
                 </td>
             </tr>
@@ -221,7 +217,7 @@
                 <td class="b-search__side m-search__side__input">
                     <div class="b-search__gap">
                         <span class="b-interfaceIcon m-interfaceIcon__search m-interfaceIcon__search__input b-search__inputTextIcon"></span>
-                        <label id="workZone_searchInput_label" for="workZone_searchInput" class="b-search__labelPlaceholder">&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;</label>
+                        <label id="workZone_searchInput_label" for="workZone_searchInput" class="b-search__labelPlaceholder"></label>
                         <input id="workZone_searchInput" type="text" value="" class="b-search__inputText" />
                     </div>
                 </td>
@@ -230,7 +226,7 @@
                         <span class="b-button__wrapper">
                             <span class="b-button__text"></span>
                         </span>
-                        <input type="submit" class="b-button__submit" value="&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;" id="workZone_searchSubmit" />
+                        <input type="submit" class="b-button__submit" value="" id="workZone_searchSubmit" />
                     </span>
                 </td>
             </tr>
@@ -253,7 +249,7 @@
                 <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
                     <div class="b-controlButtons">
                         <ul class="b-controlButtons__items">
-                                                                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="basic_settings_print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>
+                                                                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="basic_settings_print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span></a></li>
                         </ul>
                     </div>
                 </td>
@@ -282,7 +278,7 @@
                             .addClass("b-article__headerSide m-article__headerSide__buttons")
                             .append(
                                 $("<div></div>").addClass("b-controlButtons")
-                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"basic_settings_print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>\n"))
+                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"basic_settings_print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span></a></li>\n"))
                             )
                         )
                     )
@@ -329,13 +325,19 @@
 <div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">The first step: connect DPA Server to DPA Host , then add the license and the equipment.</span></div>
 <div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">After successful installation of a system on a desktop labels of &quot;CONFIG&quot; and &quot;HOST&quot; are created. </span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Follow the link &quot;HOST&quot;. On a navigation bar press the button<img  alt="" style="border: solid 0px;  " width="47" height="28" class=" de_780D01ADE8" src="drex_basic_settings_custom.png"/>, and from the drop-down list select the Monitoring item.</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="537" height="419" class=" de_8CB40C7215" src="drex_basic_settings_custom_2.png"/></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Home Page</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">At the first enter (http://localhost/) use the login and the password by default: «admin», «admin».</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Click &quot;LOG IN&quot;</span><span class="de_6D2D8B1FD4"> .</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="537" height="328" class=" de_780D01ADE8" src="drex_basic_settings_custom.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160;Authorization window</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Then the system will suggest to change the password. </span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="538" height="249" class=" de_780D01ADE8" src="drex_basic_settings_custom_2.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Request of change password </span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">On a navigation bar press the button<img  alt="" style="border: solid 0px;  " width="47" height="28" class=" de_780D01ADE8" src="drex_basic_settings_custom_3.png"/>, and from the drop-down list select the Monitoring item.</span></div>
 <div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">If installation of components is made on one server, then DPA Server and transport will be added automatically.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="564" height="474" class=" de_8CB40C7215" src="drex_basic_settings_custom_3.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="823" height="452" class=" de_780D01ADE8" src="drex_basic_settings_custom_4.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">If DPA server installed separately, pass to the following section.</span></div>
 </div>                                    			
                 			</div>

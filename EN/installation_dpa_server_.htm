@@ -123,17 +123,13 @@
 
                             <div class="b-tabs__selectorItem m-tabs__selectorItem__selected m-tabs__selectorItem__first" id="tabSelector_menu">
                                 <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__menu"></span>
-                                <span class="b-tabs__selectorContent">&#x041C;&#x0435;&#x043D;&#x044E;</span>
+                                <span class="b-tabs__selectorContent"></span>
                             </div>
     
-                            <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_index">
-                                <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__index"></span>
-                                <span class="b-tabs__selectorContent">&#x0418;&#x043D;&#x0434;&#x0435;&#x043A;&#x0441;</span>
-                             </div>
     
                             <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_search">
                                 <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__search"></span>
-                                <span class="b-tabs__selectorContent">&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;</span>
+                                <span class="b-tabs__selectorContent"></span>
                             </div>
 
                         </div><!-- /b-tabs__selectorItems -->
@@ -164,7 +160,7 @@
             <tr>
                 <td class="b-search__side m-search__side__input">
                     <div class="b-search__gap">
-                        <label id="tabs_searchInput_label" for="tabs_searchInput" class="b-search__labelPlaceholder">&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;</label>
+                        <label id="tabs_searchInput_label" for="tabs_searchInput" class="b-search__labelPlaceholder"></label>
                         <input id="tabs_searchInput" type="text" value="" class="b-search__inputText" />
                     </div>
                 </td>
@@ -173,7 +169,7 @@
                         <span class="b-button__wrapper">
                             <span class="b-button__text"></span>
                         </span>
-                        <input type="submit" class="b-button__submit" value="&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;" id="tabs_searchSubmit" />
+                        <input type="submit" class="b-button__submit" value="" id="tabs_searchSubmit" />
                     </span>
                 </td>
             </tr>
@@ -221,7 +217,7 @@
                 <td class="b-search__side m-search__side__input">
                     <div class="b-search__gap">
                         <span class="b-interfaceIcon m-interfaceIcon__search m-interfaceIcon__search__input b-search__inputTextIcon"></span>
-                        <label id="workZone_searchInput_label" for="workZone_searchInput" class="b-search__labelPlaceholder">&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;</label>
+                        <label id="workZone_searchInput_label" for="workZone_searchInput" class="b-search__labelPlaceholder"></label>
                         <input id="workZone_searchInput" type="text" value="" class="b-search__inputText" />
                     </div>
                 </td>
@@ -230,7 +226,7 @@
                         <span class="b-button__wrapper">
                             <span class="b-button__text"></span>
                         </span>
-                        <input type="submit" class="b-button__submit" value="&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;" id="workZone_searchSubmit" />
+                        <input type="submit" class="b-button__submit" value="" id="workZone_searchSubmit" />
                     </span>
                 </td>
             </tr>
@@ -253,7 +249,7 @@
                 <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
                     <div class="b-controlButtons">
                         <ul class="b-controlButtons__items">
-                                                                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="installation_dpa_server__print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>
+                                                                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="installation_dpa_server__print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span></a></li>
                         </ul>
                     </div>
                 </td>
@@ -282,7 +278,7 @@
                             .addClass("b-article__headerSide m-article__headerSide__buttons")
                             .append(
                                 $("<div></div>").addClass("b-controlButtons")
-                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"installation_dpa_server__print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>\n"))
+                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"installation_dpa_server__print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span></a></li>\n"))
                             )
                         )
                     )
@@ -326,54 +322,42 @@
     <div>To properly display this page you need a browser with JavaScript support.</div>
     </noscript>
                 <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Installation DPA Server </strong></h1></div></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: -36px;"><span class="de_D8BCB2AC4C">To download the installer for DPA Server: on the homepage click <img  alt="" style="border: solid 0px;  " width="51" height="32" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom.png"/> and from the drop-down list select the &quot;Installation files&quot;.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 13px; text-indent: 0px;">
-<map name="controlmap69fc2487_68aa_4b36_b773_4bdb077a94ff" id="controlmap69fc2487_68aa_4b36_b773_4bdb077a94ff">
-</map><img usemap="#controlmap69fc2487_68aa_4b36_b773_4bdb077a94ff"  alt="Installation DPA Server " style="border: solid 1px;  " width="225" height="377" class="de_wndimg de_8CB40C7215" src="drex_installation_dpa_server__screen.png"/></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 36px; text-indent: -36px;"><span class="de_D8BCB2AC4C">To download the installer for DPA Server: on the homepage click <img  alt="" style="border: solid 0px;  " width="51" height="32" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom.png"/> and from the drop-down list select the &quot;Setup files&quot;.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 13px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="209" height="365" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_2.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 13px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Main menu. Home page&#160; </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -36px;"><span class="de_D8BCB2AC4C">On the screen form &quot;Installation files&quot; select the DPA Server item from the submitted list, and press the button <img  alt="" style="border: solid 0px;  " width="26" height="26" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_2.png"/>. File </span><span class="de_B81115C8C6">Setup.DPA.Server.(version).exe</span><span class="de_D8BCB2AC4C"> will be saved in the specified directory.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="823" height="436" class=" de_8CB40C7215" src="drex_installation_dpa_server__custom_3.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -36px;"><span class="de_D8BCB2AC4C">On the screen form &quot;Installation files&quot; select the DPA Server item from the submitted list, and press the button <img  alt="" style="border: solid 0px;  " width="26" height="26" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_3.png"/>. File </span><span class="de_B81115C8C6">Setup.DPA.Server.(version).exe</span><span class="de_D8BCB2AC4C"> will be saved in the specified directory.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="823" height="436" class=" de_8CB40C7215" src="drex_installation_dpa_server__custom_4.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 36px; text-indent: -36px;"><span class="de_D8BCB2AC4C">Installation files menu.&#160; </span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 303px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">1. Start application </span><span class="de_B81115C8C6">Setup.DPA.Server.(version).exe</span><span class="de_D8BCB2AC4C">. </span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_4.png"/></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_5.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </span><span class="de_4CD179DA38">1. Installation wizard. Start</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Click &quot;Nezt&quot;.</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 38px; text-indent: -38px;"><span class="de_D8BCB2AC4C">2. Attentively read license agreement. If you agree with conditions, select checkbox and click &quot;Next&quot;, else click &quot;Cancel&quot; <img  alt="" style="border: solid 0px;  " width="72" height="20" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_5.png"/>.</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_6.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 2. </span><span class="de_4CD179DA38">Installation wizard. </span><span class="de_D8BCB2AC4C">license agreement</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">3. Check necessary requirements to an empty space on a disk. If it is necessary change an installation directory. </span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C"><strong>Note</strong>: Do not change the parameters set by default needlessly.</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Нажмите кнопку <img  alt="" style="border: solid 0px;  " width="72" height="20" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_7.png"/>.</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_8.png"/><span class="de_D8BCB2AC4C">&#160; &#160; &#160; &#160; </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 3.1 Installation wizard. Free space on drive</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160;</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_9.png"/></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Click &quot;Next&quot;.</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 38px; text-indent: -38px;"><span class="de_D8BCB2AC4C">2. Attentively read license agreement. If you agree with conditions, select checkbox and click &quot;Next&quot;, else click &quot;Cancel&quot;.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_6.png"/></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">3. Check necessary requirements to an empty space on a disk. Click &quot;Browse&quot; If it is necessary change an installation directory. </span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_7.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 3.2 Installation wizard. Choose installation directory</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160;</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Click &quot;Next&quot;.</span><span class="de_4CD179DA38"> </span></div>
 <div class="p" style="text-align: justify; direction: ltr; margin-left: 37px; text-indent: -37px;"><span class="de_D8BCB2AC4C">4. </span><span class="de_4CD179DA38">The system requests on behalf of what user the service DPA Server should be launched. </span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 37px; text-indent: -37px;"><span class="de_4CD179DA38"><strong>Note</strong>: It is necessary to be convinced that the selected user has necessary rights.</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Нажмите кнопку <img  alt="" style="border: solid 0px;  " width="72" height="20" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_10.png"/>.</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_11.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160;</span><span class="de_4CD179DA38">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 4.&#160; Installation wizard. user selection</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">5. </span><span class="de_4CD179DA38">The system requests confirmation of parameters. Click &quot;Install&quot; <img  alt="" style="border: solid 0px;  " width="104" height="20" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_12.png"/></span><span class="de_D8BCB2AC4C">.</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_13.png"/></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 37px; text-indent: -37px;"><span class="de_4CD179DA38"><strong>Note</strong>: It is necessary to be convinced that the selected user has necessary rights. Click &quot;Test credentials&quot;</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_8.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">&#160;</span><span class="de_4CD179DA38">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 4.&#160; Installation wizard. Test credential before continue</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Click &quot;Next&quot;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">5. </span><span class="de_4CD179DA38">The system requests confirmation of parameters. Click &quot;Install&quot; </span><span class="de_D8BCB2AC4C">.</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_9.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 5. Installation wizard. Confirmation</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">6. Wait several minutes.</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_14.png"/></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="385" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_10.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 6. Installation wizard. Installation started</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">7. Congratulation. The system is successfully installed.</span></div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_15.png"/></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="495" height="387" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_11.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 7. Installation wizard. Finishing</span></div>
 <div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Click &quot;Finish&quot; <img  alt="" style="border: solid 0px;  " width="72" height="20" class=" de_780D01ADE8" src="drex_installation_dpa_server__custom_16.png"/>, for completion of installation DPA Server.</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D8BCB2AC4C">Click &quot;Finish&quot; for completion of installation DPA Server.</span></div>
 </div>                                    			
                 			</div>
 </body>

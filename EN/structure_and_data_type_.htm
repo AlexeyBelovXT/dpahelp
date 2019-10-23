@@ -123,17 +123,13 @@
 
                             <div class="b-tabs__selectorItem m-tabs__selectorItem__selected m-tabs__selectorItem__first" id="tabSelector_menu">
                                 <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__menu"></span>
-                                <span class="b-tabs__selectorContent">&#x041C;&#x0435;&#x043D;&#x044E;</span>
+                                <span class="b-tabs__selectorContent"></span>
                             </div>
     
-                            <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_index">
-                                <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__index"></span>
-                                <span class="b-tabs__selectorContent">&#x0418;&#x043D;&#x0434;&#x0435;&#x043A;&#x0441;</span>
-                             </div>
     
                             <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_search">
                                 <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__search"></span>
-                                <span class="b-tabs__selectorContent">&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;</span>
+                                <span class="b-tabs__selectorContent"></span>
                             </div>
 
                         </div><!-- /b-tabs__selectorItems -->
@@ -164,7 +160,7 @@
             <tr>
                 <td class="b-search__side m-search__side__input">
                     <div class="b-search__gap">
-                        <label id="tabs_searchInput_label" for="tabs_searchInput" class="b-search__labelPlaceholder">&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;</label>
+                        <label id="tabs_searchInput_label" for="tabs_searchInput" class="b-search__labelPlaceholder"></label>
                         <input id="tabs_searchInput" type="text" value="" class="b-search__inputText" />
                     </div>
                 </td>
@@ -173,7 +169,7 @@
                         <span class="b-button__wrapper">
                             <span class="b-button__text"></span>
                         </span>
-                        <input type="submit" class="b-button__submit" value="&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;" id="tabs_searchSubmit" />
+                        <input type="submit" class="b-button__submit" value="" id="tabs_searchSubmit" />
                     </span>
                 </td>
             </tr>
@@ -221,7 +217,7 @@
                 <td class="b-search__side m-search__side__input">
                     <div class="b-search__gap">
                         <span class="b-interfaceIcon m-interfaceIcon__search m-interfaceIcon__search__input b-search__inputTextIcon"></span>
-                        <label id="workZone_searchInput_label" for="workZone_searchInput" class="b-search__labelPlaceholder">&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;</label>
+                        <label id="workZone_searchInput_label" for="workZone_searchInput" class="b-search__labelPlaceholder"></label>
                         <input id="workZone_searchInput" type="text" value="" class="b-search__inputText" />
                     </div>
                 </td>
@@ -230,7 +226,7 @@
                         <span class="b-button__wrapper">
                             <span class="b-button__text"></span>
                         </span>
-                        <input type="submit" class="b-button__submit" value="&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;" id="workZone_searchSubmit" />
+                        <input type="submit" class="b-button__submit" value="" id="workZone_searchSubmit" />
                     </span>
                 </td>
             </tr>
@@ -253,7 +249,7 @@
                 <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
                     <div class="b-controlButtons">
                         <ul class="b-controlButtons__items">
-                                                                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="structure_and_data_type__print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>
+                                                                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="structure_and_data_type__print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span></a></li>
                         </ul>
                     </div>
                 </td>
@@ -282,7 +278,7 @@
                             .addClass("b-article__headerSide m-article__headerSide__buttons")
                             .append(
                                 $("<div></div>").addClass("b-controlButtons")
-                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"structure_and_data_type__print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span>&#x0412;&#x0435;&#x0440;&#x0441;&#x0438;&#x044F; &#x0434;&#x043B;&#x044F; &#x043F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0438;</a></li>\n"))
+                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"structure_and_data_type__print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span></a></li>\n"))
                             )
                         )
                     )
@@ -328,93 +324,93 @@
                 <div class="description_on_page"><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Structure and data type.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">DPA supports import of the XML files given through transfer. In a body of the file one or several tasks of import are described. Tasks can be classified in four main groups: only creation of an object, creation or updating of an object, only updating of an object, removal of an object. In addition to these groups of tasks, there are tasks for management of schedules of work and job controls.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">The following entities can be imported to DPA:</span></div>
-<ul class="de_list"><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-16;">
+<ul class="de_list"><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-17;">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Crews&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Type of cycles unitary enterprise&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Idle Time Reasons&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Types of the Reasons of Idle Time&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Note Types&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Reasons for rejection&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Positions&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Processing Types&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Product Types&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Type of the Managing Program&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Names of Changes&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Suspension Reasons&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Groups of Workers of the Centers&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reference book &quot;Templates of Schedules&quot;</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Working schedules of the working centers</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Managing programs and their versions</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Products and their versions</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Technologies</span></div>
-</li><li class="list-element list-counter-16" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Planned daily tasks and management of them</span></div>
 </li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Data type and the transferred values</span></div>
-<ul class="de_list"><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-17;">
+<ul class="de_list"><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-18;">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Crew (the name, the foreman, the list of the personnel entering into crew)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Type of cycles unitary enterprise (name)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Idle time reason (name, color, idle time reason type, category, signs of availability to installation in analysts and operator)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Type of the reasons of idle time (name)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Type of the note (name)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Reasons for rejection (name, color)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Position (name)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Type of processing (name)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Type of a product (name)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Type of the program (name)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Name of change (name, color)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Suspension reason (name, color)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Group of workers of the centers (name, list of the equipment)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Schedule template (name, type, list of intervals)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Managing program (name, processing type, program type, category, division, comment)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Version of the managing program (status, version number, description, quantity of products, adjustment time, runtime, file, list of the equipment)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Product (code, name, category, type, division, comment)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Version of a product (status, version number, description, list of the equipment, list of components)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Technology (the name, the description, the activity period, the status, the made product, the list of stages, the list of media files)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Technology stage (name, description, list of operations, list of the equipment, list of media files)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Technological operation (name, description, duration, type, list of media files)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Planned daily tasks (the identifier from an external system, the description, the comment, the status, the equipment, planned and relevant time of the beginning/termination, the list of media files, the list of links to documentation)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Production (order, lot number, type, planned quantity, technology stage, version of a product)</span></div>
-</li><li class="list-element list-counter-17" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+</li><li class="list-element list-counter-18" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Maintenance&amp;Repairing (type, reason)</span></div>
 </li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">The complete information about structure of XML files can be obtained from the xsd-schemes placed on our ftp (ftp://ftp.x-tensive.com/Public/Downloads/DPA.Schemas/)</span></div>

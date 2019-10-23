@@ -1,11 +1,11 @@
 [
 	{ "s": "J", "p": [25] },
 	{ "s": "JOB", "p": [60] },
-	{ "s": "JOBS", "p": [57] },
+	{ "s": "JOBS", "p": [57, 24] },
 	{ "s": "JOBS/UPDATE", "p": [57] },
-	{ "s": "JOURNAL", "p": [35, 24] },
+	{ "s": "JOURNAL", "p": [55, 35, 24] },
 	{ "s": "JOURNALING", "p": [21] },
 	{ "s": "JOURNALIZING", "p": [55, 49] },
-	{ "s": "JOURNALS", "p": [24] },
+	{ "s": "JOURNALS", "p": [52, 24] },
 	{ "s": "JSON", "p": [62] }
 ]

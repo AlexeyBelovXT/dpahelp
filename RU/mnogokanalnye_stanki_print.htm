@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="css/printed.css" media="all" rel="StyleSheet" type="text/css" />
+		<link href="de_style.css" media="all" rel="StyleSheet" type="text/css" />
+		<meta name="generator" content="www.DrExplain.com" />
+				<title>&#x041C;&#x043D;&#x043E;&#x0433;&#x043E;&#x043A;&#x0430;&#x043D;&#x0430;&#x043B;&#x044C;&#x043D;&#x044B;&#x0435; &#x0441;&#x0442;&#x0430;&#x043D;&#x043A;&#x0438;</title>
+	</head>
+	<body>
+		<table class="pagetable">
+			<tr class="page" style="border-color: #ffffff;">
+				<td class="page_area" style="border-color: #ffffff; width: 100%;"><div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Многоканальные станки</strong></h1></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">На текущий момент наша система учитывает информацию о состоянии каналов как единое целое.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Поэтому, когда один канал простаивает, а другой работает, то статус всего станка будет &quot;работает&quot;.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">И именно это будет отображено на графиках.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Сейчас идет разработка учета каналов по отдельности. </div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Пока же предлагаем сделать следующее.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Большинство многоканальных, встречали только двухканальные, станков устроены так:</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">1) Один из каналов является основным. По этому каналу идут уведомления о непосредственной работе оператора со станком.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">2) Другой канал является сервисным, на нем регулярно запускается служебная программа диагностики.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Возникает задача: определить какой из каналов является вспомогательным и отключить его.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Открываем Аналитику &quot;Диаграмма Ганта&quot;. Выбираем интересующий нас станок и смотрим.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="698" height="419" class=" de_780D01ADE8" src="drex_mnogokanalnye_stanki_custom.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Общее состояние станка показывается Зеленым цветом, т.е. станок работает. При этом на канале 1 с 03:04 до 07:32 зафиксирован простой.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="747" height="407" class=" de_780D01ADE8" src="drex_mnogokanalnye_stanki_custom_2.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">управляющая программа с длинным, явно назначенным вручную, именем в состоянии ожидания.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Переключаемся на второй канал.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="694" height="428" class=" de_780D01ADE8" src="drex_mnogokanalnye_stanki_custom_3.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Общее состояние станка &quot;Работает&quot;.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Состояние канала &quot;Работает&quot;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">В указанное время идет выполнение программы E_CHAN2.MPF где CHAN2 это имя канала (это увидим дальше).</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Анализируя Диаграмму Ганта за другие промежутки времени, вы обязательно увидите, что на одном канале запускается одна и та же программа и состояние станка в это время &quot;Работает&quot;. На другом канале название программы может меняться, так же меняется и состояние станка в это время.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Таким образом становится понятным служебный канал - CHAN2</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Второй канал надо исключить из учета общего состояния станка. Для этого открываем Структуру предприятия, находим необходимый станок </div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">и редактируем параметр &quot;Учитываемые в общем состоянии каналы&quot;.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="1365" height="535" class=" de_780D01ADE8" src="drex_mnogokanalnye_stanki_custom_4.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Важно:</strong> Учет служебного канала в общем состоянии станка прекращается с текущего момента, т.е. все предыдущие данные останутся без изменений.</div>
+</div>				</td>
+			</tr>
+		</table>
+	</body>
+</html>

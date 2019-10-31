@@ -98,5 +98,7 @@
 	"97": ["Технология", "tekhnologiya.htm"],
 	"98": ["Мастер", "master.htm"],
 	"99": ["Контроль загрузки оборудования", "kontrol_zagruzki_oborudovaniya.htm"],
-	"100": ["Аналитика простоев", "analitika_prostoev.htm"]
+	"100": ["Аналитика простоев", "analitika_prostoev.htm"],
+	"101": ["Учет выпуска", "uchet_vypuska.htm"],
+	"102": ["Аналитика", "analitika_3.htm"]
 }

@@ -396,6 +396,25 @@
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">Если на PCU не установлен STEP7, то для работы станка с DPA потребуется установка агента.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">Перед этим необходимо настроить сетевые подключения.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">Перезапуск системы потребуется в двух случаях:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">1) когда вам надо настроить сетевые интерфейсы PCU</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">2) когда на HMI пользователь с правами Оператора, а вам надо изменить настройки.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">При перезапуске системы появляется окно с выбором загрузки</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">1) Грузить HMI</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">2) Грузить Сервисный рабочий стол</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">3) Перезагрузить систему</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">После выбора соответствующего пункта надо пройти авторизацию.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">Если окно с выбором методов загрузки не появилось.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">То во время загрузки системы, когда показывается текстовая информация о системе поверх черного экрана, нажать управляющую кнопку &lt;3&gt; на панели управления.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">у вас есть 3 секунды. если не успеете, то придется перезагружать систему.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">Появится текстовое меню с выбором способов загрузки. Где надо выбрать интересующий вариант.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">Такое происходит на PCU20. если в системе PCU50 и выше, то при загрузке будет графическое окно с выбором метода входа в систему.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">Изменить сетевые настройки можно двумя способами:</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">1) перезагрузить станок и зайти в Сервисный рабочий стол (не HMI).</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">далее, через Панель Управления и Настройки сети, найти сетевое подключение Ethernet1 и провести настройки.</span></div>
@@ -419,6 +438,11 @@
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a href="ftp://ftp.x-tensive.com/Public/DPA%20Agents/"><span class="de_69FA39705F">ftp://ftp.x-tensive.com/Public/DPA%20Agents/</span></a></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">текущая версия: dpa.agent(#49).install.exe</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">C HMI нет прямого доступа в интернет, поэтому необходимо выложить файл на локальный ресурс. Подойдет папка на DPA Server, поскольку станки должны иметь к нему доступ по сети. Далее скопировать файл на локальный диск HMI.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Просим системного администратора создать папку общего доступа для хранения установочных файлов DPA. Например папка Agents. Администратор должен настроить права доступа таким образом, чтобы мы могли читать данные не зависимо от пользователя, которым зашли на PCU. Т.е. доступ должен быть открыт как для доменных, так и для локальных пользователей. Например создана папка \\имяDPAserver\АгентыDPA</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">1) Чтобы попасть в эту папку, открываем на PCU Проводник и вбиваем адрес, указанный администратором.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">2) Находим самый свежий, по порядковому номеру, агент и перетаскиваем к себе на Рабочий стол</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_922EDE2353"><strong>Установка агента</strong></span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Агент не требует дополнительные компоненты. Поэтому сразу можно запускать установку.</span></div>

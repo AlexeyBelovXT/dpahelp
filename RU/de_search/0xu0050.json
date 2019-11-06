@@ -1,9 +1,9 @@
 [
 	{ "s": "PARITY", "p": [23] },
-	{ "s": "PASSWORD", "p": [23] },
-	{ "s": "PCU", "p": [71, 70] },
-	{ "s": "PCU20", "p": [71, 70] },
-	{ "s": "PCU50", "p": [71, 70] },
+	{ "s": "PASSWORD", "p": [71, 23] },
+	{ "s": "PCU", "p": [70] },
+	{ "s": "PCU20", "p": [70] },
+	{ "s": "PCU50", "p": [70] },
 	{ "s": "PER", "p": [58, 53] },
 	{ "s": "PID", "p": [20] },
 	{ "s": "PLM", "p": [73, 4, 88] },
@@ -13,14 +13,13 @@
 	{ "s": "PRESS", "p": [7] },
 	{ "s": "PROCESSES", "p": [2] },
 	{ "s": "PRODUCTION", "p": [21, 16] },
-	{ "s": "PROFESSIONAL", "p": [71] },
-	{ "s": "PROFIBUS", "p": [71, 70] },
-	{ "s": "PROGRAM", "p": [58, 53, 71, 32, 16] },
+	{ "s": "PROFIBUS", "p": [70] },
+	{ "s": "PROGRAM", "p": [58, 53, 32, 16] },
 	{ "s": "PROGRAMDATA", "p": [16, 54, 61, 60] },
 	{ "s": "PROGRAMDATA\\X-TENSIVE\\DPA\\CONFIG\\DPASERVER.CONFIG", "p": [16] },
 	{ "s": "PROGRAMDATA\\X-TENSIVE\\DPA\\INSTALLERS", "p": [61] },
 	{ "s": "PROGRAMDATA\\X-TENSIVE\\DPA\\LOGGING", "p": [60, 54] },
 	{ "s": "PROGRAMDATA\\XTENSIVE\\PROJECT109\\LOGS", "p": [54] },
 	{ "s": "PROJECT109", "p": [54] },
-	{ "s": "PUBLIC", "p": [96, 74, 71, 61, 55] }
+	{ "s": "PUBLIC", "p": [96, 74, 61, 55] }
 ]

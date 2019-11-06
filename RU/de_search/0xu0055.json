@@ -10,9 +10,7 @@
 	{ "s": "UPDATESTAGE", "p": [62] },
 	{ "s": "URL", "p": [27, 75, 32] },
 	{ "s": "URLACL", "p": [51, 32] },
-	{ "s": "USER", "p": [71, 32] },
-	{ "s": "USERPROFILE", "p": [71] },
-	{ "s": "USERPROFILE%\\DESKTOP", "p": [71] },
+	{ "s": "USER", "p": [32] },
 	{ "s": "UTF", "p": [96] },
 	{ "s": "UTF-8", "p": [96] }
 ]

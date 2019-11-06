@@ -1,21 +1,21 @@
 [
-	{ "s": "F", "p": [71, 32] },
+	{ "s": "F", "p": [32] },
 	{ "s": "FAGOR", "p": [7] },
 	{ "s": "FAILED", "p": [58, 53] },
 	{ "s": "FANUC", "p": [7] },
 	{ "s": "FATAL", "p": [60, 54] },
-	{ "s": "FILES", "p": [71, 32, 16] },
+	{ "s": "FILES", "p": [32, 16] },
 	{ "s": "FILESERVER", "p": [75] },
 	{ "s": "FILESERVER\\DPA\\IMPORT\\TASKS", "p": [75] },
-	{ "s": "FILES\\X-TENSIVE\\DPA", "p": [71, 32, 16] },
+	{ "s": "FILES\\X-TENSIVE\\DPA", "p": [32, 16] },
 	{ "s": "FIREBIRD", "p": [5] },
 	{ "s": "FIREWALL", "p": [7] },
 	{ "s": "FRAMEWORK", "p": [12, 6] },
 	{ "s": "FRID", "p": [31] },
-	{ "s": "FTP", "p": [96, 74, 71, 61, 55] },
+	{ "s": "FTP", "p": [96, 74, 61, 55] },
 	{ "s": "FTP-СЕРВЕР", "p": [96] },
 	{ "s": "FTP://FTP.X-TENSIVE.COM/PUBLIC/DOWNLOADS/DPA.ALLSTD", "p": [55] },
 	{ "s": "FTP://FTP.X-TENSIVE.COM/PUBLIC/DOWNLOADS/DPA.SCHEMAS", "p": [74] },
 	{ "s": "FTP://FTP.X-TENSIVE.COM/PUBLIC/DOWNLOADS/DPA.SCHEMAS/XTENSIVE.DPA.TASKS.XSD", "p": [96] },
-	{ "s": "FTP://FTP.X-TENSIVE.COM/PUBLIC/DPA%20AGENTS", "p": [71, 61] }
+	{ "s": "FTP://FTP.X-TENSIVE.COM/PUBLIC/DPA%20AGENTS", "p": [61] }
 ]

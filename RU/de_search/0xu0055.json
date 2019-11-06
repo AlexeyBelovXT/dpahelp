@@ -1,16 +1,19 @@
 [
 	{ "s": "UDP", "p": [7] },
-	{ "s": "UPDATE", "p": [62, 96] },
-	{ "s": "UPDATECONTROLPROGRAM", "p": [96] },
-	{ "s": "UPDATECONTROLPROGRAMVERSION", "p": [96] },
+	{ "s": "UP", "p": [72] },
+	{ "s": "UPDATE", "p": [62, 98] },
+	{ "s": "UPDATECONTROLPROGRAM", "p": [98] },
+	{ "s": "UPDATECONTROLPROGRAMVERSION", "p": [98] },
 	{ "s": "UPDATEDOWNTIMEINFO", "p": [62] },
 	{ "s": "UPDATEOPERATION", "p": [62] },
 	{ "s": "UPDATERECORD", "p": [62] },
 	{ "s": "UPDATES", "p": [58, 53] },
 	{ "s": "UPDATESTAGE", "p": [62] },
-	{ "s": "URL", "p": [27, 75, 32] },
+	{ "s": "URL", "p": [27, 77, 32] },
 	{ "s": "URLACL", "p": [51, 32] },
-	{ "s": "USER", "p": [32] },
-	{ "s": "UTF", "p": [96] },
-	{ "s": "UTF-8", "p": [96] }
+	{ "s": "USER", "p": [73, 32] },
+	{ "s": "USERPROFILE", "p": [73] },
+	{ "s": "USERPROFILE%\\DESKTOP", "p": [73] },
+	{ "s": "UTF", "p": [98] },
+	{ "s": "UTF-8", "p": [98] }
 ]

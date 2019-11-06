@@ -168,6 +168,17 @@ span.de_67BC475A8E
 	font-size: 10pt;
 	color:#000000;
 }
+span.de_68B99ACC5C
+{
+	font-family: "Arial";
+}
+span.de_69FA39705F
+{
+	font-family: "Arial";
+	font-size: 10pt;
+	color:#3b73af;
+	text-decoration:underline;
+}
 span.de_6B7F0857AE
 {
 	font-family: "Calibri";
@@ -195,6 +206,13 @@ span.de_74F6A419DE
 {
 	color:#325981;
 }
+span.de_7B617E7941
+{
+	font-family: "Arial";
+	font-size: 9pt;
+	color:#44546a;
+	font-style:italic;
+}
 span.de_7E4D78CFF8
 {
 	font-family: "Calibri";
@@ -217,6 +235,12 @@ span.de_87C8AF169F
 	font-size: 12pt;
 	color:#0000ff;
 	text-decoration:underline;
+}
+span.de_922EDE2353
+{
+	font-family: "Arial";
+	font-size: 14pt;
+	color:#000000;
 }
 span.de_95EECAF4CA
 {
@@ -296,6 +320,13 @@ span.de_D8BCB2AC4C
 	font-family: "Calibri";
 	font-size: 12pt;
 	color:#000000;
+}
+span.de_E0D79DE1AC
+{
+	font-family: "Arial";
+	font-size: 11pt;
+	color:#000000;
+	font-style:italic;
 }
 span.de_EAAAF6F1CD
 {
@@ -990,7 +1021,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-37, decimal) '.\00a0';
+	content: '' counter(list-counter-37, disc) '\00a0';
 	counter-increment: list-counter-37;
 }
 .list-counter-37 > div > div[class='list-marker-chm'] {
@@ -1008,7 +1039,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-38, lower-alpha) '.\00a0';
+	content: '' counter(list-counter-38, decimal) '.\00a0';
 	counter-increment: list-counter-38;
 }
 .list-counter-38 > div > div[class='list-marker-chm'] {
@@ -1026,7 +1057,7 @@ span.de_FFB638AC42
 	text-align: left;
 	padding: 0;
 	margin: 0;
-	content: '' counter(list-counter-39, disc) '\00a0';
+	content: '' counter(list-counter-39, lower-alpha) '.\00a0';
 	counter-increment: list-counter-39;
 }
 .list-counter-39 > div > div[class='list-marker-chm'] {
@@ -1390,6 +1421,24 @@ span.de_FFB638AC42
 	counter-increment: list-counter-59;
 }
 .list-counter-59 > div > div[class='list-marker-chm'] {
+	display: inline-block;
+	text-align: left;
+	zoom: 1;
+	padding: 0;
+	margin: 0;
+	*display: inline;
+}
+.list-counter-60 > div > * {
+	text-indent: 0px;}
+.list-counter-60 > div > div[class='list-marker']:before {
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	content: '' counter(list-counter-60, disc) '\00a0';
+	counter-increment: list-counter-60;
+}
+.list-counter-60 > div > div[class='list-marker-chm'] {
 	display: inline-block;
 	text-align: left;
 	zoom: 1;

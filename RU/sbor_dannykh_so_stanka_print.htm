@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="css/printed.css" media="all" rel="StyleSheet" type="text/css" />
+		<link href="de_style.css" media="all" rel="StyleSheet" type="text/css" />
+		<meta name="generator" content="www.DrExplain.com" />
+				<title>&#x0421;&#x0431;&#x043E;&#x0440; &#x0434;&#x0430;&#x043D;&#x043D;&#x044B;&#x0445; &#x0441;&#x043E; &#x0441;&#x0442;&#x0430;&#x043D;&#x043A;&#x0430;</title>
+	</head>
+	<body>
+		<table class="pagetable">
+			<tr class="page" style="border-color: #ffffff;">
+				<td class="page_area" style="border-color: #ffffff; width: 100%;"><div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Сбор данных со станка</strong></h1></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Первым этапом настройки станка была установка сетевого подключения к Локальной сети.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Теперь надо определить способ получения информации со станка.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Есть два варианта:</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">1) с помощью STEP7</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Если на станке включена поддержка STEP7, открыт порт, то DPA может получать данные со станка напрямую, без установки специального ПО.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Т.е. для подключения драйвера достаточно знать IP адрес сетевого интерфейса, через который будет передаваться информация.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Примечание: косвенным подтверждением поддержки STEP7 является открытие порта через HMI, в настройках брандмауэра.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">2) с помощью агента DPA</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Если на станке нет доступа к функционалу STEP7, то необходимо устанавливать агент DPA.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">Примечание: Если на PCU станка есть три сервиса<strong> </strong></span><span class="de_4AF4BF9DD6"><strong>ncdde, mbdde, dhserver. </strong>Это службы, которые в виде подписки скидывают агенту все изменения на индикаторах станка. Т.е. оборудование поддерживает установку агента.</span></div>
+</div>				</td>
+			</tr>
+		</table>
+	</body>
+</html>

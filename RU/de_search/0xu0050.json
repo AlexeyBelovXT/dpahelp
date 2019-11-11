@@ -1,21 +1,20 @@
 [
 	{ "s": "PARITY", "p": [23] },
-	{ "s": "PASSWORD", "p": [75, 72, 71, 23] },
-	{ "s": "PCU", "p": [76, 70] },
+	{ "s": "PASSWORD", "p": [75, 76, 72, 71, 23] },
+	{ "s": "PCU", "p": [70, 78, 77] },
 	{ "s": "PCU20", "p": [70] },
 	{ "s": "PCU50", "p": [70] },
 	{ "s": "PER", "p": [58, 53] },
 	{ "s": "PID", "p": [20] },
-	{ "s": "PLM", "p": [78, 4, 93] },
+	{ "s": "PLM", "p": [82, 4, 97] },
 	{ "s": "PORT", "p": [16] },
 	{ "s": "POSTGRE", "p": [5] },
 	{ "s": "POWERSEHLL", "p": [32] },
 	{ "s": "PRESS", "p": [7] },
 	{ "s": "PROCESSES", "p": [2] },
 	{ "s": "PRODUCTION", "p": [21, 16] },
-	{ "s": "PROFESSIONAL", "p": [76] },
-	{ "s": "PROFIBUS", "p": [76, 70] },
-	{ "s": "PROGRAM", "p": [58, 53, 76, 32, 16] },
+	{ "s": "PROFIBUS", "p": [70] },
+	{ "s": "PROGRAM", "p": [58, 53, 78, 32, 16] },
 	{ "s": "PROGRAMDATA", "p": [16, 54, 61, 60] },
 	{ "s": "PROGRAMDATA\\X-TENSIVE\\DPA\\CONFIG\\DPASERVER.CONFIG", "p": [16] },
 	{ "s": "PROGRAMDATA\\X-TENSIVE\\DPA\\INSTALLERS", "p": [61] },
@@ -24,5 +23,5 @@
 	{ "s": "PROJECT109", "p": [54] },
 	{ "s": "PROTECTED", "p": [75] },
 	{ "s": "PROTECTION", "p": [75] },
-	{ "s": "PUBLIC", "p": [101, 79, 76, 61, 55] }
+	{ "s": "PUBLIC", "p": [105, 83, 78, 61, 55] }
 ]

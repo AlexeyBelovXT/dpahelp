@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="css/printed.css" media="all" rel="StyleSheet" type="text/css" />
+		<link href="de_style.css" media="all" rel="StyleSheet" type="text/css" />
+		<meta name="generator" content="www.DrExplain.com" />
+				<title>&#x0423;&#x0441;&#x0442;&#x0430;&#x043D;&#x043E;&#x0432;&#x043A;&#x0430; &#x0430;&#x0433;&#x0435;&#x043D;&#x0442;&#x0430;</title>
+	</head>
+	<body>
+		<table class="pagetable">
+			<tr class="page" style="border-color: #ffffff;">
+				<td class="page_area" style="border-color: #ffffff; width: 100%;"><div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Установка агента</strong></h1></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C">Без установленного STEP7 станок не сможет сам отдавать необходимую информацию. Поэтому необходимо установить Агент DPA, который будет подключаться к служебным сервисам и собирать с них информацию.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_68B99ACC5C"><strong>Примечание:</strong> На PCU станка есть три сервиса<strong> </strong></span><span class="de_4AF4BF9DD6"><strong>ncdde, mbdde, dhserver. </strong>Это службы, которые в виде подписки скидывают агенту все изменения на индикаторах станка. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Если сервисы перестают работать, то агент перестает получать данные. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_922EDE2353"><strong>Где взять установочные файлы?</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Новые версии агентов, так же, как и системы DPA, можно скачать с FTP сайта</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a href="ftp://ftp.x-tensive.com/Public/DPA%20Agents/"><span class="de_69FA39705F">ftp://ftp.x-tensive.com/Public/DPA%20Agents/</span></a></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">текущая версия: dpa.agent(#49).install.exe</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">C HMI нет прямого доступа в интернет, поэтому необходимо выложить файл на локальный ресурс. Подойдет папка на DPA Server, поскольку станки должны иметь к нему доступ по сети. Далее скопировать файл на локальный диск HMI.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Просим системного администратора создать папку общего доступа для хранения установочных файлов DPA. Например папка Agents. Администратор должен настроить права доступа таким образом, чтобы мы могли читать данные не зависимо от пользователя, которым зашли на PCU. Т.е. доступ должен быть открыт как для доменных, так и для локальных пользователей. Например создана папка \\имяDPAserver\АгентыDPA</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">1) Чтобы попасть в эту папку, открываем на PCU Проводник и вбиваем адрес, указанный администратором.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">2) Находим самый свежий, по порядковому номеру, агент и перетаскиваем к себе на Рабочий стол</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_922EDE2353"><strong>Установка агента</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Агент не требует дополнительные компоненты. Поэтому сразу можно запускать установку.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_E0D79DE1AC"><strong>Важный момент</strong></span><span class="de_4AF4BF9DD6">: </span><span class="de_E0D79DE1AC">если агент уже есть в системе, то установщик вместо обновления может только удалить существующую версию. Потребуется повторный запуск установщика для развертывания новой версии.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">1) &#160; &#160; Запустите командную консоль CMD: Пуск – Выполнить – набрать cmd и нажать Enter</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">2) &#160; &#160; Перейти в каталог, где находится установщик. Если на Рабочем столе, то команда </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_E0D79DE1AC"><strong>cd &quot;%USERPROFILE%\Desktop&quot;</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">3) &#160; &#160; Запустить установку агента: </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_E0D79DE1AC"><strong>Dpa.agent(#49).install.exe</strong></span><span class="de_4AF4BF9DD6">.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_E0D79DE1AC"><strong>Важный момент</strong></span><span class="de_4AF4BF9DD6">: </span><span class="de_E0D79DE1AC">установочный файл агента можно скачать с DPA Host. Для этого заходим в веб-интерфейс, нажимаем «шестеренку» и выбираем пункт «Установочные файлы» (setup files в англ. версии). Тогда установочный файл будет называться <strong>dpa.agent.4.6.21.exe</strong>, где 4.6.21 это версия установленного DPA host.</span><table class="de_tbl_697 detbl" style="width: 697px; height: 217; margin-left: 0; margin-right: auto;">
+<col style="width: 697px;" class="de_col_1_697" />
+<tr style="height: 217px;">
+<td class="de_td_697" style = "padding: 2px; padding-bottom: 1px; border-left-style: none; border-left-width: 0px; border-left-color: #000000; border-right-style: none; border-right-width: 0px; border-right-color: #000000; border-top-style: none; border-top-width: 0px; border-top-color: #000000; border-bottom-style: none; border-bottom-width: 0px; border-bottom-color: #000000;  width: 697px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="476" height="255" class=" de_780D01ADE8" src="drex_ustanovka_agenta_custom.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+</td></tr><tr style="height: 0px;">
+<td class="de_td_697" style = "padding: 2px; padding-bottom: 1px; border-left-style: none; border-left-width: 0px; border-left-color: #000000; border-right-style: none; border-right-width: 1px; border-right-color: #000000; border-top-style: none; border-top-width: 0px; border-top-color: #000000; border-bottom-style: none; border-bottom-width: 0px; border-bottom-color: #000000;  width: 697px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="474" height="259" class=" de_780D01ADE8" src="drex_ustanovka_agenta_custom_2.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+</td></tr><tr style="height: 0px;">
+<td class="de_td_697" style = "padding: 2px; padding-bottom: 1px; border-left-style: none; border-left-width: 0px; border-left-color: #000000; border-right-style: none; border-right-width: 1px; border-right-color: #000000; border-top-style: none; border-top-width: 0px; border-top-color: #000000; border-bottom-style: none; border-bottom-width: 0px; border-bottom-color: #000000;  width: 697px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">В качестве дополнительной проверки запустите Task Manager (Диспетчер задач). В списке Процессов будет dpa.agent.exe</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_E0D79DE1AC"><strong>Важный момент</strong></span><span class="de_4AF4BF9DD6">: </span><span class="de_E0D79DE1AC">обратите внимание, что в списке Процессов так же присутствуют ncdde, mbdde, dhserver. Это службы ЧПУ, которые передают информацию о станке агенту DPA.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Так же в Службах появятся две новые записи:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Dpa.agent. Сам агент. Данная служба должна автоматически запускаться вместе с операционной системой HMI</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Dpa.rs. Служба остановлена по умолчанию, поскольку используется в «особых случаях», когда не работают стандартные методы. Применяется для обновления агента и удаленного доступа. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="444" height="427" class=" de_780D01ADE8" src="drex_ustanovka_agenta_custom_3.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+</td></tr><tr style="height: 0px;">
+<td class="de_td_697" style = "padding: 2px; padding-bottom: 1px; border-left-style: none; border-left-width: 0px; border-left-color: #000000; border-right-style: none; border-right-width: 1px; border-right-color: #000000; border-top-style: none; border-top-width: 0px; border-top-color: #000000; border-bottom-style: none; border-bottom-width: 0px; border-bottom-color: #000000;  width: 697px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Путь установки агента E:\Program Files\X-tensive\DPA<img  alt="" style="border: solid 0px;  " width="548" height="411" class=" de_780D01ADE8" src="drex_ustanovka_agenta_custom_4.png"/></span></div>
+</td></tr></table></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+</div>				</td>
+			</tr>
+		</table>
+	</body>
+</html>

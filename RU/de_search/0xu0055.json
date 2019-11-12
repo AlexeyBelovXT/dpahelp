@@ -1,19 +1,19 @@
 [
 	{ "s": "UDP", "p": [7] },
 	{ "s": "UP", "p": [75] },
-	{ "s": "UPDATE", "p": [62, 105] },
-	{ "s": "UPDATECONTROLPROGRAM", "p": [105] },
-	{ "s": "UPDATECONTROLPROGRAMVERSION", "p": [105] },
+	{ "s": "UPDATE", "p": [62, 106] },
+	{ "s": "UPDATECONTROLPROGRAM", "p": [106] },
+	{ "s": "UPDATECONTROLPROGRAMVERSION", "p": [106] },
 	{ "s": "UPDATEDOWNTIMEINFO", "p": [62] },
 	{ "s": "UPDATEOPERATION", "p": [62] },
 	{ "s": "UPDATERECORD", "p": [62] },
 	{ "s": "UPDATES", "p": [58, 53] },
 	{ "s": "UPDATESTAGE", "p": [62] },
-	{ "s": "URL", "p": [27, 84, 32] },
+	{ "s": "URL", "p": [27, 81, 85, 32] },
 	{ "s": "URLACL", "p": [51, 32] },
 	{ "s": "USER", "p": [75, 32] },
 	{ "s": "USERPROFILE", "p": [78] },
 	{ "s": "USERPROFILE%\\DESKTOP", "p": [78] },
-	{ "s": "UTF", "p": [105] },
-	{ "s": "UTF-8", "p": [105] }
+	{ "s": "UTF", "p": [106] },
+	{ "s": "UTF-8", "p": [106] }
 ]

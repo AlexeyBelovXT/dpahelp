@@ -1,13 +1,13 @@
 [
 	{ "s": "LASER", "p": [7] },
 	{ "s": "LEVEL", "p": [75] },
-	{ "s": "LINUX", "p": [82, 7] },
-	{ "s": "LINUX-СИСТЕМЫ", "p": [82] },
-	{ "s": "LOCALHOST", "p": [85, 18] },
+	{ "s": "LINUX", "p": [83, 7] },
+	{ "s": "LINUX-СИСТЕМЫ", "p": [83] },
+	{ "s": "LOCALHOST", "p": [86, 18] },
 	{ "s": "LOCALMACHINE", "p": [32] },
 	{ "s": "LOCALSYSTEM", "p": [12] },
 	{ "s": "LOGGING", "p": [60, 54] },
-	{ "s": "LOGIN", "p": [85, 62] },
+	{ "s": "LOGIN", "p": [86, 62] },
 	{ "s": "LOGOUT", "p": [62] },
 	{ "s": "LOGS", "p": [54] }
 ]

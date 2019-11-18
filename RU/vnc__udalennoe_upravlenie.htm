@@ -367,15 +367,27 @@
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">2) &#160; &#160; В папке редактируем файл DpaVnc.config</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">В этом файле содержатся настройки станков, к которым можно подключаться по VNC</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Настройка каждого отдельного станка начинается с открывающей фигурной скобкой <strong>{</strong> и заканчивается закрывающей фигурной скобкой <strong>}</strong></span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Для каждого станка своя группа настроек {...}</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Структура файла следующая:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">{</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&quot;Vnc&quot;: {</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&quot;Equipment1&quot;:{...}</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">....</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&quot;EquipmentN&quot;:{...}</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">}</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">}</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Первые 2 строки и последние 2 строки содержат обязательные настройки.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&quot;Equipment?&quot;: - это уникальный идентификатор каждого станка, к которому есть подключение через VNC</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">сразу после идентификатора идет группа настроек конкретного станка {...}</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Между идентификатором и группой настроек - &quot;двоеточие&quot;</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Название и значение параметра указываются в двойных кавычках. </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_9EA8166573"><strong>Примечание: </strong></span><span class="de_4CD179DA38">Правильно измененный файл должен заканчиваться символами <strong>}}</strong> (две закрывающиеся фигурные скобки)</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_9EA8166573"><strong>Примечание: </strong></span><span class="de_4CD179DA38">Сколько есть открывающих скобок {, столько должно быть закрывающих }</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Внутри скобок необходимо указать следующие параметры.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">По каждому станку необходимо указать следующие параметры:</span></div>
 <ul class="de_list"><li class="list-element list-counter-37" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-37;">
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38"><strong>«name»</strong>: это наименование станка</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38">Уникальный идентификатор, не повторяющийся внутри файла. По сути это идентификатор группы настроек станка.</span></div>
+</li><li class="list-element list-counter-37" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38"><strong>«name»</strong>: это наименование станка, как оно будет указано на странице VNC подключения&#160; (http://dpa_server:9000)</span></div>
 </li><li class="list-element list-counter-37" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38"><strong>«url»</strong>: адрес подключения, указывается в формате «IP-адрес/порт»</span></div>
 </li><li class="list-element list-counter-37" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; ">
@@ -385,7 +397,7 @@
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_9EA8166573"><strong>Примечание:</strong></span><span class="de_4CD179DA38"> Если пароля нет, то пустое значение указывается кавычками без символов внутри: &#160; <strong>«»</strong></span></div>
 </li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Пример конфигурации одного станка:</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">{</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&quot;Equipment1&quot;:{</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">“name”: “Станок1”</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">“url”: “10.0.0.183/5900”</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">“view”: “”</span></div>
@@ -395,6 +407,18 @@
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_9EA8166573"><strong>Примечание</strong></span><span class="de_4CD179DA38">: если необходимо отключить управление, то вместо удаления параметра достаточно в начале строки поставить символы комментария //</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Тогда параметр не будет учитываться при организации подключения. Например:</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">//“control”: “@dm1n”</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Для одного станка с идентификатором &quot;Equipment1&quot; файл будет выглядеть так:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4517FC7D32"><strong>{</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&quot;Vnc&quot;: </span><span class="de_922350DE0A"><strong>{</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">&quot;Equipment1&quot;:</span><span class="de_6B7F0857AE"><strong>{</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">“name”: “Станок1”</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">“url”: “10.0.0.183/5900”</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">“view”: “”</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">“control”: “@dm1n”</span><span class="de_6B7F0857AE"><strong>}</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_922350DE0A"><strong>}</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4517FC7D32"><strong>}</strong></span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">3) &#160; &#160; Сохраняем файл</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>

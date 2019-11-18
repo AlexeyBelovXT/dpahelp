@@ -53,6 +53,7 @@
 	{ "s": "DPASERVER.CONFIG", "p": [16] },
 	{ "s": "DPAVNC", "p": [81] },
 	{ "s": "DPAVNC.CONFIG", "p": [81] },
+	{ "s": "DPA_SERVER", "p": [81] },
 	{ "s": "DRIVERS", "p": [58, 53] },
 	{ "s": "DURATION", "p": [58, 53] }
 ]

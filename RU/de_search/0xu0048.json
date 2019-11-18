@@ -6,7 +6,7 @@
 	{ "s": "HERE", "p": [79] },
 	{ "s": "HID", "p": [21, 50] },
 	{ "s": "HMI", "p": [76, 70, 78, 80, 77, 75, 73] },
-	{ "s": "HOST", "p": [16, 81, 15, 13, 7, 78, 51, 32, 11, 10, 3, 54, 50, 20, 19] },
+	{ "s": "HOST", "p": [16, 15, 13, 7, 81, 78, 51, 32, 11, 10, 3, 54, 50, 20, 19] },
 	{ "s": "HOST\\APPSETTINGS.PRODUCTION.CONFIG", "p": [16] },
 	{ "s": "HOST\\XTENSIVE.DPA.WEB.EXE", "p": [32] },
 	{ "s": "HOSTПРОГРАММЫ", "p": [23] },
@@ -14,9 +14,11 @@
 	{ "s": "HTTP://LOCALHOST", "p": [18] },
 	{ "s": "HTTP://LOCALHOST/SWAGGER", "p": [86] },
 	{ "s": "HTTP://ИМЯ_DPA_HOST:9000", "p": [81] },
-	{ "s": "HTTPS", "p": [32, 25, 12, 6] },
+	{ "s": "HTTPS", "p": [32, 81, 25, 12, 6] },
 	{ "s": "HTTPS://*:443", "p": [32] },
 	{ "s": "HTTPS://DPA.X-TENSIVE.RU", "p": [25] },
 	{ "s": "HTTPS://WWW.MICROSOFT.COM/RU-RU/DOWNLOAD/DETAILS.ASPX?ID", "p": [12, 6] },
+	{ "s": "HTTPS://WWW.TIGHTVNC.COM/DOWNLOAD.PHP", "p": [81] },
+	{ "s": "HTTPS://WWW.UVNC.COM/DOWNLOADS/ULTRAVNC", "p": [81] },
 	{ "s": "HURCO", "p": [7] }
 ]

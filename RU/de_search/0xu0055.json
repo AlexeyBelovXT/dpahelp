@@ -1,5 +1,6 @@
 [
 	{ "s": "UDP", "p": [7] },
+	{ "s": "ULTRAVNC", "p": [81] },
 	{ "s": "UP", "p": [75] },
 	{ "s": "UPDATE", "p": [62, 106] },
 	{ "s": "UPDATECONTROLPROGRAM", "p": [106] },
@@ -15,5 +16,6 @@
 	{ "s": "USERPROFILE", "p": [78] },
 	{ "s": "USERPROFILE%\\DESKTOP", "p": [78] },
 	{ "s": "UTF", "p": [106] },
-	{ "s": "UTF-8", "p": [106] }
+	{ "s": "UTF-8", "p": [106] },
+	{ "s": "UVNC", "p": [81] }
 ]

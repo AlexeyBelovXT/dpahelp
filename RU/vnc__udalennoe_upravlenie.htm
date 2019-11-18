@@ -328,41 +328,51 @@
                 <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>VNC. Удаленное управление</strong></h1></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Начиная с версии ??? в DPA появилась функция подключения к станку через систему удаленного доступа VNC (Virtual Network Computing). </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Обычно, для удаленного подключения устанавливается специальная программа (VNC viewer). </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Мы встроили такую программу прямо в систему DPA. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Начиная с версии 4.7 в DPA появилась функция подключения к станку через систему удаленного доступа VNC (Virtual Network Computing). </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Если на станке установлен VNC сервер, то с помощью встроенной в DPA программы-клиента вы можете просматривать Рабочий стол, либо удаленно управлять станком с помощью клавиатуры и мыши.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Для настройки подключения к станкам необходимо изменить конфигурационный файл.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38"><strong>Примечание. Если не установлен VNC сервер</strong>.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Существует несколько VNC серверов. Мы протестировали работу со следующими бесплатными решениями:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">https://www.uvnc.com/downloads/ultravnc/ &#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">https://www.tightvnc.com/download.php&#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Обратите внимание, что для скачивания предлагают 32битную и 64битную версии ПО. Выберите ту, которая подходит для станка. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Затрудняетесь с выбором, загружайте и устанавливайте 32битную версию.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Для подключения к станку необходимо изменить соответствующий конфигурационный файл на DPA server.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Перед этим вы должны узнать значение сетевых настроек подключения, которые будете вносить в конфигурацию.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">По каждому станку у вас должна быть следующая информация:</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D305498EDE">· &#160; &#160; </span><span class="de_4CD179DA38">IP-адрес станка. Этот адрес можно узнать через DPA host, в настройках Драйвера.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Открыли Структуру Предприятия, выбрали станок </span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="648" height="151" class=" de_780D01ADE8" src="drex_vnc__udalennoe_upravlenie_custom.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">кликнули на драйвер</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="647" height="124" class=" de_780D01ADE8" src="drex_vnc__udalennoe_upravlenie_custom_2.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Записали IP-адрес.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_6B7F0857AE"><strong>Запрашиваем у администратора информацию по станку.</strong></span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D305498EDE">· &#160; &#160; </span><span class="de_4CD179DA38">IP-адрес станка.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D305498EDE">· &#160; &#160; </span><span class="de_4CD179DA38">Порт подключения к VNC сервису станка. Обычно это 5900 (или 5800), но лучше посмотреть настройки непосредственно на станке.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D305498EDE">· &#160; &#160; </span><span class="de_4CD179DA38">Пароль на просмотр изображения со станка</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_D305498EDE">· &#160; &#160; </span><span class="de_4CD179DA38">Пароль на управление станком</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Примечание: Пароли могут быть пустыми («»). Все настройки необходимо сверять на станке.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Примечание: Пароли могут быть пустыми («»). </span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Теперь можно приступать к редактированию файла, который располагается на сервере с установленным DPA Host</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_6B7F0857AE"><strong>Меняем конфигурационный файл на DPA server</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Рассмотрим вариант, когда у вас есть следующая информация:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">IP-адрес и порт “10.0.0.183&quot; и &quot;5900”</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">пароль на управление “@dm1n”</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Теперь можно приступать к редактированию файла, который располагается на сервере </span><span class="de_9EA8166573"><strong>с установленным DPA Host</strong></span><span class="de_4CD179DA38">.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">1) &#160; &#160; Открываем папку “C:\ProgramData\X-tensive\DPA VNC\”</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_9EA8166573"><strong>Примечание</strong></span><span class="de_4CD179DA38">: по-умолчанию папка C:\ProgramData является скрытой, поэтому вы не увидите ее через Проводник. Рекомендуем в адресной строке сразу указать полный путь до папки и нажать Enter</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="648" height="91" class=" de_780D01ADE8" src="drex_vnc__udalennoe_upravlenie_custom_3.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="648" height="91" class=" de_780D01ADE8" src="drex_vnc__udalennoe_upravlenie_custom.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Либо выбрать Пуск-&gt; Выполнить (комбинация клавиш WIN+R) и указать путь до папки, после чего нажать Enter</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="401" height="206" class=" de_780D01ADE8" src="drex_vnc__udalennoe_upravlenie_custom_4.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="401" height="206" class=" de_780D01ADE8" src="drex_vnc__udalennoe_upravlenie_custom_2.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">2) &#160; &#160; В папке редактируем файл DpaVnc.config</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">В этом файле содержатся настройки станков, к которым можно подключаться по VNC</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Настройка каждого отдельного станка начинается с открывающей фигурной скобочки { и заканчивается закрывающей фигурной скобочкой }</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_9EA8166573"><strong>Примечание: </strong></span><span class="de_4CD179DA38">Название и значение параметра указываются в двойных кавычках</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Настройка каждого отдельного станка начинается с открывающей фигурной скобкой <strong>{</strong> и заканчивается закрывающей фигурной скобкой <strong>}</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Для каждого станка своя группа настроек {...}</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Название и значение параметра указываются в двойных кавычках. </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_9EA8166573"><strong>Примечание: </strong></span><span class="de_4CD179DA38">Правильно измененный файл должен заканчиваться символами <strong>}}</strong> (две закрывающиеся фигурные скобки)</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Внутри скобочек необходимо указать следующие параметры.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Внутри скобок необходимо указать следующие параметры.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <ul class="de_list"><li class="list-element list-counter-37" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; direction: ltr; counter-reset: list-counter-37;">
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38"><strong>«name»</strong>: это наименование станка</span></div>
@@ -374,9 +384,7 @@
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Calibri&quot;; display: inline-block; direction: ltr;"></div><span class="de_4CD179DA38"><strong>«control»</strong>: пароль для удаленного управления станком</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_9EA8166573"><strong>Примечание:</strong></span><span class="de_4CD179DA38"> Если пароля нет, то пустое значение указывается кавычками без символов внутри: &#160; <strong>«»</strong></span></div>
 </li></ul><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Пример конфигурации одного станка:</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">{</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">“name”: “Станок1”</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">“url”: “10.0.0.183/5900”</span></div>
@@ -384,17 +392,19 @@
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">“control”: “@dm1n”</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">}</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_9EA8166573"><strong>Примечание</strong></span><span class="de_4CD179DA38">: если необходимо отключить удаленное управление, то вместо удаления параметра достаточно в начале строки поставить символы комментария //</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Например:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_9EA8166573"><strong>Примечание</strong></span><span class="de_4CD179DA38">: если необходимо отключить управление, то вместо удаления параметра достаточно в начале строки поставить символы комментария //</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Тогда параметр не будет учитываться при организации подключения. Например:</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">//“control”: “@dm1n”</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Тогда параметр не будет учитываться при организации подключения.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">3) &#160; &#160; Сохраняем файл</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">4) &#160; &#160; Переходим по адресу http://имя_DPA_host:9000, вместо имя_DPA_host укажите полное имя или IP-адрес сервера, на котором установлен DPA Host.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_6B7F0857AE"><strong>Проверяем результат</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Переходим по адресу http://имя_DPA_host:9000, вместо имя_DPA_host укажите полное имя или IP-адрес сервера, на котором установлен DPA Host.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Появится примерно такая страница:</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="594" height="312" class=" de_780D01ADE8" src="drex_vnc__udalennoe_upravlenie_custom_5.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Это список станков и ссылки с Разрешенными действиями, к которым был указан пароль.</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Если были разрешены как Просмотр, так и Управление, то в строке будут две ссылки &quot;</span><span class="de_4240AE2C05">View</span><span class="de_4CD179DA38">&quot; и &quot;</span><span class="de_4240AE2C05">Control</span><span class="de_4CD179DA38">&quot;.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="594" height="312" class=" de_780D01ADE8" src="drex_vnc__udalennoe_upravlenie_custom_3.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Это список станков, как указано в конфигурационном файле, и ссылки с Разрешенными действиями, к которым был указан пароль.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4CD179DA38">Если указали пароли как для Просмотр, так и для Управление, то в строке будут две ссылки &quot;</span><span class="de_4240AE2C05">View</span><span class="de_4CD179DA38">&quot; и &quot;</span><span class="de_4240AE2C05">Control</span><span class="de_4CD179DA38">&quot;.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 </div>                                    			
                 			</div>

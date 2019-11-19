@@ -2,7 +2,7 @@
 	{ "s": "C", "p": [32, 81, 78, 26, 21, 16] },
 	{ "s": "C:\\PROGRAM", "p": [32, 16] },
 	{ "s": "C:\\PROGRAMDATA", "p": [81] },
-	{ "s": "C:\\PROGRAMDATA\\X-TENSIVE\\DPA", "p": [81] },
+	{ "s": "C:\\PROGRAMDATA\\X-TENSIVE", "p": [81] },
 	{ "s": "CAPTURE", "p": [58, 53] },
 	{ "s": "CD", "p": [78] },
 	{ "s": "CE", "p": [5] },

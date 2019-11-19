@@ -10,6 +10,7 @@
 	{ "s": "ENTERPRISE", "p": [5] },
 	{ "s": "EQUIPMENT", "p": [81] },
 	{ "s": "EQUIPMENT1", "p": [81] },
+	{ "s": "EQUIPMENT2", "p": [81] },
 	{ "s": "EQUIPMENTN", "p": [81] },
 	{ "s": "ERP", "p": [83, 82] },
 	{ "s": "ERP-СИСТЕМЕ", "p": [82] },

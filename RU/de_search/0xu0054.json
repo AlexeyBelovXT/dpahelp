@@ -9,6 +9,8 @@
 	{ "s": "TECHNOLOGY/UPDATEOPERATION", "p": [62] },
 	{ "s": "TECHNOLOGY/UPDATESTAGE", "p": [62] },
 	{ "s": "TENSIVE", "p": [16, 51, 78, 61, 55, 23, 21, 17, 106, 84, 81, 60, 58, 54, 53, 50, 32, 25, 22, 13, 10, 5, 3] },
+	{ "s": "TEST", "p": [81] },
+	{ "s": "TEST1", "p": [81] },
 	{ "s": "TEXT", "p": [79] },
 	{ "s": "THIS", "p": [79] },
 	{ "s": "TIGHTVNC", "p": [81] },

@@ -11,7 +11,7 @@
 	{ "s": "CERTHASH", "p": [32] },
 	{ "s": "CERTSTORELOCATION", "p": [32] },
 	{ "s": "CHAN2", "p": [68] },
-	{ "s": "CHANGE", "p": [72, 76] },
+	{ "s": "CHANGE", "p": [72] },
 	{ "s": "CHANGED", "p": [58, 53] },
 	{ "s": "CIE", "p": [7] },
 	{ "s": "CMD", "p": [78] },
